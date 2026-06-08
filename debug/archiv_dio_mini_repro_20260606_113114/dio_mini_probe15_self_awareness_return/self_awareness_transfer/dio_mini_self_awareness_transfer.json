@@ -1,0 +1,69 @@
+{
+  "detail": [
+    {
+      "actions": "",
+      "best_reward_sum": 0,
+      "executed_count": 0,
+      "followup_executed_reward": 0.794658,
+      "observed_count": 0,
+      "passive_only": 1,
+      "prior_execution_reward_sum": 0.794658,
+      "reflection_state": "reflection_seed_reconfirmed",
+      "reflection_symbol": "dio_reflect_1bdledh",
+      "reward_sum": 0,
+      "runs": "",
+      "seen_count": 0,
+      "symbol_family": "dio_1wie",
+      "transfer_reason": "family_absent_in_probe",
+      "transfer_state": "transfer_not_seen"
+    },
+    {
+      "actions": "LONG",
+      "best_reward_sum": 4.65792,
+      "executed_count": 4,
+      "followup_executed_reward": 4.592656,
+      "observed_count": 0,
+      "passive_only": 1,
+      "prior_execution_reward_sum": 2.296328,
+      "reflection_state": "reflection_seed_reconfirmed",
+      "reflection_symbol": "dio_reflect_01hi6xw",
+      "reward_sum": 4.65792,
+      "runs": "133,134,135,136",
+      "seen_count": 4,
+      "symbol_family": "dio_0c6o",
+      "transfer_reason": "executed_positive_without_residue",
+      "transfer_state": "transfer_reconfirmed_clean"
+    },
+    {
+      "actions": "SHORT",
+      "best_reward_sum": 5.964512,
+      "executed_count": 4,
+      "followup_executed_reward": 5.83714,
+      "observed_count": 0,
+      "passive_only": 1,
+      "prior_execution_reward_sum": 2.91857,
+      "reflection_state": "reflection_seed_reconfirmed",
+      "reflection_symbol": "dio_reflect_11nxj7w",
+      "reward_sum": 5.964512,
+      "runs": "133,134,135,136",
+      "seen_count": 4,
+      "symbol_family": "dio_0hd3",
+      "transfer_reason": "executed_positive_without_residue",
+      "transfer_state": "transfer_reconfirmed_clean"
+    }
+  ],
+  "summary": [
+    {
+      "count": 2,
+      "families": "dio_0c6o,dio_0hd3",
+      "reward_sum": 10.622432,
+      "transfer_state": "transfer_reconfirmed_clean"
+    },
+    {
+      "count": 1,
+      "families": "dio_1wie",
+      "reward_sum": 0.0,
+      "transfer_state": "transfer_not_seen"
+    }
+  ]
+}
