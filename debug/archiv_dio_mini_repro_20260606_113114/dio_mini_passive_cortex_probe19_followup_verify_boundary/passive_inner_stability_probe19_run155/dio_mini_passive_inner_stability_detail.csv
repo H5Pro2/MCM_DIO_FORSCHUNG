@@ -1,7 +1,0 @@
-run,tick,symbol_family,inner_state,previous_inner_state,inner_transition,stability_kind,contact_quality,contact_state,action,reward,best_reward_training,passive_only
-155,1,dio_1u7v,inner_carried,-,timeline_start,start_state,positive_real_contact,executed_positive_contact,SHORT,0.894392,0.894392,1
-155,6,dio_0arw,inner_carried,inner_carried,same_inner_state,stable_state,positive_real_contact,executed_positive_contact,LONG,1.384854,1.384854,1
-155,11,dio_14xc,inner_open_observation,inner_carried,inner_carried_to_inner_open_observation,transition_state,observed_potential,observed_potential_contact,WAIT,0.0,0.094515,1
-155,12,dio_1vpi,inner_unfinished,inner_open_observation,inner_open_observation_to_inner_unfinished,transition_state,observed_potential,held_active_impulse,WAIT,0.0,0.142483,1
-155,13,dio_00qb,inner_unfinished,inner_unfinished,same_inner_state,stable_state,observed_potential,held_active_impulse,WAIT,0.0,0.629146,1
-155,14,dio_0t0v,inner_carried,inner_unfinished,inner_unfinished_to_inner_carried,transition_state,positive_real_contact,executed_positive_contact,LONG,1.036659,1.036659,1

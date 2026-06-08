@@ -1,7 +1,0 @@
-run,tick,symbol_family,action,raw_action,best_action_training,binding_state,episode_relation,phase_active,phase_age,phase_distance,episode_binding_pressure,episode_release_pressure,score_wait,score_long,score_short,reward,best_reward_training,unrealized_best_reward,held_impulse_potential
-128,1,dio_0wv3,LONG,LONG,LONG,executed_aligned,none,0,9999,1.0,0.0,1.0,0.039105,0.409249,-0.332573,1.264211,1.264211,0.0,0.0
-128,6,dio_14eb,SHORT,SHORT,SHORT,executed_aligned,different_contact,0,5,0.243295,0.0,1.0,0.010694,-0.061193,1.46371,1.405925,1.405925,0.0,0.0
-128,11,dio_1ayy,WAIT,WAIT,SHORT,observed_not_bound,different_contact,0,5,0.411988,0.0,1.0,0.051789,-0.068828,0.013838,0.0,0.08337,0.08337,0.0
-128,12,dio_1jn5,WAIT,SHORT,SHORT,held_useful_impulse,same_episode,1,6,0.590222,0.362855,0.203649,0.054055,-0.066051,0.092029,0.0,0.615236,0.615236,0.615236
-128,13,dio_0szn,SHORT,SHORT,SHORT,executed_aligned,new_contact,0,7,0.683022,0.29232,0.795849,0.035547,-0.067153,0.87975,0.704152,0.704152,0.0,0.0
-128,18,dio_1cey,WAIT,WAIT,LONG,observed_not_bound,different_contact,0,5,0.476939,0.0,1.0,0.057559,-0.005777,-0.074031,0.0,0.192985,0.192985,0.0

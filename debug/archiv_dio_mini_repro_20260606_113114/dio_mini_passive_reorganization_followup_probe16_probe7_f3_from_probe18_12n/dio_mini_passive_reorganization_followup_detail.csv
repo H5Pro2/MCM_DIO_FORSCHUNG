@@ -1,5 +1,0 @@
-source,symbol_family,burden_action,followup_state,action_present,wait_present,action_variant_state,wait_variant_state,action_reward,wait_reward,action_episodes,wait_episodes,dio_syntax_sentence,passive_only,writes_training_memory,read_by_mini_dio,influences_action,is_gate,is_motoric
-probe16_f3,dio_19i4,SHORT,reorganization_family_not_seen,0,0,,,0.0,0.0,0,0,reorganization_followup|dio_19i4|SHORT|reorganization_family_not_seen|source=probe16_f3|action=0|wait=0,1,0,0,0,0,0
-probe16_f3,dio_1k0r,LONG,reorganization_quiet_wait_continues,0,1,,variant_related_observation_trace,0.0,0.0,0,3,reorganization_followup|dio_1k0r|LONG|reorganization_quiet_wait_continues|source=probe16_f3|action=0|wait=1,1,0,0,0,0,0
-probe7_f3,dio_19i4,SHORT,reorganization_quiet_wait_continues,0,1,,variant_local_wait_context,0.0,0.0,0,3,reorganization_followup|dio_19i4|SHORT|reorganization_quiet_wait_continues|source=probe7_f3|action=0|wait=1,1,0,0,0,0,0
-probe7_f3,dio_1k0r,LONG,reorganization_family_not_seen,0,0,,,0.0,0.0,0,0,reorganization_followup|dio_1k0r|LONG|reorganization_family_not_seen|source=probe7_f3|action=0|wait=0,1,0,0,0,0,0

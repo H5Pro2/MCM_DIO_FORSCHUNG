@@ -1,9 +1,0 @@
-stability_kind,inner_state,contact_quality,count,reward_sum,best_reward_sum,avg_reward,families,actions
-stable_state,inner_carried,positive_real_contact,6,7.09073,7.09073,1.181788,"dio_0akd,dio_0arw",LONG
-start_state,inner_carried,positive_real_contact,4,3.577568,3.577568,0.894392,dio_1u7v,SHORT
-transition_state,inner_carried,positive_real_contact,2,0.667386,0.667386,0.333693,dio_0120,LONG
-transition_state,inner_carried,observed_potential,2,0.0,2.073318,0.0,dio_0t0v,WAIT
-transition_state,inner_cautious,observed_potential,2,0.0,0.284966,0.0,dio_1vpi,WAIT
-transition_state,inner_open_observation,observed_potential,6,0.0,1.11294,0.0,"dio_02qu,dio_14xc",WAIT
-transition_state,inner_unfinished,observed_potential,2,0.0,1.258292,0.0,dio_00qb,WAIT
-transition_state,inner_cautious,negative_real_contact,2,-0.684966,0.284966,-0.342483,dio_1vpi,SHORT

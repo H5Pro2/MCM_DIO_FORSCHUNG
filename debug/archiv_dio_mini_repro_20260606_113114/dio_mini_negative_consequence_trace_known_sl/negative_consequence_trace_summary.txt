@@ -1,9 +1,0 @@
-NEGATIVE CONSEQUENCE TRACE
-negative_rows=7 sl_rows=7
-states={'negative_action_consequence': 7}
-
-FAMILIES
-dio_1k0r: negative=3 sl=3 reward=-3.000000 actions={'LONG': 3} states={'negative_action_consequence': 3} max_tension=0.176003 max_obs_minus_ready=0.000000
-dio_19i4: negative=2 sl=2 reward=-2.000000 actions={'SHORT': 2} states={'negative_action_consequence': 2} max_tension=0.123299 max_obs_minus_ready=0.000000
-dio_1d3r: negative=1 sl=1 reward=-1.000000 actions={'LONG': 1} states={'negative_action_consequence': 1} max_tension=0.394732 max_obs_minus_ready=0.000000
-dio_1mym: negative=1 sl=1 reward=-1.000000 actions={'LONG': 1} states={'negative_action_consequence': 1} max_tension=0.366561 max_obs_minus_ready=0.000000
