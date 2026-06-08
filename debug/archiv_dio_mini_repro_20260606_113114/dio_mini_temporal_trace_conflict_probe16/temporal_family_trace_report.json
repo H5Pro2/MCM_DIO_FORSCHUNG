@@ -1,0 +1,904 @@
+{
+  "families": [
+    {
+      "avg_time_distance": 0.625,
+      "family": "dio_1w4m",
+      "max_afterimage": 0.056,
+      "max_recurrence_strength": 0.166667,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.609107,
+      "memory_last_state": "temporal_near_return",
+      "memory_max_afterimage": 0.05600000000000001,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.6091073191352079,
+      "memory_seen_count": 8,
+      "reward_sum": 0.0,
+      "rows": 8,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4,
+        "temporal_near_return": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0cgn",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0fa9",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_06bd",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0ojr",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_04zi",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1qig",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0vc8",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1g7l",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1k0r",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_10kx",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1f4v",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1vjg",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1t73",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1q9b",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0rb2",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1jo7",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    }
+  ],
+  "rows_scanned": 72,
+  "temporal_state_counts": {
+    "temporal_first_contact": 68,
+    "temporal_near_return": 4
+  },
+  "top_families": [
+    {
+      "avg_time_distance": 0.625,
+      "family": "dio_1w4m",
+      "max_afterimage": 0.056,
+      "max_recurrence_strength": 0.166667,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.609107,
+      "memory_last_state": "temporal_near_return",
+      "memory_max_afterimage": 0.05600000000000001,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.6091073191352079,
+      "memory_seen_count": 8,
+      "reward_sum": 0.0,
+      "rows": 8,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4,
+        "temporal_near_return": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0cgn",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0fa9",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_06bd",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0ojr",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_04zi",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1qig",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0vc8",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1g7l",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1k0r",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_10kx",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1f4v",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1vjg",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1t73",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_1q9b",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    },
+    {
+      "avg_time_distance": 1.0,
+      "family": "dio_0rb2",
+      "max_afterimage": 0.0,
+      "max_recurrence_strength": 0.0,
+      "max_temporal_caution_support": 0.72,
+      "max_temporal_trust_support": 0.0,
+      "memory_last_state": "temporal_first_contact",
+      "memory_max_afterimage": 0.0,
+      "memory_max_caution_support": 0.72,
+      "memory_max_trust_support": 0.0,
+      "memory_seen_count": 4,
+      "reward_sum": 0.0,
+      "rows": 4,
+      "runs": [
+        5,
+        6,
+        7,
+        8
+      ],
+      "sl": 0,
+      "states": {
+        "temporal_first_contact": 4
+      },
+      "tp": 0,
+      "trades": 0
+    }
+  ]
+}
