@@ -1,0 +1,8 @@
+candidate_family,prior_test_priority,prior_profile_distance,followup_state,new_contrast_group,new_trace_carry_state,new_visible_probe_count,new_carried_probe_count,new_kipp_probe_count,new_carry_ratio,new_sensory_field_distance,new_lived_support_drop_count,new_neuro_tone_reorganizes_count,new_text_island_same,followup_reading,passive_only,writes_runtime_memory,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal
+dio_0ocv,high,0.004896624,visible,single_probe_carried_trace,trace_fully_carried,1,1,0,1.0,0.005094003,0,0,True,still_single_probe_carried,True,False,False,False,False,False,False,False
+dio_1fck,high,0.009106366,missing,-,-,0,0,0,0,,0,0,False,candidate_not_visible_in_followup,True,False,False,False,False,False,False,False
+dio_0rwa,medium,0.009718161,visible,single_probe_carried_trace,trace_fully_carried,1,1,0,1.0,0.005754123,0,0,True,still_single_probe_carried,True,False,False,False,False,False,False,False
+dio_1ndv,medium,0.015617335,visible,immediate_or_continuous_kipp_trace,trace_immediate_or_continuous_kipp,1,0,1,0.0,0.001571919,0,0,True,kipped_in_followup,True,False,False,False,False,False,False,False
+dio_19b6,medium,0.017483227,visible,single_probe_carried_trace,trace_fully_carried,1,1,0,1.0,0.005742013,0,0,True,still_single_probe_carried,True,False,False,False,False,False,False,False
+dio_0bde,medium,0.018334446,visible,immediate_or_continuous_kipp_trace,trace_immediate_or_continuous_kipp,1,0,1,0.0,0.001971107,0,0,True,kipped_in_followup,True,False,False,False,False,False,False,False
+dio_0jx1,low,0.202845257,visible,single_probe_carried_trace,trace_fully_carried,1,1,0,1.0,0.008069833,0,0,False,still_single_probe_carried,True,False,False,False,False,False,False,False

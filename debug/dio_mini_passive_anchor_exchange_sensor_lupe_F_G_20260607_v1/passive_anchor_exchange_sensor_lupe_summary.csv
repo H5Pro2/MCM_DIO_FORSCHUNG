@@ -1,0 +1,13 @@
+summary_group,state,count,value,passive_only,writes_runtime_memory,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal
+sensor_exchange_state,hearing_dominant_delta,5,,True,False,False,False,False,False,False,False
+sensor_exchange_state,mixed_sensor_delta,2,,True,False,False,False,False,False,False,False
+sensor_exchange_state,visual_dominant_delta,2,,True,False,False,False,False,False,False,False
+sensor_exchange_state,neuro_dominant_delta,1,,True,False,False,False,False,False,False,False
+avg_exchange_distance,visual,,0.019010237,True,False,False,False,False,False,False,False
+avg_exchange_distance,hearing,,0.01762365,True,False,False,False,False,False,False,False
+avg_exchange_distance,feeling,,0.007310162,True,False,False,False,False,False,False,False
+avg_exchange_distance,neuro,,0.009422163,True,False,False,False,False,False,False,False
+avg_anchor_shift_distance,visual,,0.006896577,True,False,False,False,False,False,False,False
+avg_anchor_shift_distance,hearing,,0.006308054,True,False,False,False,False,False,False,False
+avg_anchor_shift_distance,feeling,,0.00337855,True,False,False,False,False,False,False,False
+avg_anchor_shift_distance,neuro,,0.007893605,True,False,False,False,False,False,False,False
