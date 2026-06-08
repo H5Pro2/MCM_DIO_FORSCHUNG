@@ -1,0 +1,41 @@
+{
+  "detail": [
+    {
+      "best_reward_sum": 7.256613,
+      "candidate_payload_json": "{\"best_reward_sum\": 7.256613, \"family_id\": \"dio_0t0v\", \"inner_state_path\": \"carried:7\", \"passive_origin\": true, \"real_contact_path\": \"negative:1 -> observed:2 -> positive:4\", \"reflection_maturity\": \"reflection_reorganized_readable\", \"reflection_question\": \"dio_0t0v: Was hat sich zwischen Konflikt und spaeterem Tragen geaendert?\", \"reward_sum\": 2.909977, \"source\": \"passive_reflection_maturity\", \"worlds\": \"probe18_first,probe18_repeat1,probe18_repeat2\"}",
+      "inner_state_path": "carried:7",
+      "passive_only": 1,
+      "real_contact_path": "negative:1 -> observed:2 -> positive:4",
+      "reflection_maturity": "reflection_reorganized_readable",
+      "reflection_question": "dio_0t0v: Was hat sich zwischen Konflikt und spaeterem Tragen geaendert?",
+      "reward_sum": 2.909977,
+      "schema_reasons": "minimal_schema_present",
+      "schema_state": "eligible_passive_schema",
+      "symbol_family": "dio_0t0v",
+      "worlds": "probe18_first,probe18_repeat1,probe18_repeat2",
+      "writes_memory": 0
+    },
+    {
+      "best_reward_sum": 1.567313,
+      "candidate_payload_json": "{\"best_reward_sum\": 1.567313, \"family_id\": \"dio_1vpi\", \"inner_state_path\": \"cautious:11\", \"passive_origin\": true, \"real_contact_path\": \"negative:5 -> observed:6\", \"reflection_maturity\": \"reflection_cautious_unresolved\", \"reflection_question\": \"dio_1vpi: Warum bleibt diese Spur nach Konflikt eher Beobachtung als getragener Kontakt?\", \"reward_sum\": -1.712415, \"source\": \"passive_reflection_maturity\", \"worlds\": \"probe18_first,probe18_repeat1,probe18_repeat2\"}",
+      "inner_state_path": "cautious:11",
+      "passive_only": 1,
+      "real_contact_path": "negative:5 -> observed:6",
+      "reflection_maturity": "reflection_cautious_unresolved",
+      "reflection_question": "dio_1vpi: Warum bleibt diese Spur nach Konflikt eher Beobachtung als getragener Kontakt?",
+      "reward_sum": -1.712415,
+      "schema_reasons": "minimal_schema_present",
+      "schema_state": "eligible_passive_schema",
+      "symbol_family": "dio_1vpi",
+      "worlds": "probe18_first,probe18_repeat1,probe18_repeat2",
+      "writes_memory": 0
+    }
+  ],
+  "summary": [
+    {
+      "count": 2,
+      "families": "dio_0t0v,dio_1vpi",
+      "schema_state": "eligible_passive_schema"
+    }
+  ]
+}

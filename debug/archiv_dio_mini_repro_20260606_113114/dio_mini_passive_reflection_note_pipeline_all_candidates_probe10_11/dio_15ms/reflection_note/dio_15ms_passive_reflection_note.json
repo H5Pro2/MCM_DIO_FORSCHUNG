@@ -1,0 +1,109 @@
+{
+  "best_actions": "SHORT",
+  "boundary": {
+    "influences_action": false,
+    "is_direction_signal": false,
+    "is_entry_signal": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "passive_only": true,
+    "read_by_mini_dio": false,
+    "writes_runtime_memory": false
+  },
+  "count": "4",
+  "debug_root_count": "2",
+  "field_summary": [
+    {
+      "avg": "0.0",
+      "count": "4",
+      "field": "sehen_form_stability",
+      "influences_action": "False",
+      "max": "0.0",
+      "min": "0.0",
+      "passive_only": "True",
+      "range": "0.0",
+      "stability": "stable",
+      "symbol_family": "dio_15ms"
+    },
+    {
+      "avg": "-0.033134",
+      "count": "4",
+      "field": "hoeren_energy_tone",
+      "influences_action": "False",
+      "max": "-0.02905",
+      "min": "-0.037218",
+      "passive_only": "True",
+      "range": "0.008168",
+      "stability": "stable",
+      "symbol_family": "dio_15ms"
+    },
+    {
+      "avg": "0.390722",
+      "count": "4",
+      "field": "fuehlen_mcm_coherence",
+      "influences_action": "False",
+      "max": "0.391866",
+      "min": "0.389579",
+      "passive_only": "True",
+      "range": "0.002287",
+      "stability": "stable",
+      "symbol_family": "dio_15ms"
+    },
+    {
+      "avg": "0.275274",
+      "count": "4",
+      "field": "fuehlen_mcm_tension",
+      "influences_action": "False",
+      "max": "0.275862",
+      "min": "0.274687",
+      "passive_only": "True",
+      "range": "0.001175",
+      "stability": "stable",
+      "symbol_family": "dio_15ms"
+    },
+    {
+      "avg": "0.264635",
+      "count": "4",
+      "field": "reflection_context_carry",
+      "influences_action": "False",
+      "max": "0.271189",
+      "min": "0.25808",
+      "passive_only": "True",
+      "range": "0.013109",
+      "stability": "stable",
+      "symbol_family": "dio_15ms"
+    },
+    {
+      "avg": "0.249239",
+      "count": "4",
+      "field": "reflection_context_strain",
+      "influences_action": "False",
+      "max": "0.250922",
+      "min": "0.247557",
+      "passive_only": "True",
+      "range": "0.003365",
+      "stability": "stable",
+      "symbol_family": "dio_15ms"
+    },
+    {
+      "avg": "0.890791",
+      "count": "4",
+      "field": "reflection_context_alignment",
+      "influences_action": "False",
+      "max": "0.902926",
+      "min": "0.878658",
+      "passive_only": "True",
+      "range": "0.024268",
+      "stability": "soft_variant",
+      "symbol_family": "dio_15ms"
+    }
+  ],
+  "inner_states": "inner_overcautious_carrying_pressure",
+  "interpretation": "stable_inner_state_and_direction",
+  "note_text": "Ich sehe/fuehle diese Lage stabil und die Nachblick-Richtung ist einheitlich. Das bleibt trotzdem eine Reflexionsnotiz, kein Entry.",
+  "passive_reflection_note_state": "passive_reflection_note_stable_field_and_direction",
+  "reflection_states": "reflection_context_carried",
+  "stable_fields": "sehen_form_stability|hoeren_energy_tone|fuehlen_mcm_coherence|fuehlen_mcm_tension|reflection_context_carry|reflection_context_strain",
+  "symbol_family": "dio_15ms",
+  "variant_fields": ""
+}
