@@ -1,0 +1,110 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "passive_only": true,
+    "read_by_mini_dio": false,
+    "writes_training_memory": false
+  },
+  "detail": [
+    {
+      "action": "LONG",
+      "auditory_stability": 1.0,
+      "dio_syntax_sentence": "dio_0arw:LONG|inner_reife_passively_carried|score=0.877221|episodes=12|reward=12.000000",
+      "episode_count": 12,
+      "event_reward_sum": 12.0,
+      "family_action": "dio_0arw:LONG",
+      "influences_action": 0,
+      "inner_awareness_sentence": "dio_0arw:LONG: Diese Spur ist passiv als getragen lesbar; Score=0.877221, Episoden=12, Konsequenz=12.000000. Sie bleibt Innenwahrnehmung, nicht Handlung.",
+      "inner_reife_awareness_state": "inner_reife_passively_carried",
+      "is_gate": 0,
+      "is_motoric": 0,
+      "mcm_stability": 1.0,
+      "multisensory_stability": 1.0,
+      "passive_only": 1,
+      "passive_open_reife_state": "passive_reife_carried_candidate",
+      "passive_reife_score": 0.877221,
+      "read_by_mini_dio": 0,
+      "sl_count": 0,
+      "symbol_family": "dio_0arw",
+      "tp_count": 12,
+      "trade_count": 12,
+      "visual_stability": 1.0,
+      "writes_training_memory": 0
+    },
+    {
+      "action": "SHORT",
+      "auditory_stability": 1.0,
+      "dio_syntax_sentence": "dio_1vpi:SHORT|inner_reife_passively_carried|score=0.862445|episodes=12|reward=12.000000",
+      "episode_count": 12,
+      "event_reward_sum": 12.0,
+      "family_action": "dio_1vpi:SHORT",
+      "influences_action": 0,
+      "inner_awareness_sentence": "dio_1vpi:SHORT: Diese Spur ist passiv als getragen lesbar; Score=0.862445, Episoden=12, Konsequenz=12.000000. Sie bleibt Innenwahrnehmung, nicht Handlung.",
+      "inner_reife_awareness_state": "inner_reife_passively_carried",
+      "is_gate": 0,
+      "is_motoric": 0,
+      "mcm_stability": 1.0,
+      "multisensory_stability": 1.0,
+      "passive_only": 1,
+      "passive_open_reife_state": "passive_reife_carried_candidate",
+      "passive_reife_score": 0.862445,
+      "read_by_mini_dio": 0,
+      "sl_count": 0,
+      "symbol_family": "dio_1vpi",
+      "tp_count": 12,
+      "trade_count": 12,
+      "visual_stability": 1.0,
+      "writes_training_memory": 0
+    },
+    {
+      "action": "SHORT",
+      "auditory_stability": 1.0,
+      "dio_syntax_sentence": "dio_1txv:SHORT|inner_reife_passively_carried|score=0.793333|episodes=12|reward=12.000000",
+      "episode_count": 12,
+      "event_reward_sum": 12.0,
+      "family_action": "dio_1txv:SHORT",
+      "influences_action": 0,
+      "inner_awareness_sentence": "dio_1txv:SHORT: Diese Spur ist passiv als getragen lesbar; Score=0.793333, Episoden=12, Konsequenz=12.000000. Sie bleibt Innenwahrnehmung, nicht Handlung.",
+      "inner_reife_awareness_state": "inner_reife_passively_carried",
+      "is_gate": 0,
+      "is_motoric": 0,
+      "mcm_stability": 1.0,
+      "multisensory_stability": 1.0,
+      "passive_only": 1,
+      "passive_open_reife_state": "passive_reife_carried_candidate",
+      "passive_reife_score": 0.793333,
+      "read_by_mini_dio": 0,
+      "sl_count": 0,
+      "symbol_family": "dio_1txv",
+      "tp_count": 12,
+      "trade_count": 12,
+      "visual_stability": 1.0,
+      "writes_training_memory": 0
+    }
+  ],
+  "schema": "dio_mini_passive_open_reife_inner_awareness.v1",
+  "source_memory": "bot_memory\\dio_mini_passive_open_reife_memory_followup6.json",
+  "source_memory_summary": {
+    "avg_multisensory_stability": 1.0,
+    "avg_passive_reife_score": 0.844333,
+    "entry_count": 3,
+    "event_reward_sum": 36.0,
+    "family_actions": [
+      "dio_0arw:LONG",
+      "dio_1vpi:SHORT",
+      "dio_1txv:SHORT"
+    ]
+  },
+  "summary": [
+    {
+      "avg_passive_reife_score": 0.844333,
+      "count": 3,
+      "episode_count": 36,
+      "event_reward_sum": 36.0,
+      "family_actions": "dio_0arw:LONG,dio_1txv:SHORT,dio_1vpi:SHORT",
+      "inner_reife_awareness_state": "inner_reife_passively_carried"
+    }
+  ]
+}

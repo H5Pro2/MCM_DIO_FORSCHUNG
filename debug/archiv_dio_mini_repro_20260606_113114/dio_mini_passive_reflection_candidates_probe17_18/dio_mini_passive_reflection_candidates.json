@@ -1,0 +1,120 @@
+{
+  "detail": [
+    {
+      "best_reward_sum": 1.036659,
+      "contact_quality": "negative_real_contact",
+      "inner_state": "inner_carried",
+      "passive_only": 1,
+      "reflection_candidate_kind": "reflection_candidate_reorganized_trace",
+      "reward_sum": -1.236659,
+      "symbol_family": "dio_0t0v",
+      "trace_role": "conflict",
+      "world": "probe18_first",
+      "world_inner_sentence": "probe18_first: dio_0t0v fuehlt sich als inner_carried an, hatte aber realen Konflikt (negative_real_contact, reward=-1.236659)."
+    },
+    {
+      "best_reward_sum": 2.073318,
+      "contact_quality": "observed_potential",
+      "inner_state": "inner_carried",
+      "passive_only": 1,
+      "reflection_candidate_kind": "reflection_candidate_reorganized_trace",
+      "reward_sum": 0.0,
+      "symbol_family": "dio_0t0v",
+      "trace_role": "observed_potential",
+      "world": "probe18_repeat1",
+      "world_inner_sentence": "probe18_repeat1: dio_0t0v bleibt in inner_carried beobachtet; Potenzial wurde gesehen (observed_potential, best=2.073318), aber nicht als reale Handlung fixiert."
+    },
+    {
+      "best_reward_sum": 4.146636,
+      "contact_quality": "positive_real_contact",
+      "inner_state": "inner_carried",
+      "passive_only": 1,
+      "reflection_candidate_kind": "reflection_candidate_reorganized_trace",
+      "reward_sum": 4.146636,
+      "symbol_family": "dio_0t0v",
+      "trace_role": "carried_positive",
+      "world": "probe18_repeat2",
+      "world_inner_sentence": "probe18_repeat2: dio_0t0v fuehlt sich als inner_carried an und wurde real getragen (positive_real_contact, reward=4.146636)."
+    },
+    {
+      "best_reward_sum": 0.427449,
+      "contact_quality": "negative_real_contact",
+      "inner_state": "inner_cautious",
+      "passive_only": 1,
+      "reflection_candidate_kind": "reflection_candidate_cautious_trace",
+      "reward_sum": -1.027449,
+      "symbol_family": "dio_1vpi",
+      "trace_role": "conflict",
+      "world": "probe18_first",
+      "world_inner_sentence": "probe18_first: dio_1vpi fuehlt sich als inner_cautious an, hatte aber realen Konflikt (negative_real_contact, reward=-1.027449)."
+    },
+    {
+      "best_reward_sum": 0.284966,
+      "contact_quality": "observed_potential",
+      "inner_state": "inner_cautious",
+      "passive_only": 1,
+      "reflection_candidate_kind": "reflection_candidate_cautious_trace",
+      "reward_sum": 0.0,
+      "symbol_family": "dio_1vpi",
+      "trace_role": "observed_potential",
+      "world": "probe18_repeat1",
+      "world_inner_sentence": "probe18_repeat1: dio_1vpi bleibt in inner_cautious beobachtet; Potenzial wurde gesehen (observed_potential, best=0.284966), aber nicht als reale Handlung fixiert."
+    },
+    {
+      "best_reward_sum": 0.284966,
+      "contact_quality": "negative_real_contact",
+      "inner_state": "inner_cautious",
+      "passive_only": 1,
+      "reflection_candidate_kind": "reflection_candidate_cautious_trace",
+      "reward_sum": -0.684966,
+      "symbol_family": "dio_1vpi",
+      "trace_role": "conflict",
+      "world": "probe18_repeat1",
+      "world_inner_sentence": "probe18_repeat1: dio_1vpi fuehlt sich als inner_cautious an, hatte aber realen Konflikt (negative_real_contact, reward=-0.684966)."
+    },
+    {
+      "best_reward_sum": 0.569932,
+      "contact_quality": "observed_potential",
+      "inner_state": "inner_cautious",
+      "passive_only": 1,
+      "reflection_candidate_kind": "reflection_candidate_cautious_trace",
+      "reward_sum": 0.0,
+      "symbol_family": "dio_1vpi",
+      "trace_role": "observed_potential",
+      "world": "probe18_repeat2",
+      "world_inner_sentence": "probe18_repeat2: dio_1vpi bleibt in inner_cautious beobachtet; Potenzial wurde gesehen (observed_potential, best=0.569932), aber nicht als reale Handlung fixiert."
+    }
+  ],
+  "summary": [
+    {
+      "carried_contacts": 0,
+      "conflict_contacts": 2,
+      "conflict_reward_sum": -1.712415,
+      "observed_best_reward_sum": 0.854898,
+      "observed_contacts": 2,
+      "passive_conflict_state": "conflict_to_observation",
+      "passive_only": 1,
+      "positive_reward_sum": 0.0,
+      "reflection_candidate_kind": "reflection_candidate_cautious_trace",
+      "reflection_note": "Konflikt blieb eher vorsichtig/beobachtend. Das spricht passiv fuer Schutzdistanz: conflict=-1.712415, observed_best=0.854898.",
+      "reflection_question": "dio_1vpi: Warum bleibt diese Spur nach Konflikt eher Beobachtung als getragener Kontakt?",
+      "source_sentence": "dio_1vpi: Diese Familie blieb nach Konflikt vorsichtig/beobachtend; Konflikt=-1.712415, beobachtetes Potenzial=0.854898.",
+      "symbol_family": "dio_1vpi"
+    },
+    {
+      "carried_contacts": 1,
+      "conflict_contacts": 1,
+      "conflict_reward_sum": -1.236659,
+      "observed_best_reward_sum": 2.073318,
+      "observed_contacts": 1,
+      "passive_conflict_state": "conflict_reorganized_to_carried",
+      "passive_only": 1,
+      "positive_reward_sum": 4.146636,
+      "reflection_candidate_kind": "reflection_candidate_reorganized_trace",
+      "reflection_note": "Konflikt und spaeteres Tragen liegen in derselben Familie. Das spricht passiv fuer Reorganisation: conflict=-1.236659, carried=4.146636.",
+      "reflection_question": "dio_0t0v: Was hat sich zwischen Konflikt und spaeterem Tragen geaendert?",
+      "source_sentence": "dio_0t0v: Diese Familie hatte Konflikt, wurde spaeter aber getragen; Konflikt=-1.236659, getragen=4.146636.",
+      "symbol_family": "dio_0t0v"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+open_reife_candidate_rows=36
+summary=5
+
+open_inner_reife_candidate: count=4 reward=45.0 inner=0
+already_inner_bridged_reference: count=2 reward=24.0 inner=2
+fresh_waiting_context: count=25 reward=0.0 inner=0
+older_open_trace_watch: count=3 reward=0.0 inner=0
+burden_reife_watch: count=2 reward=-7.0 inner=0
+
+open candidates:
+dio_0arw:LONG reward=12.0 sources=basis,followup1,followup2,followup3 episodes=12
+dio_1txv:SHORT reward=12.0 sources=basis,followup1,followup2,followup3 episodes=12
+dio_1vpi:SHORT reward=12.0 sources=basis,followup1,followup2,followup3 episodes=12
+dio_0u1i:SHORT reward=9.0 sources=followup1,followup2,followup3 episodes=9
+
+passive_only=1
+influences_action=0
+is_gate=0
+is_motoric=0
