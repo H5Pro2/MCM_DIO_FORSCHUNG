@@ -1,0 +1,150 @@
+{
+  "contact_lagen": {},
+  "families": {
+    "dio_caut": {
+      "actions": {
+        "LONG": {
+          "caution": 0.36394400000000005,
+          "count": 3,
+          "last_reward": -1.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": -3.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 3,
+      "family": "dio_caut",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.20000000000000004,
+        0.6999999999999998,
+        -0.10000000000000002,
+        0.10000000000000002,
+        0.0,
+        0.4000000000000001,
+        0.20000000000000004,
+        0.10000000000000002,
+        0.3
+      ]
+    }
+  },
+  "neighbor_consequences": {},
+  "reflection_maps": {},
+  "reflection_seeds": {},
+  "relations": {},
+  "runs": 0,
+  "sensor_relations": {},
+  "sentence_traces": {},
+  "symbols": {
+    "dio_caution_probe": {
+      "actions": {
+        "LONG": {
+          "caution": 0.44863200000000003,
+          "count": 3,
+          "last_reward": -1.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": -3.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 3,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_caution_probe",
+      "syntax_family": "dio_caut",
+      "vector": [
+        0.20000000000000004,
+        0.6999999999999998,
+        -0.10000000000000002,
+        0.10000000000000002,
+        0.0,
+        0.4000000000000001,
+        0.20000000000000004,
+        0.10000000000000002,
+        0.3
+      ]
+    }
+  },
+  "version": 1
+}

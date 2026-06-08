@@ -1,0 +1,85 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "writes_memory": false
+  },
+  "debug_root": "debug\\dio_mini_12n_livecheck_probe18",
+  "development_summary": [
+    {
+      "development_state": "development_stable_carried",
+      "event_reward_sum": 8.0,
+      "families": "dio_02qu,dio_0arw,dio_0x1o,dio_1vpi",
+      "family_count": 4,
+      "maturation_states": "maturation_stable_carried",
+      "reward_sum": 8.0,
+      "row_count": 8
+    },
+    {
+      "development_state": "development_observation_to_carried",
+      "event_reward_sum": 2.0,
+      "families": "dio_16yc,dio_1txv",
+      "family_count": 2,
+      "maturation_states": "maturation_mixed_recurrence",
+      "reward_sum": 2.0,
+      "row_count": 5
+    },
+    {
+      "development_state": "development_quiet_observation",
+      "event_reward_sum": 0.0,
+      "families": "dio_0igh,dio_143d,dio_14xc,dio_1g2t,dio_1qwp",
+      "family_count": 5,
+      "maturation_states": "maturation_quiet_observation",
+      "reward_sum": 0.0,
+      "row_count": 5
+    },
+    {
+      "development_state": "development_negative_open",
+      "event_reward_sum": -1.0,
+      "families": "dio_0fiy",
+      "family_count": 1,
+      "maturation_states": "maturation_negative_open",
+      "reward_sum": -1.0,
+      "row_count": 1
+    }
+  ],
+  "label": "livecheck_probe18_12n_landkarte",
+  "memory_path": "bot_memory\\dio_mini_12n_livecheck_memory.json",
+  "outputs": {
+    "consequence_inner_awareness": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\03_consequence_inner_awareness",
+    "consequence_inner_state_protocol": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\04_consequence_inner_state_protocol",
+    "memory_consequence_effect": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\02_memory_consequence_effect",
+    "multisensory_inner_map": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\05_multisensory_inner_map",
+    "multisensory_maturation_map": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\07_multisensory_maturation_map",
+    "multisensory_maturation_timeline": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\08_multisensory_maturation_timeline",
+    "multisensory_stability": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\06_multisensory_stability",
+    "passive_development_diagnosis": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\09_passive_development_diagnosis",
+    "passive_development_reflection": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\10_passive_development_reflection",
+    "passive_inner_state_landkarte": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\11_passive_inner_state_landkarte",
+    "trade_events": "debug\\dio_mini_passive_consequence_pipeline_12n_probe18_landkarte\\01_trade_events"
+  },
+  "rows": {
+    "development_detail": 12,
+    "development_reflection_detail": 12,
+    "development_reflection_summary": 4,
+    "development_summary": 4,
+    "inner_awareness_detail": 14,
+    "inner_awareness_summary": 3,
+    "inner_protocol_detail": 19,
+    "inner_protocol_summary": 4,
+    "inner_state_landkarte_detail": 12,
+    "inner_state_landkarte_summary": 3,
+    "maturation_detail": 12,
+    "maturation_summary": 4,
+    "memory_effect": 14,
+    "multisensory_detail": 19,
+    "multisensory_summary": 5,
+    "stability_detail": 12,
+    "stability_summary": 2,
+    "timeline_detail": 19,
+    "timeline_summary": 12,
+    "trade_events_detail": 19,
+    "trade_events_summary": 14
+  }
+}

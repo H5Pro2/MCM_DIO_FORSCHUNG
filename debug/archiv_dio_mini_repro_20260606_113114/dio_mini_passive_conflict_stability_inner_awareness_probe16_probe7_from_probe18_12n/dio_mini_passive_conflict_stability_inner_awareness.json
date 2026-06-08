@@ -1,0 +1,65 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "passive_only": true,
+    "read_by_mini_dio": false,
+    "writes_training_memory": false
+  },
+  "family": [
+    {
+      "burden_action": "SHORT",
+      "dio_syntax_sentence": "inner_conflict_awareness|dio_19i4|SHORT|burden_to_observation|reward_delta=2.000000|wait=1",
+      "episode_delta": -2,
+      "influences_action": 0,
+      "inner_awareness_state": "family_burden_reorganized_to_observation",
+      "inner_sentence": "dio_19i4: SHORT hat belastet. Die Wiederholung wurde schwacher (-2.000000->0.000000, Episoden 2->0). Die Familie bleibt als Beobachtung sichtbar (WAIT-Spuren=1).",
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reward_delta": 2.0,
+      "source": "probe7",
+      "symbol_family": "dio_19i4",
+      "wait_trace_count": 1,
+      "writes_training_memory": 0
+    },
+    {
+      "burden_action": "LONG",
+      "dio_syntax_sentence": "inner_conflict_awareness|dio_1k0r|LONG|burden_to_observation|reward_delta=2.000000|wait=1",
+      "episode_delta": -2,
+      "influences_action": 0,
+      "inner_awareness_state": "family_burden_reorganized_to_observation",
+      "inner_sentence": "dio_1k0r: LONG hat belastet. Die Wiederholung wurde schwacher (-3.000000->-1.000000, Episoden 3->1). Die Familie bleibt als Beobachtung sichtbar (WAIT-Spuren=1).",
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reward_delta": 2.0,
+      "source": "probe16",
+      "symbol_family": "dio_1k0r",
+      "wait_trace_count": 1,
+      "writes_training_memory": 0
+    }
+  ],
+  "global": [
+    {
+      "count": 2,
+      "dio_syntax_sentence": "inner_conflict_awareness|global|burden_to_observation|families=dio_19i4,dio_1k0r|count=2|reward_delta=4.000000|episode_delta=-4",
+      "episode_delta": -4,
+      "families": "dio_19i4,dio_1k0r",
+      "influences_action": 0,
+      "inner_awareness_key": "repeated_burden_to_observation",
+      "inner_awareness_state": "repeated_burden_to_observation",
+      "inner_sentence": "Mehrere Familien zeigen: belastete Handlung wird weniger wiederholt, aber die Familie bleibt beobachtbar. Das ist Reorganisation, keine Angstsperre.",
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reward_delta": 4.0,
+      "writes_training_memory": 0
+    }
+  ],
+  "schema": "dio_mini_passive_conflict_stability_inner_awareness.v1"
+}

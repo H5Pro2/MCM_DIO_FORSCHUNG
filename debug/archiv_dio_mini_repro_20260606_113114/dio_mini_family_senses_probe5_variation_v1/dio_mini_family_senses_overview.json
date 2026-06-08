@@ -1,0 +1,38 @@
+{
+  "families": {
+    "dio_09jn": {
+      "executed_rows": 7,
+      "max_sensor_delta_all_phases": 1.0,
+      "max_sensor_delta_in_observation_to_action": 0.0,
+      "observed_rows": 5,
+      "phases": [
+        "sensor_relation_probe5",
+        "sensor_relation_probe5_repeat",
+        "sensor_relation_probe5_variation"
+      ],
+      "reward_sum": 2.190568
+    },
+    "dio_0qb3": {
+      "executed_rows": 9,
+      "max_sensor_delta_all_phases": 1.0,
+      "max_sensor_delta_in_observation_to_action": 0.0,
+      "observed_rows": 3,
+      "phases": [
+        "sensor_relation_probe2",
+        "sensor_relation_probe5",
+        "sensor_relation_probe5_variation"
+      ],
+      "reward_sum": 5.353388
+    },
+    "dio_14mj": {
+      "executed_rows": 1,
+      "max_sensor_delta_all_phases": 0.0,
+      "max_sensor_delta_in_observation_to_action": 0.0,
+      "observed_rows": 3,
+      "phases": [
+        "sensor_relation_probe5_variation"
+      ],
+      "reward_sum": 0.798383
+    }
+  }
+}

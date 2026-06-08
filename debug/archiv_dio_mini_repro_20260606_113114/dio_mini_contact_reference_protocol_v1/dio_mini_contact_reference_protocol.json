@@ -1,0 +1,47 @@
+[
+  {
+    "contact_id": "kontakt_exakt_probe8_repeat",
+    "contact_lage_state": "exakte_wiederbegegnung",
+    "contact_reward_sum": 13.834005,
+    "debug_root": "debug\\dio_mini_sensor_relation_probe8_negativkontakt_repeat",
+    "direct_positive_action": 3,
+    "held_observation": 3,
+    "observation_to_positive_action": 1,
+    "quiet_family": 0,
+    "reward_total": 13.834005,
+    "runs": 4,
+    "top_direct_action": "dio_14eb,dio_0wv3,dio_0eh8",
+    "top_observation_to_action": "dio_0szn",
+    "trades_total": 12
+  },
+  {
+    "contact_id": "kontakt_nah_probe9",
+    "contact_lage_state": "nahe_aehnlichkeit",
+    "contact_reward_sum": 13.65533,
+    "debug_root": "debug\\dio_mini_sensor_relation_probe9_aehnlichkeit",
+    "direct_positive_action": 3,
+    "held_observation": 2,
+    "observation_to_positive_action": 2,
+    "quiet_family": 0,
+    "reward_total": 13.655328,
+    "runs": 4,
+    "top_direct_action": "dio_14eb,dio_0wv3,dio_0szn",
+    "top_observation_to_action": "dio_16kb,dio_1l2h",
+    "trades_total": 13
+  },
+  {
+    "contact_id": "kontakt_fern_probe10",
+    "contact_lage_state": "ferne_aehnlichkeit",
+    "contact_reward_sum": 4.586544,
+    "debug_root": "debug\\dio_mini_sensor_relation_probe10_ferne_aehnlichkeit",
+    "direct_positive_action": 0,
+    "held_observation": 16,
+    "observation_to_positive_action": 3,
+    "quiet_family": 1,
+    "reward_total": 4.586545,
+    "runs": 4,
+    "top_direct_action": "",
+    "top_observation_to_action": "dio_1tmf,dio_0y4s,dio_1gp1",
+    "trades_total": 4
+  }
+]

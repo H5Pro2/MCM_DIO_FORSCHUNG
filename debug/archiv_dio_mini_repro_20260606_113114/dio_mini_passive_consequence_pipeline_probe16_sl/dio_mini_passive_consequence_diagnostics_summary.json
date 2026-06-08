@@ -1,0 +1,61 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "writes_memory": false
+  },
+  "debug_root": "debug\\dio_mini_tp_sl_followup_probe16_conflict",
+  "development_summary": [
+    {
+      "development_state": "development_quiet_observation",
+      "event_reward_sum": 0.0,
+      "families": "dio_0rb2,dio_0vc8,dio_1g7l,dio_1jo7,dio_1q9b,dio_1qig,dio_1t73,dio_1w4m",
+      "family_count": 8,
+      "maturation_states": "maturation_quiet_observation",
+      "reward_sum": 0.0,
+      "row_count": 24
+    },
+    {
+      "development_state": "development_repeated_burden",
+      "event_reward_sum": -6.0,
+      "families": "dio_0c6o,dio_1k0r",
+      "family_count": 2,
+      "maturation_states": "maturation_stable_conflicted_burden",
+      "reward_sum": -6.0,
+      "row_count": 6
+    }
+  ],
+  "label": "probe16_sl",
+  "memory_path": "bot_memory\\dio_mini_tp_sl_conflict_memory.json",
+  "outputs": {
+    "consequence_inner_awareness": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\03_consequence_inner_awareness",
+    "consequence_inner_state_protocol": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\04_consequence_inner_state_protocol",
+    "memory_consequence_effect": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\02_memory_consequence_effect",
+    "multisensory_inner_map": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\05_multisensory_inner_map",
+    "multisensory_maturation_map": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\07_multisensory_maturation_map",
+    "multisensory_maturation_timeline": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\08_multisensory_maturation_timeline",
+    "multisensory_stability": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\06_multisensory_stability",
+    "passive_development_diagnosis": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\09_passive_development_diagnosis",
+    "trade_events": "debug\\dio_mini_passive_consequence_pipeline_probe16_sl\\01_trade_events"
+  },
+  "rows": {
+    "development_detail": 10,
+    "development_summary": 2,
+    "inner_awareness_detail": 10,
+    "inner_awareness_summary": 2,
+    "inner_protocol_detail": 30,
+    "inner_protocol_summary": 2,
+    "maturation_detail": 10,
+    "maturation_summary": 2,
+    "memory_effect": 10,
+    "multisensory_detail": 30,
+    "multisensory_summary": 2,
+    "stability_detail": 10,
+    "stability_summary": 1,
+    "timeline_detail": 30,
+    "timeline_summary": 10,
+    "trade_events_detail": 30,
+    "trade_events_summary": 10
+  }
+}

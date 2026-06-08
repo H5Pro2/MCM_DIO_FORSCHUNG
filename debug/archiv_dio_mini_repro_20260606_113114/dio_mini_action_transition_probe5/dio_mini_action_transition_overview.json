@@ -1,0 +1,30 @@
+{
+  "class_counts": {
+    "direct_positive_action": 1,
+    "held_observation": 11,
+    "observation_to_positive_action": 2
+  },
+  "class_reward_sum": {
+    "direct_positive_action": 2.42258,
+    "held_observation": 0.0,
+    "observation_to_positive_action": 3.16824
+  },
+  "debug_root": "debug\\dio_mini_sensor_relation_probe5\\sensor_relation_probe5",
+  "held_observation": [
+    "dio_18jg",
+    "dio_0e10",
+    "dio_1kqv",
+    "dio_09jn",
+    "dio_09dp",
+    "dio_1xfl",
+    "dio_15bt",
+    "dio_1tsz"
+  ],
+  "top_direct_action": [
+    "dio_0qb3"
+  ],
+  "top_observation_to_action": [
+    "dio_1vm7",
+    "dio_0x52"
+  ]
+}

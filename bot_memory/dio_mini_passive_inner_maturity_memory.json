@@ -1,0 +1,513 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_future_teacher": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "read_by_mini_dio": false,
+    "writes_training_memory": false
+  },
+  "entries": [
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.843510833,
+      "avg_similarity": 0.80021625,
+      "inner_memory_state": "passive_inner_memory_stable",
+      "map_count": 4,
+      "map_labels": [
+        "basis",
+        "followup1",
+        "followup2",
+        "followup3"
+      ],
+      "memory_note": "dio_14xc:LONG: innere Lesung wiederholt sich stabil als inner_trust_seed; Konsequenzsumme=12.000000.",
+      "passive_family_action": "dio_14xc:LONG",
+      "passive_only": true,
+      "real_reward_sum": 12.0,
+      "seeds": [
+        "inner_trust_seed"
+      ],
+      "source_labels": [
+        "probe18"
+      ],
+      "trace_count": 4,
+      "transition_state": "inner_seed_repeats_stably"
+    },
+    {
+      "actions": [
+        "SHORT"
+      ],
+      "avg_mcm_similarity": 0.816813667,
+      "avg_similarity": 0.811962125,
+      "inner_memory_state": "passive_inner_memory_reorganizing",
+      "map_count": 4,
+      "map_labels": [
+        "basis",
+        "followup1",
+        "followup2",
+        "followup3"
+      ],
+      "memory_note": "dio_173s:SHORT: innere Lesung reorganisiert sich (inner_reorganization_seed,inner_trust_seed); diese Spur bleibt entwickelnd.",
+      "passive_family_action": "dio_173s:SHORT",
+      "passive_only": true,
+      "real_reward_sum": 12.0,
+      "seeds": [
+        "inner_reorganization_seed",
+        "inner_trust_seed"
+      ],
+      "source_labels": [
+        "probe15"
+      ],
+      "trace_count": 4,
+      "transition_state": "inner_seed_reorganizes"
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.730839667,
+      "avg_similarity": 0.737970375,
+      "inner_memory_state": "passive_inner_memory_stable",
+      "map_count": 2,
+      "map_labels": [
+        "basis",
+        "followup1"
+      ],
+      "memory_note": "dio_04zi:LONG: innere Lesung wiederholt sich stabil als inner_carefulness_seed; Konsequenzsumme=-4.000000.",
+      "passive_family_action": "dio_04zi:LONG",
+      "passive_only": true,
+      "real_reward_sum": -4.0,
+      "seeds": [
+        "inner_carefulness_seed"
+      ],
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 2,
+      "transition_state": "inner_seed_repeats_stably"
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.752622,
+      "avg_similarity": 0.762543437,
+      "inner_memory_state": "passive_inner_memory_stable",
+      "map_count": 2,
+      "map_labels": [
+        "basis",
+        "followup1"
+      ],
+      "memory_note": "dio_1qig:LONG: innere Lesung wiederholt sich stabil als inner_carefulness_seed; Konsequenzsumme=-4.000000.",
+      "passive_family_action": "dio_1qig:LONG",
+      "passive_only": true,
+      "real_reward_sum": -4.0,
+      "seeds": [
+        "inner_carefulness_seed"
+      ],
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 2,
+      "transition_state": "inner_seed_repeats_stably"
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.913190833,
+      "avg_similarity": 0.886422438,
+      "inner_memory_state": "passive_inner_memory_stable",
+      "map_count": 2,
+      "map_labels": [
+        "basis",
+        "followup1"
+      ],
+      "memory_note": "dio_1w4m:LONG: innere Lesung wiederholt sich stabil als inner_carefulness_seed; Konsequenzsumme=-4.000000.",
+      "passive_family_action": "dio_1w4m:LONG",
+      "passive_only": true,
+      "real_reward_sum": -4.0,
+      "seeds": [
+        "inner_carefulness_seed"
+      ],
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 2,
+      "transition_state": "inner_seed_repeats_stably"
+    },
+    {
+      "actions": [
+        "SHORT"
+      ],
+      "avg_mcm_similarity": 0.9442415,
+      "avg_similarity": 0.884336312,
+      "inner_memory_state": "passive_inner_memory_local",
+      "map_count": 1,
+      "map_labels": [
+        "basis"
+      ],
+      "memory_note": "dio_0izw:SHORT: innere Lesung ist lokal (inner_reorganization_seed); noch keine stabile Wiederkehr.",
+      "passive_family_action": "dio_0izw:SHORT",
+      "passive_only": true,
+      "real_reward_sum": 3.0,
+      "seeds": [
+        "inner_reorganization_seed"
+      ],
+      "source_labels": [
+        "probe15"
+      ],
+      "trace_count": 1,
+      "transition_state": "inner_seed_local"
+    },
+    {
+      "actions": [
+        "SHORT"
+      ],
+      "avg_mcm_similarity": 0.84984,
+      "avg_similarity": 0.787475125,
+      "inner_memory_state": "passive_inner_memory_local",
+      "map_count": 1,
+      "map_labels": [
+        "basis"
+      ],
+      "memory_note": "dio_15ms:SHORT: innere Lesung ist lokal (inner_reorganization_seed); noch keine stabile Wiederkehr.",
+      "passive_family_action": "dio_15ms:SHORT",
+      "passive_only": true,
+      "real_reward_sum": -3.0,
+      "seeds": [
+        "inner_reorganization_seed"
+      ],
+      "source_labels": [
+        "probe15"
+      ],
+      "trace_count": 1,
+      "transition_state": "inner_seed_local"
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.797495167,
+      "avg_similarity": 0.78529625,
+      "inner_memory_state": "passive_inner_memory_local",
+      "map_count": 1,
+      "map_labels": [
+        "followup1"
+      ],
+      "memory_note": "dio_1vjg:LONG: innere Lesung ist lokal (inner_carefulness_seed); noch keine stabile Wiederkehr.",
+      "passive_family_action": "dio_1vjg:LONG",
+      "passive_only": true,
+      "real_reward_sum": -1.0,
+      "seeds": [
+        "inner_carefulness_seed"
+      ],
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 1,
+      "transition_state": "inner_seed_local"
+    }
+  ],
+  "local_entries": [
+    {
+      "actions": [
+        "SHORT"
+      ],
+      "avg_mcm_similarity": 0.9442415,
+      "avg_similarity": 0.884336312,
+      "inner_memory_state": "passive_inner_memory_local",
+      "map_count": 1,
+      "map_labels": [
+        "basis"
+      ],
+      "memory_note": "dio_0izw:SHORT: innere Lesung ist lokal (inner_reorganization_seed); noch keine stabile Wiederkehr.",
+      "passive_family_action": "dio_0izw:SHORT",
+      "passive_only": true,
+      "real_reward_sum": 3.0,
+      "seeds": [
+        "inner_reorganization_seed"
+      ],
+      "source_labels": [
+        "probe15"
+      ],
+      "trace_count": 1,
+      "transition_state": "inner_seed_local"
+    },
+    {
+      "actions": [
+        "SHORT"
+      ],
+      "avg_mcm_similarity": 0.84984,
+      "avg_similarity": 0.787475125,
+      "inner_memory_state": "passive_inner_memory_local",
+      "map_count": 1,
+      "map_labels": [
+        "basis"
+      ],
+      "memory_note": "dio_15ms:SHORT: innere Lesung ist lokal (inner_reorganization_seed); noch keine stabile Wiederkehr.",
+      "passive_family_action": "dio_15ms:SHORT",
+      "passive_only": true,
+      "real_reward_sum": -3.0,
+      "seeds": [
+        "inner_reorganization_seed"
+      ],
+      "source_labels": [
+        "probe15"
+      ],
+      "trace_count": 1,
+      "transition_state": "inner_seed_local"
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.797495167,
+      "avg_similarity": 0.78529625,
+      "inner_memory_state": "passive_inner_memory_local",
+      "map_count": 1,
+      "map_labels": [
+        "followup1"
+      ],
+      "memory_note": "dio_1vjg:LONG: innere Lesung ist lokal (inner_carefulness_seed); noch keine stabile Wiederkehr.",
+      "passive_family_action": "dio_1vjg:LONG",
+      "passive_only": true,
+      "real_reward_sum": -1.0,
+      "seeds": [
+        "inner_carefulness_seed"
+      ],
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 1,
+      "transition_state": "inner_seed_local"
+    }
+  ],
+  "reorganizing_entries": [
+    {
+      "actions": [
+        "SHORT"
+      ],
+      "avg_mcm_similarity": 0.816813667,
+      "avg_similarity": 0.811962125,
+      "inner_memory_state": "passive_inner_memory_reorganizing",
+      "map_count": 4,
+      "map_labels": [
+        "basis",
+        "followup1",
+        "followup2",
+        "followup3"
+      ],
+      "memory_note": "dio_173s:SHORT: innere Lesung reorganisiert sich (inner_reorganization_seed,inner_trust_seed); diese Spur bleibt entwickelnd.",
+      "passive_family_action": "dio_173s:SHORT",
+      "passive_only": true,
+      "real_reward_sum": 12.0,
+      "seeds": [
+        "inner_reorganization_seed",
+        "inner_trust_seed"
+      ],
+      "source_labels": [
+        "probe15"
+      ],
+      "trace_count": 4,
+      "transition_state": "inner_seed_reorganizes"
+    }
+  ],
+  "schema": "dio_mini_passive_inner_maturity_memory.v1",
+  "seed_summary": [
+    {
+      "actions": [
+        "LONG",
+        "SHORT"
+      ],
+      "avg_mcm_similarity": 0.83206919,
+      "avg_similarity": 0.805250196,
+      "families": [
+        "dio_14xc:LONG",
+        "dio_173s:SHORT"
+      ],
+      "family_count": 2,
+      "inner_maturity_seed": "inner_trust_seed",
+      "map_count": 4,
+      "map_labels": [
+        "basis",
+        "followup1",
+        "followup2",
+        "followup3"
+      ],
+      "passive_only": true,
+      "real_reward_sum": 21.0,
+      "seed_stability": "seed_repeats_across_maps",
+      "source_labels": [
+        "probe15",
+        "probe18"
+      ],
+      "trace_count": 7
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.798685738,
+      "avg_similarity": 0.794166964,
+      "families": [
+        "dio_04zi:LONG",
+        "dio_1qig:LONG",
+        "dio_1vjg:LONG",
+        "dio_1w4m:LONG"
+      ],
+      "family_count": 4,
+      "inner_maturity_seed": "inner_carefulness_seed",
+      "map_count": 2,
+      "map_labels": [
+        "basis",
+        "followup1"
+      ],
+      "passive_only": true,
+      "real_reward_sum": -13.0,
+      "seed_stability": "seed_repeats_across_maps",
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 7
+    },
+    {
+      "actions": [
+        "SHORT"
+      ],
+      "avg_mcm_similarity": 0.870298389,
+      "avg_similarity": 0.827924521,
+      "families": [
+        "dio_0izw:SHORT",
+        "dio_15ms:SHORT",
+        "dio_173s:SHORT"
+      ],
+      "family_count": 3,
+      "inner_maturity_seed": "inner_reorganization_seed",
+      "map_count": 1,
+      "map_labels": [
+        "basis"
+      ],
+      "passive_only": true,
+      "real_reward_sum": 3.0,
+      "seed_stability": "seed_local_to_one_map",
+      "source_labels": [
+        "probe15"
+      ],
+      "trace_count": 3
+    }
+  ],
+  "stable_entries": [
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.843510833,
+      "avg_similarity": 0.80021625,
+      "inner_memory_state": "passive_inner_memory_stable",
+      "map_count": 4,
+      "map_labels": [
+        "basis",
+        "followup1",
+        "followup2",
+        "followup3"
+      ],
+      "memory_note": "dio_14xc:LONG: innere Lesung wiederholt sich stabil als inner_trust_seed; Konsequenzsumme=12.000000.",
+      "passive_family_action": "dio_14xc:LONG",
+      "passive_only": true,
+      "real_reward_sum": 12.0,
+      "seeds": [
+        "inner_trust_seed"
+      ],
+      "source_labels": [
+        "probe18"
+      ],
+      "trace_count": 4,
+      "transition_state": "inner_seed_repeats_stably"
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.730839667,
+      "avg_similarity": 0.737970375,
+      "inner_memory_state": "passive_inner_memory_stable",
+      "map_count": 2,
+      "map_labels": [
+        "basis",
+        "followup1"
+      ],
+      "memory_note": "dio_04zi:LONG: innere Lesung wiederholt sich stabil als inner_carefulness_seed; Konsequenzsumme=-4.000000.",
+      "passive_family_action": "dio_04zi:LONG",
+      "passive_only": true,
+      "real_reward_sum": -4.0,
+      "seeds": [
+        "inner_carefulness_seed"
+      ],
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 2,
+      "transition_state": "inner_seed_repeats_stably"
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.752622,
+      "avg_similarity": 0.762543437,
+      "inner_memory_state": "passive_inner_memory_stable",
+      "map_count": 2,
+      "map_labels": [
+        "basis",
+        "followup1"
+      ],
+      "memory_note": "dio_1qig:LONG: innere Lesung wiederholt sich stabil als inner_carefulness_seed; Konsequenzsumme=-4.000000.",
+      "passive_family_action": "dio_1qig:LONG",
+      "passive_only": true,
+      "real_reward_sum": -4.0,
+      "seeds": [
+        "inner_carefulness_seed"
+      ],
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 2,
+      "transition_state": "inner_seed_repeats_stably"
+    },
+    {
+      "actions": [
+        "LONG"
+      ],
+      "avg_mcm_similarity": 0.913190833,
+      "avg_similarity": 0.886422438,
+      "inner_memory_state": "passive_inner_memory_stable",
+      "map_count": 2,
+      "map_labels": [
+        "basis",
+        "followup1"
+      ],
+      "memory_note": "dio_1w4m:LONG: innere Lesung wiederholt sich stabil als inner_carefulness_seed; Konsequenzsumme=-4.000000.",
+      "passive_family_action": "dio_1w4m:LONG",
+      "passive_only": true,
+      "real_reward_sum": -4.0,
+      "seeds": [
+        "inner_carefulness_seed"
+      ],
+      "source_labels": [
+        "probe16"
+      ],
+      "trace_count": 2,
+      "transition_state": "inner_seed_repeats_stably"
+    }
+  ],
+  "summary": {
+    "entry_count": 8,
+    "local_entry_count": 3,
+    "reorganizing_entry_count": 1,
+    "seed_count": 3,
+    "stable_entry_count": 4
+  }
+}

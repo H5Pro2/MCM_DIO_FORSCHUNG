@@ -1,0 +1,66 @@
+{
+  "families": {
+    "dio_0szn": {
+      "executed_rows": 6,
+      "max_sensor_delta_all_phases": 1.0,
+      "max_sensor_delta_in_observation_to_action": 0.0,
+      "observed_rows": 5,
+      "phases": [
+        "sensor_relation_probe8_negativkontakt",
+        "sensor_relation_probe8_negativkontakt_repeat",
+        "sensor_relation_probe9_aehnlichkeit"
+      ],
+      "reward_sum": 4.197417
+    },
+    "dio_0wv3": {
+      "executed_rows": 17,
+      "max_sensor_delta_all_phases": 1.0,
+      "max_sensor_delta_in_observation_to_action": 0.0,
+      "observed_rows": 3,
+      "phases": [
+        "sensor_relation_probe6_variation",
+        "sensor_relation_probe7_belastung",
+        "sensor_relation_probe8_negativkontakt",
+        "sensor_relation_probe8_negativkontakt_repeat",
+        "sensor_relation_probe9_aehnlichkeit"
+      ],
+      "reward_sum": 14.018907
+    },
+    "dio_14eb": {
+      "executed_rows": 10,
+      "max_sensor_delta_all_phases": 1.0,
+      "max_sensor_delta_in_observation_to_action": 0.0,
+      "observed_rows": 2,
+      "phases": [
+        "sensor_relation_probe8_negativkontakt",
+        "sensor_relation_probe8_negativkontakt_repeat",
+        "sensor_relation_probe9_aehnlichkeit"
+      ],
+      "reward_sum": 14.113418
+    },
+    "dio_16kb": {
+      "executed_rows": 1,
+      "max_sensor_delta_all_phases": 0.597322,
+      "max_sensor_delta_in_observation_to_action": 0.0,
+      "observed_rows": 11,
+      "phases": [
+        "sensor_relation_probe8_negativkontakt",
+        "sensor_relation_probe8_negativkontakt_repeat",
+        "sensor_relation_probe9_aehnlichkeit"
+      ],
+      "reward_sum": 0.614879
+    },
+    "dio_1l2h": {
+      "executed_rows": 1,
+      "max_sensor_delta_all_phases": 0.754835,
+      "max_sensor_delta_in_observation_to_action": 0.0,
+      "observed_rows": 9,
+      "phases": [
+        "sensor_relation_probe8_negativkontakt",
+        "sensor_relation_probe8_negativkontakt_repeat",
+        "sensor_relation_probe9_aehnlichkeit"
+      ],
+      "reward_sum": 0.184471
+    }
+  }
+}

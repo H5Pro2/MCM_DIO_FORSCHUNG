@@ -1,0 +1,7 @@
+inner_state,contact_state,count,reward_sum,best_reward_sum,avg_reward,families,actions
+inner_carried,executed_positive_contact,12,11.335684,11.335684,0.94464,"dio_0120,dio_0akd,dio_0arw,dio_1u7v","LONG,SHORT"
+inner_carried,observed_potential_contact,2,0.0,2.073318,0.0,dio_0t0v,WAIT
+inner_cautious,observed_potential_contact,2,0.0,0.284966,0.0,dio_1vpi,WAIT
+inner_open_observation,observed_potential_contact,6,0.0,1.11294,0.0,"dio_02qu,dio_14xc",WAIT
+inner_unfinished,observed_potential_contact,2,0.0,1.258292,0.0,dio_00qb,WAIT
+inner_cautious,executed_negative_contact,2,-0.684966,0.284966,-0.342483,dio_1vpi,SHORT

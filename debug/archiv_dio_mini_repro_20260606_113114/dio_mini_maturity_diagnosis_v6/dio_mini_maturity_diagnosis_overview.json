@@ -1,0 +1,40 @@
+{
+  "afterimage_traces": [],
+  "class_counts": {
+    "belastete_spur": 1,
+    "beobachteter_nachhall": 5,
+    "entwickelnde_reifespur": 3,
+    "positive_einzelspur": 8,
+    "stabile_beobachtung": 55,
+    "stabile_reifespur": 4,
+    "starke_lokale_sensorikspur": 8
+  },
+  "class_reward_sum": {
+    "belastete_spur": -0.431148,
+    "beobachteter_nachhall": 0.0,
+    "entwickelnde_reifespur": 6.983014,
+    "positive_einzelspur": 10.054036,
+    "stabile_beobachtung": 0.0,
+    "stabile_reifespur": 19.480371,
+    "starke_lokale_sensorikspur": 24.482188
+  },
+  "developing_maturity": [
+    "dio_0qb3",
+    "dio_1alf",
+    "dio_01yf"
+  ],
+  "top_local_sensor": [
+    "dio_1k0r",
+    "dio_0v36",
+    "dio_1ioc",
+    "dio_121e",
+    "dio_1mx6"
+  ],
+  "top_stable_maturity": [
+    "dio_0nmi",
+    "dio_1d6j",
+    "dio_14wi",
+    "dio_0a54"
+  ],
+  "weak_recurrence": []
+}

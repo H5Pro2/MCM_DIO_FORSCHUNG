@@ -1,0 +1,13 @@
+probe,family,probe_state,timeline_state,strongest_action_trace,current_seen_count,current_executed_count,current_reward_sum,current_actions,current_states,cortex_sentence
+probe14,dio_0hd3,seen_carried,reconfirmed_with_quiet_return,SHORT,4,4,6.10438,SHORT:4,executed_aligned:4,"dio_0hd3: getragene Akte; aktuelle Welt sieht 4 Kontakte, 4 Handlungen und 0 beobachtete Potenziale."
+probe14,dio_0c6o,not_seen,mixed_reconfirmed_and_conflict,LONG,0,0,0.0,-,-,"dio_0c6o: gespeicherte Akte vorhanden, in dieser Debug-Welt nicht gesehen."
+probe14,dio_1wie,not_seen,quiet_only,SHORT,0,0,0.0,-,-,"dio_1wie: gespeicherte Akte vorhanden, in dieser Debug-Welt nicht gesehen."
+probe15,dio_0c6o,seen_carried,mixed_reconfirmed_and_conflict,LONG,4,4,4.65792,LONG:4,executed_aligned:4,"dio_0c6o: alte Akte hat Konfliktspur; aktuelle Welt sieht 4 Kontakte, 4 Handlungen, reward=4.657920."
+probe15,dio_0hd3,seen_carried,reconfirmed_with_quiet_return,SHORT,4,4,5.964512,SHORT:4,executed_aligned:4,"dio_0hd3: getragene Akte; aktuelle Welt sieht 4 Kontakte, 4 Handlungen und 0 beobachtete Potenziale."
+probe15,dio_1wie,not_seen,quiet_only,SHORT,0,0,0.0,-,-,"dio_1wie: gespeicherte Akte vorhanden, in dieser Debug-Welt nicht gesehen."
+probe16,dio_0c6o,seen_conflict,mixed_reconfirmed_and_conflict,LONG,4,4,-0.4,LONG:2|SHORT:2,executed_aligned:2|executed_misaligned:2,"dio_0c6o: alte Akte hat Konfliktspur; aktuelle Welt sieht 4 Kontakte, 4 Handlungen, reward=-0.400000."
+probe16,dio_0hd3,not_seen,reconfirmed_with_quiet_return,SHORT,0,0,0.0,-,-,"dio_0hd3: gespeicherte Akte vorhanden, in dieser Debug-Welt nicht gesehen."
+probe16,dio_1wie,not_seen,quiet_only,SHORT,0,0,0.0,-,-,"dio_1wie: gespeicherte Akte vorhanden, in dieser Debug-Welt nicht gesehen."
+probe17,dio_0c6o,not_seen,mixed_reconfirmed_and_conflict,LONG,0,0,0.0,-,-,"dio_0c6o: gespeicherte Akte vorhanden, in dieser Debug-Welt nicht gesehen."
+probe17,dio_0hd3,not_seen,reconfirmed_with_quiet_return,SHORT,0,0,0.0,-,-,"dio_0hd3: gespeicherte Akte vorhanden, in dieser Debug-Welt nicht gesehen."
+probe17,dio_1wie,not_seen,quiet_only,SHORT,0,0,0.0,-,-,"dio_1wie: gespeicherte Akte vorhanden, in dieser Debug-Welt nicht gesehen."

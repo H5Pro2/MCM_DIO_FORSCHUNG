@@ -1,0 +1,16 @@
+probe,family,probe_state,timeline_state,strongest_action_trace,current_seen_count,current_executed_count,current_reward_sum,current_actions,current_states,cortex_sentence
+probe18_first,dio_1u7v,seen_carried,-,SHORT,4,1,0.894392,SHORT:1|WAIT:3,executed_aligned:1|observed_trade_potential:3,dio_1u7v: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_first,dio_0arw,seen_carried,-,LONG,3,1,1.384854,LONG:1|WAIT:2,executed_aligned:1|observed_trade_potential:2,dio_0arw: aktuelle Welt sieht 3 Kontakte; Aktenlage bleibt offen.
+probe18_first,dio_14xc,seen_unclear,-,LONG,3,0,0.0,WAIT:3,observed_trade_potential:3,dio_14xc: aktuelle Welt sieht 3 Kontakte; Aktenlage bleibt offen.
+probe18_first,dio_1vpi,seen_conflict,-,SHORT,3,3,-1.027449,SHORT:3,executed_misaligned:3,dio_1vpi: aktuelle Welt sieht 3 Kontakte; Aktenlage bleibt offen.
+probe18_first,dio_0t0v,seen_conflict,-,LONG,1,1,-1.236659,SHORT:1,executed_misaligned:1,dio_0t0v: aktuelle Welt sieht 1 Kontakte; Aktenlage bleibt offen.
+probe18_repeat1,dio_0arw,seen_carried,-,LONG,4,4,5.539416,LONG:4,executed_aligned:4,dio_0arw: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_repeat1,dio_14xc,seen_unclear,-,LONG,4,0,0.0,WAIT:4,observed_trade_potential:4,dio_14xc: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_repeat1,dio_1u7v,seen_carried,-,SHORT,4,4,3.577568,SHORT:4,executed_aligned:4,dio_1u7v: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_repeat1,dio_1vpi,seen_conflict,-,SHORT,4,2,-0.684966,SHORT:2|WAIT:2,executed_misaligned:2|observed_trade_potential:2,dio_1vpi: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_repeat1,dio_0t0v,seen_unclear,-,LONG,2,0,0.0,WAIT:2,observed_trade_potential:2,dio_0t0v: aktuelle Welt sieht 2 Kontakte; Aktenlage bleibt offen.
+probe18_repeat2,dio_0arw,seen_carried,-,LONG,4,4,5.539416,LONG:4,executed_aligned:4,dio_0arw: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_repeat2,dio_0t0v,seen_carried,-,LONG,4,4,4.146636,LONG:4,executed_aligned:4,dio_0t0v: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_repeat2,dio_14xc,seen_unclear,-,LONG,4,0,0.0,WAIT:4,observed_trade_potential:4,dio_14xc: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_repeat2,dio_1u7v,seen_carried,-,SHORT,4,4,3.577568,SHORT:4,executed_aligned:4,dio_1u7v: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.
+probe18_repeat2,dio_1vpi,seen_unclear,-,SHORT,4,0,0.0,WAIT:4,observed_trade_potential:4,dio_1vpi: aktuelle Welt sieht 4 Kontakte; Aktenlage bleibt offen.

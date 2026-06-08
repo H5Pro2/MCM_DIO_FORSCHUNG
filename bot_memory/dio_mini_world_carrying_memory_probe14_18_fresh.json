@@ -1,0 +1,367 @@
+{
+  "schema": "dio_mini_passive_world_carrying_memory.v1",
+  "source_reports": [
+    {
+      "source_label": "probe17_probe18_conflict16",
+      "source_report": "debug\\dio_mini_passive_world_carrying_map_probe17_probe18_conflict16\\passive_world_carrying_map.json",
+      "stored_utc_ms": 1780661152942
+    },
+    {
+      "source_label": "probe14_15_fresh",
+      "source_report": "debug\\dio_mini_passive_world_carrying_map_probe14_15_fresh\\passive_world_carrying_map.json",
+      "stored_utc_ms": 1780681685047
+    }
+  ],
+  "worlds": {
+    "conflict16": {
+      "best_max_carried_cos": 0.794854,
+      "best_max_carry": 0.260199,
+      "last": {
+        "avg_carried_cos": -0.041084,
+        "avg_carry": 0.1344,
+        "avg_inner_balance": 0.064161,
+        "avg_readiness": 0.015053,
+        "avg_temporal_caution": 0.72,
+        "avg_temporal_trust": 0.03583,
+        "carry_signal_family_count": 17,
+        "families": 17,
+        "max_carried_cos": 0.794854,
+        "max_carry": 0.260199,
+        "positive_carried_cos_family_count": 7,
+        "strongest_families": [
+          {
+            "carried_cos": 0.794854,
+            "carried_source": "dio_16in",
+            "carry": 0.260199,
+            "nearest_source": "dio_02jf",
+            "readiness": 0.022254,
+            "target_family": "dio_0cgn"
+          },
+          {
+            "carried_cos": 0.772469,
+            "carried_source": "dio_16in",
+            "carry": 0.249606,
+            "nearest_source": "dio_15vo",
+            "readiness": 0.016614,
+            "target_family": "dio_1k0r"
+          },
+          {
+            "carried_cos": 0.55108,
+            "carried_source": "dio_16in",
+            "carry": 0.217393,
+            "nearest_source": "dio_17y4",
+            "readiness": 0.016721,
+            "target_family": "dio_10kx"
+          },
+          {
+            "carried_cos": 0.438262,
+            "carried_source": "dio_16in",
+            "carry": 0.203678,
+            "nearest_source": "dio_0o8k",
+            "readiness": 0.024936,
+            "target_family": "dio_1vjg"
+          },
+          {
+            "carried_cos": 0.30097,
+            "carried_source": "dio_16in",
+            "carry": 0.182286,
+            "nearest_source": "dio_0cz8",
+            "readiness": 0.026458,
+            "target_family": "dio_1qig"
+          }
+        ],
+        "world": "conflict16"
+      },
+      "last_updated_utc_ms": 1780661152942,
+      "mean_avg_carried_cos": -0.041084,
+      "mean_avg_carry": 0.1344,
+      "mean_avg_inner_balance": 0.064161,
+      "mean_avg_readiness": 0.015053,
+      "mean_avg_temporal_caution": 0.72,
+      "mean_avg_temporal_trust": 0.03583,
+      "mean_max_carried_cos": 0.794854,
+      "mean_max_carry": 0.260199,
+      "observations": 1
+    },
+    "probe14": {
+      "best_max_carried_cos": 0.994181,
+      "best_max_carry": 0.279407,
+      "last": {
+        "avg_carried_cos": 0.55485,
+        "avg_carry": 0.21717,
+        "avg_inner_balance": 0.060602,
+        "avg_readiness": 0.006366,
+        "avg_temporal_caution": 0.72,
+        "avg_temporal_trust": 0.0,
+        "carry_signal_family_count": 18,
+        "families": 18,
+        "max_carried_cos": 0.994181,
+        "max_carry": 0.279407,
+        "positive_carried_cos_family_count": 15,
+        "strongest_families": [
+          {
+            "carried_cos": 0.994181,
+            "carried_source": "dio_1vpi",
+            "carry": 0.279407,
+            "nearest_source": "dio_143d",
+            "readiness": 0.008923,
+            "target_family": "dio_0hd3"
+          },
+          {
+            "carried_cos": 0.977842,
+            "carried_source": "dio_0ems",
+            "carry": 0.276104,
+            "nearest_source": "dio_0ems",
+            "readiness": 0.002104,
+            "target_family": "dio_1pfo"
+          },
+          {
+            "carried_cos": 0.976263,
+            "carried_source": "dio_0ems",
+            "carry": 0.275567,
+            "nearest_source": "dio_0ems",
+            "readiness": 0.010072,
+            "target_family": "dio_0989"
+          },
+          {
+            "carried_cos": 0.970831,
+            "carried_source": "dio_1vpi",
+            "carry": 0.275203,
+            "nearest_source": "dio_1qwp",
+            "readiness": 0.008657,
+            "target_family": "dio_0b66"
+          },
+          {
+            "carried_cos": 0.898697,
+            "carried_source": "dio_1vpi",
+            "carry": 0.27369,
+            "nearest_source": "dio_1txv",
+            "readiness": 0.009208,
+            "target_family": "dio_0qze"
+          }
+        ],
+        "world": "probe14"
+      },
+      "last_updated_utc_ms": 1780681685047,
+      "mean_avg_carried_cos": 0.55485,
+      "mean_avg_carry": 0.21717,
+      "mean_avg_inner_balance": 0.060602,
+      "mean_avg_readiness": 0.006366,
+      "mean_avg_temporal_caution": 0.72,
+      "mean_avg_temporal_trust": 0.0,
+      "mean_max_carried_cos": 0.994181,
+      "mean_max_carry": 0.279407,
+      "observations": 1
+    },
+    "probe15": {
+      "best_max_carried_cos": 0.994597,
+      "best_max_carry": 0.280327,
+      "last": {
+        "avg_carried_cos": 0.550591,
+        "avg_carry": 0.216732,
+        "avg_inner_balance": 0.062851,
+        "avg_readiness": 0.013358,
+        "avg_temporal_caution": 0.72,
+        "avg_temporal_trust": 0.0,
+        "carry_signal_family_count": 18,
+        "families": 18,
+        "max_carried_cos": 0.994597,
+        "max_carry": 0.280327,
+        "positive_carried_cos_family_count": 15,
+        "strongest_families": [
+          {
+            "carried_cos": 0.994597,
+            "carried_source": "dio_1vpi",
+            "carry": 0.280327,
+            "nearest_source": "dio_143d",
+            "readiness": 0.026078,
+            "target_family": "dio_0hd3"
+          },
+          {
+            "carried_cos": 0.975771,
+            "carried_source": "dio_0ems",
+            "carry": 0.275958,
+            "nearest_source": "dio_0ems",
+            "readiness": 0.003095,
+            "target_family": "dio_1pfo"
+          },
+          {
+            "carried_cos": 0.97734,
+            "carried_source": "dio_0ems",
+            "carry": 0.275835,
+            "nearest_source": "dio_0ems",
+            "readiness": 0.009917,
+            "target_family": "dio_1mx2"
+          },
+          {
+            "carried_cos": 0.966349,
+            "carried_source": "dio_1vpi",
+            "carry": 0.274756,
+            "nearest_source": "dio_01vz",
+            "readiness": 0.008513,
+            "target_family": "dio_0u1i"
+          },
+          {
+            "carried_cos": 0.938757,
+            "carried_source": "dio_1vpi",
+            "carry": 0.270806,
+            "nearest_source": "dio_01vz",
+            "readiness": 0.009485,
+            "target_family": "dio_199c"
+          }
+        ],
+        "world": "probe15"
+      },
+      "last_updated_utc_ms": 1780681685047,
+      "mean_avg_carried_cos": 0.550591,
+      "mean_avg_carry": 0.216732,
+      "mean_avg_inner_balance": 0.062851,
+      "mean_avg_readiness": 0.013358,
+      "mean_avg_temporal_caution": 0.72,
+      "mean_avg_temporal_trust": 0.0,
+      "mean_max_carried_cos": 0.994597,
+      "mean_max_carry": 0.280327,
+      "observations": 1
+    },
+    "probe17": {
+      "best_max_carried_cos": 0.995038,
+      "best_max_carry": 0.280315,
+      "last": {
+        "avg_carried_cos": 0.27429,
+        "avg_carry": 0.178789,
+        "avg_inner_balance": 0.071634,
+        "avg_readiness": 0.021341,
+        "avg_temporal_caution": 0.72,
+        "avg_temporal_trust": 0.0,
+        "carry_signal_family_count": 18,
+        "families": 18,
+        "max_carried_cos": 0.995038,
+        "max_carry": 0.280315,
+        "positive_carried_cos_family_count": 11,
+        "strongest_families": [
+          {
+            "carried_cos": 0.991124,
+            "carried_source": "dio_16in",
+            "carry": 0.280315,
+            "nearest_source": "dio_0jso",
+            "readiness": 0.025941,
+            "target_family": "dio_040y"
+          },
+          {
+            "carried_cos": 0.979363,
+            "carried_source": "dio_16in",
+            "carry": 0.279846,
+            "nearest_source": "dio_0jso",
+            "readiness": 0.05811,
+            "target_family": "dio_0120"
+          },
+          {
+            "carried_cos": 0.995038,
+            "carried_source": "dio_16in",
+            "carry": 0.279324,
+            "nearest_source": "dio_13st",
+            "readiness": 0.026473,
+            "target_family": "dio_1f9y"
+          },
+          {
+            "carried_cos": 0.973807,
+            "carried_source": "dio_16in",
+            "carry": 0.276996,
+            "nearest_source": "dio_1bgr",
+            "readiness": 0.018962,
+            "target_family": "dio_14xc"
+          },
+          {
+            "carried_cos": 0.963985,
+            "carried_source": "dio_16in",
+            "carry": 0.276212,
+            "nearest_source": "dio_1bgr",
+            "readiness": 0.025625,
+            "target_family": "dio_1mym"
+          }
+        ],
+        "world": "probe17"
+      },
+      "last_updated_utc_ms": 1780661152942,
+      "mean_avg_carried_cos": 0.27429,
+      "mean_avg_carry": 0.178789,
+      "mean_avg_inner_balance": 0.071634,
+      "mean_avg_readiness": 0.021341,
+      "mean_avg_temporal_caution": 0.72,
+      "mean_avg_temporal_trust": 0.0,
+      "mean_max_carried_cos": 0.995038,
+      "mean_max_carry": 0.280315,
+      "observations": 1
+    },
+    "probe18": {
+      "best_max_carried_cos": 0.99571,
+      "best_max_carry": 0.280197,
+      "last": {
+        "avg_carried_cos": 0.269927,
+        "avg_carry": 0.178385,
+        "avg_inner_balance": 0.075426,
+        "avg_readiness": 0.016962,
+        "avg_temporal_caution": 0.72,
+        "avg_temporal_trust": 0.0,
+        "carry_signal_family_count": 18,
+        "families": 18,
+        "max_carried_cos": 0.99571,
+        "max_carry": 0.280197,
+        "positive_carried_cos_family_count": 11,
+        "strongest_families": [
+          {
+            "carried_cos": 0.984653,
+            "carried_source": "dio_16in",
+            "carry": 0.280197,
+            "nearest_source": "dio_0jso",
+            "readiness": 0.025639,
+            "target_family": "dio_0igh"
+          },
+          {
+            "carried_cos": 0.99571,
+            "carried_source": "dio_16in",
+            "carry": 0.279482,
+            "nearest_source": "dio_0jso",
+            "readiness": 0.026272,
+            "target_family": "dio_1qwp"
+          },
+          {
+            "carried_cos": 0.975866,
+            "carried_source": "dio_16in",
+            "carry": 0.279108,
+            "nearest_source": "dio_0jso",
+            "readiness": 0.024947,
+            "target_family": "dio_0120"
+          },
+          {
+            "carried_cos": 0.970479,
+            "carried_source": "dio_16in",
+            "carry": 0.277654,
+            "nearest_source": "dio_1bgr",
+            "readiness": 0.025674,
+            "target_family": "dio_1vpi"
+          },
+          {
+            "carried_cos": 0.967655,
+            "carried_source": "dio_16in",
+            "carry": 0.276385,
+            "nearest_source": "dio_1bgr",
+            "readiness": 0.008367,
+            "target_family": "dio_14xc"
+          }
+        ],
+        "world": "probe18"
+      },
+      "last_updated_utc_ms": 1780661152942,
+      "mean_avg_carried_cos": 0.269927,
+      "mean_avg_carry": 0.178385,
+      "mean_avg_inner_balance": 0.075426,
+      "mean_avg_readiness": 0.016962,
+      "mean_avg_temporal_caution": 0.72,
+      "mean_avg_temporal_trust": 0.0,
+      "mean_max_carried_cos": 0.99571,
+      "mean_max_carry": 0.280197,
+      "observations": 1
+    }
+  }
+}

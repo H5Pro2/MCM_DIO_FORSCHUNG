@@ -1,0 +1,493 @@
+{
+  "actionable_seen": 8,
+  "avg_reward": 0.2559939659342278,
+  "candles": 22,
+  "correct_action_when_actionable": 2,
+  "data_path": "data\\kontrolliert_rauschen_2episoden_5m_SOLUSDT.csv",
+  "episodes": 8,
+  "family_top": [
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 1.6378517478778143,
+          "reward_sum": 9.990895662054667,
+          "trust": 0.9324530058090681
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 2,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "family": "dio_1r0h"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.11395351218513186,
+          "reward_sum": 0.7976745852959229,
+          "trust": 0.05038493271369626
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "family": "dio_1mml"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.09499659098656532,
+          "reward_sum": 0.6649761369059572,
+          "trust": 0.04200306557565782
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "family": "dio_1v23"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.010543071161048957,
+          "reward_sum": 0.07380149812734269,
+          "trust": 0.004661654747263448
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "family": "dio_0qb3"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.08562180404990662,
+          "reward_sum": 0.5993526283493463,
+          "trust": 0.03785797166893034
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "family": "dio_01nf"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.05731366142536673,
+          "reward_sum": 0.4011956299775672,
+          "trust": 0.02534143019480755
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "family": "dio_0nmi"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.4100999795960081,
+          "reward_sum": 1.9479749030810385,
+          "trust": 0.16366221511600695
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 5,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "family": "dio_1vb3"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 5,
+          "last_reward": 0.8174311926605612,
+          "reward_sum": 2.9836238532110486,
+          "trust": 0.28644856712455424
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 3,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 5,
+      "family": "dio_0f4h"
+    }
+  ],
+  "long_trades": 1,
+  "memory_top": [
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 1.6378517478778143,
+          "reward_sum": 9.990895662054667,
+          "trust": 1.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 2,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "symbol": "dio_1r0hda7",
+      "syntax_family": "dio_1r0h"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.11395351218513186,
+          "reward_sum": 0.7976745852959229,
+          "trust": 0.05944990056287106
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "symbol": "dio_1mml4kx",
+      "syntax_family": "dio_1mml"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.09499659098656532,
+          "reward_sum": 0.6649761369059572,
+          "trust": 0.049560016007123196
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "symbol": "dio_1v23ekc",
+      "syntax_family": "dio_1v23"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.010543071161048957,
+          "reward_sum": 0.07380149812734269,
+          "trust": 0.005500352908239841
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "symbol": "dio_0qb31rn",
+      "syntax_family": "dio_0qb3"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.08562180404990662,
+          "reward_sum": 0.5993526283493463,
+          "trust": 0.044669160600428845
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "symbol": "dio_01nfcv4",
+      "syntax_family": "dio_01nf"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.05731366142536673,
+          "reward_sum": 0.4011956299775672,
+          "trust": 0.02990071483796425
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "symbol": "dio_0nmiyar",
+      "syntax_family": "dio_0nmi"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 7,
+          "last_reward": 0.4100999795960081,
+          "reward_sum": 1.9479749030810385,
+          "trust": 0.19645633988638994
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 5,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 7,
+      "symbol": "dio_1vb3v1l",
+      "syntax_family": "dio_1vb3"
+    },
+    {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 5,
+          "last_reward": 0.8174311926605612,
+          "reward_sum": 2.9836238532110486,
+          "trust": 0.34971441011009635
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 3,
+          "last_reward": 0.0,
+          "reward_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 5,
+      "symbol": "dio_0f4h622",
+      "syntax_family": "dio_0f4h"
+    }
+  ],
+  "run": 7,
+  "short_trades": 1,
+  "top_symbols": [
+    {
+      "count": 1,
+      "symbol": "dio_1r0hda7"
+    },
+    {
+      "count": 1,
+      "symbol": "dio_1mml4kx"
+    },
+    {
+      "count": 1,
+      "symbol": "dio_1v23ekc"
+    },
+    {
+      "count": 1,
+      "symbol": "dio_0qb31rn"
+    },
+    {
+      "count": 1,
+      "symbol": "dio_01nfcv4"
+    },
+    {
+      "count": 1,
+      "symbol": "dio_0nmiyar"
+    },
+    {
+      "count": 1,
+      "symbol": "dio_1vb3v1l"
+    },
+    {
+      "count": 1,
+      "symbol": "dio_1rkaw11"
+    }
+  ],
+  "total_reward": 2.0479517274738224,
+  "trades": 2,
+  "unique_symbols": 8,
+  "waits": 6
+}

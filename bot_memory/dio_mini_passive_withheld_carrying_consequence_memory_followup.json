@@ -1,0 +1,21 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_future_teacher": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "passive_only": true,
+    "read_by_mini_dio": false
+  },
+  "created_utc_ms": 1780686185889,
+  "entries": [],
+  "schema": "dio_mini_passive_withheld_carrying_consequence_memory.v1",
+  "source_report": "debug\\dio_mini_passive_unconfirmed_consequence_followup\\passive_unconfirmed_consequence.csv",
+  "summary": {
+    "avg_best_reward": 0.0,
+    "avg_reflection_carry": 0.0,
+    "avg_world_carry": 0.0,
+    "direction_counts": {},
+    "entry_count": 0
+  }
+}

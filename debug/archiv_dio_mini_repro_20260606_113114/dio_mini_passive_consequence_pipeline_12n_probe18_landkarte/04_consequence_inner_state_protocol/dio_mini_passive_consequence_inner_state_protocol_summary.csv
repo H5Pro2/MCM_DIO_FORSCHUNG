@@ -1,0 +1,5 @@
+inner_state,contact_state,count,reward_sum,event_reward_sum,avg_reward,families,actions,outcome_events
+inner_consequence_carried,real_contact_carried,10,10.0,10.0,1.0,"dio_02qu,dio_0arw,dio_0x1o,dio_16yc,dio_1txv,dio_1vpi","LONG,SHORT",TP
+inner_consequence_burdened,real_contact_burdened,1,-1.0,-1.0,-1.0,dio_0fiy,LONG,SL
+inner_consequence_quiet,held_impulse_without_action,1,0.0,0.0,0.0,dio_14xc,WAIT,NO_TRADE
+inner_consequence_quiet,observed_without_action,7,0.0,0.0,0.0,"dio_0igh,dio_143d,dio_16yc,dio_1g2t,dio_1qwp,dio_1txv",WAIT,NO_TRADE

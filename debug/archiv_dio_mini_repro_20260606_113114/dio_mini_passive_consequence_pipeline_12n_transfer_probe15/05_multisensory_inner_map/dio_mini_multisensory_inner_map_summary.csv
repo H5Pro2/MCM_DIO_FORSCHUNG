@@ -1,0 +1,6 @@
+binding_state,inner_state,contact_state,action,count,reward_sum,event_reward_sum,avg_reward,families,sight_states,hearing_states,feeling_states
+multisensory_carried_contact,inner_consequence_carried,real_contact_carried,LONG,1,1.0,1.0,1.0,dio_0cgn,sehen_stabile_form,hoeren_mittlere_spannung,fuehlen_koharent_ruhig
+multisensory_carried_contact,inner_consequence_carried,real_contact_carried,SHORT,4,4.0,4.0,1.0,"dio_0hd3,dio_1g18","sehen_geformte_bewegung,sehen_stabile_form","hoeren_dunkle_spannung,hoeren_mittlere_spannung","fuehlen_inkoharent,fuehlen_koharent_gespannt"
+multisensory_conflicted_burden,inner_consequence_conflicted,real_contact_burdened,SHORT,2,-2.0,-2.0,-1.0,dio_0x52,sehen_stabile_form,hoeren_helle_spannung,fuehlen_koharent_ruhig
+multisensory_quiet_hold,inner_consequence_quiet,held_impulse_without_action,WAIT,1,0.0,0.0,0.0,dio_15ms,sehen_teilform,hoeren_leise,fuehlen_offen
+multisensory_quiet_observation,inner_consequence_quiet,observed_without_action,WAIT,18,0.0,0.0,0.0,"dio_07rf,dio_0cgn,dio_0gmg,dio_0izw,dio_15ms,dio_173s,dio_1mn2,dio_1mx2,dio_1pfo","sehen_bewegte_form,sehen_geformte_bewegung,sehen_stabile_form,sehen_teilform","hoeren_dunkle_spannung,hoeren_helle_spannung,hoeren_leise,hoeren_mittlere_spannung","fuehlen_hohe_spannung,fuehlen_inkoharent,fuehlen_koharent_gespannt,fuehlen_koharent_ruhig,fuehlen_offen"

@@ -1,0 +1,34 @@
+{
+  "class_counts": {
+    "direct_burdened_action": 1,
+    "direct_positive_action": 1,
+    "held_observation": 11,
+    "observation_to_positive_action": 2,
+    "quiet_family": 1
+  },
+  "class_reward_sum": {
+    "direct_burdened_action": -3.72668,
+    "direct_positive_action": 0.536005,
+    "held_observation": 0.0,
+    "observation_to_positive_action": 1.610804,
+    "quiet_family": 0.0
+  },
+  "debug_root": "debug\\dio_mini_sensor_relation_probe11_konfliktkontakt",
+  "held_observation": [
+    "dio_1p8p",
+    "dio_1lwc",
+    "dio_02az",
+    "dio_0aib",
+    "dio_1qyj",
+    "dio_1985",
+    "dio_18j3",
+    "dio_1qcm"
+  ],
+  "top_direct_action": [
+    "dio_19i4"
+  ],
+  "top_observation_to_action": [
+    "dio_0eji",
+    "dio_124d"
+  ]
+}

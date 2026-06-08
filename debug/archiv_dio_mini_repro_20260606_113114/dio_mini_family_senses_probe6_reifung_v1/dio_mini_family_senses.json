@@ -1,0 +1,230 @@
+[
+  {
+    "classification": "held_observation",
+    "executed": {
+      "fuehlen_mcm_asymmetry": 0.0,
+      "fuehlen_mcm_coherence": 0.0,
+      "fuehlen_mcm_tension": 0.0,
+      "hoeren_energy_shift": 0.0,
+      "hoeren_energy_tone": 0.0,
+      "sehen_form_change": 0.0,
+      "sehen_form_flow": 0.0,
+      "sehen_form_stability": 0.0
+    },
+    "executed_minus_observed": {
+      "fuehlen_mcm_asymmetry": 0.075984,
+      "fuehlen_mcm_coherence": 0.233202,
+      "fuehlen_mcm_tension": -0.126142,
+      "hoeren_energy_shift": -0.126904,
+      "hoeren_energy_tone": 0.11858,
+      "sehen_form_change": 0.448124,
+      "sehen_form_flow": -0.011045,
+      "sehen_form_stability": 1.0
+    },
+    "executed_rows": 0,
+    "family": "dio_01nr",
+    "observed": {
+      "fuehlen_mcm_asymmetry": -0.075984,
+      "fuehlen_mcm_coherence": -0.233202,
+      "fuehlen_mcm_tension": 0.126142,
+      "hoeren_energy_shift": 0.126904,
+      "hoeren_energy_tone": -0.11858,
+      "sehen_form_change": -0.448124,
+      "sehen_form_flow": 0.011045,
+      "sehen_form_stability": -1.0
+    },
+    "observed_rows": 2,
+    "phase": "sensor_relation_probe2",
+    "reward_sum": 0.0
+  },
+  {
+    "classification": "observation_to_positive_action",
+    "executed": {
+      "fuehlen_mcm_asymmetry": -0.093245,
+      "fuehlen_mcm_coherence": -0.229932,
+      "fuehlen_mcm_tension": 0.125974,
+      "hoeren_energy_shift": 0.076142,
+      "hoeren_energy_tone": -0.1069,
+      "sehen_form_change": -0.47774,
+      "sehen_form_flow": 0.011043,
+      "sehen_form_stability": -1.0
+    },
+    "executed_minus_observed": {
+      "fuehlen_mcm_asymmetry": 0.0,
+      "fuehlen_mcm_coherence": 0.0,
+      "fuehlen_mcm_tension": 0.0,
+      "hoeren_energy_shift": 0.0,
+      "hoeren_energy_tone": 0.0,
+      "sehen_form_change": 0.0,
+      "sehen_form_flow": 0.0,
+      "sehen_form_stability": 0.0
+    },
+    "executed_rows": 1,
+    "family": "dio_01nr",
+    "observed": {
+      "fuehlen_mcm_asymmetry": -0.093245,
+      "fuehlen_mcm_coherence": -0.229932,
+      "fuehlen_mcm_tension": 0.125974,
+      "hoeren_energy_shift": 0.076142,
+      "hoeren_energy_tone": -0.1069,
+      "sehen_form_change": -0.47774,
+      "sehen_form_flow": 0.011043,
+      "sehen_form_stability": -1.0
+    },
+    "observed_rows": 1,
+    "phase": "sensor_relation_probe6_variation",
+    "reward_sum": 1.340779
+  },
+  {
+    "classification": "observation_to_positive_action",
+    "executed": {
+      "fuehlen_mcm_asymmetry": -0.227066,
+      "fuehlen_mcm_coherence": 0.354733,
+      "fuehlen_mcm_tension": 0.416537,
+      "hoeren_energy_shift": -0.246914,
+      "hoeren_energy_tone": -0.161668,
+      "sehen_form_change": 0.633451,
+      "sehen_form_flow": -0.588771,
+      "sehen_form_stability": 0.0
+    },
+    "executed_minus_observed": {
+      "fuehlen_mcm_asymmetry": 0.0,
+      "fuehlen_mcm_coherence": 0.0,
+      "fuehlen_mcm_tension": 0.0,
+      "hoeren_energy_shift": 0.0,
+      "hoeren_energy_tone": 0.0,
+      "sehen_form_change": 0.0,
+      "sehen_form_flow": 0.0,
+      "sehen_form_stability": 0.0
+    },
+    "executed_rows": 1,
+    "family": "dio_07wx",
+    "observed": {
+      "fuehlen_mcm_asymmetry": -0.227066,
+      "fuehlen_mcm_coherence": 0.354733,
+      "fuehlen_mcm_tension": 0.416537,
+      "hoeren_energy_shift": -0.246914,
+      "hoeren_energy_tone": -0.161668,
+      "sehen_form_change": 0.633451,
+      "sehen_form_flow": -0.588771,
+      "sehen_form_stability": 0.0
+    },
+    "observed_rows": 3,
+    "phase": "sensor_relation_probe6_variation",
+    "reward_sum": 0.758933
+  },
+  {
+    "classification": "observation_to_positive_action",
+    "executed": {
+      "fuehlen_mcm_asymmetry": 0.113709,
+      "fuehlen_mcm_coherence": 0.981558,
+      "fuehlen_mcm_tension": 0.076947,
+      "hoeren_energy_shift": 0.222222,
+      "hoeren_energy_tone": 0.065864,
+      "sehen_form_change": 0.1332,
+      "sehen_form_flow": 0.0666,
+      "sehen_form_stability": 1.0
+    },
+    "executed_minus_observed": {
+      "fuehlen_mcm_asymmetry": 0.0,
+      "fuehlen_mcm_coherence": 0.0,
+      "fuehlen_mcm_tension": 0.0,
+      "hoeren_energy_shift": 0.0,
+      "hoeren_energy_tone": 0.0,
+      "sehen_form_change": 0.0,
+      "sehen_form_flow": 0.0,
+      "sehen_form_stability": 0.0
+    },
+    "executed_rows": 1,
+    "family": "dio_0wv3",
+    "observed": {
+      "fuehlen_mcm_asymmetry": 0.113709,
+      "fuehlen_mcm_coherence": 0.981558,
+      "fuehlen_mcm_tension": 0.076947,
+      "hoeren_energy_shift": 0.222222,
+      "hoeren_energy_tone": 0.065864,
+      "sehen_form_change": 0.1332,
+      "sehen_form_flow": 0.0666,
+      "sehen_form_stability": 1.0
+    },
+    "observed_rows": 3,
+    "phase": "sensor_relation_probe6_variation",
+    "reward_sum": 0.947695
+  },
+  {
+    "classification": "direct_positive_action",
+    "executed": {
+      "fuehlen_mcm_asymmetry": 0.186075,
+      "fuehlen_mcm_coherence": 0.379002,
+      "fuehlen_mcm_tension": 0.157886,
+      "hoeren_energy_shift": 0.064935,
+      "hoeren_energy_tone": -0.074994,
+      "sehen_form_change": 0.171367,
+      "sehen_form_flow": 0.235643,
+      "sehen_form_stability": 0.0
+    },
+    "executed_minus_observed": {
+      "fuehlen_mcm_asymmetry": 0.186075,
+      "fuehlen_mcm_coherence": 0.379002,
+      "fuehlen_mcm_tension": 0.157886,
+      "hoeren_energy_shift": 0.064935,
+      "hoeren_energy_tone": -0.074994,
+      "sehen_form_change": 0.171367,
+      "sehen_form_flow": 0.235643,
+      "sehen_form_stability": 0.0
+    },
+    "executed_rows": 3,
+    "family": "dio_1nlc",
+    "observed": {
+      "fuehlen_mcm_asymmetry": 0.0,
+      "fuehlen_mcm_coherence": 0.0,
+      "fuehlen_mcm_tension": 0.0,
+      "hoeren_energy_shift": 0.0,
+      "hoeren_energy_tone": 0.0,
+      "sehen_form_change": 0.0,
+      "sehen_form_flow": 0.0,
+      "sehen_form_stability": 0.0
+    },
+    "observed_rows": 0,
+    "phase": "sensor_relation_probe6_variation",
+    "reward_sum": 2.666613
+  },
+  {
+    "classification": "observation_to_positive_action",
+    "executed": {
+      "fuehlen_mcm_asymmetry": 0.351742,
+      "fuehlen_mcm_coherence": 0.998272,
+      "fuehlen_mcm_tension": 0.331074,
+      "hoeren_energy_shift": -0.075758,
+      "hoeren_energy_tone": 0.006172,
+      "sehen_form_change": -0.156798,
+      "sehen_form_flow": 0.722367,
+      "sehen_form_stability": 1.0
+    },
+    "executed_minus_observed": {
+      "fuehlen_mcm_asymmetry": 0.0,
+      "fuehlen_mcm_coherence": 0.0,
+      "fuehlen_mcm_tension": 0.0,
+      "hoeren_energy_shift": 0.0,
+      "hoeren_energy_tone": 0.0,
+      "sehen_form_change": 0.0,
+      "sehen_form_flow": 0.0,
+      "sehen_form_stability": 0.0
+    },
+    "executed_rows": 2,
+    "family": "dio_1vpi",
+    "observed": {
+      "fuehlen_mcm_asymmetry": 0.351742,
+      "fuehlen_mcm_coherence": 0.998272,
+      "fuehlen_mcm_tension": 0.331074,
+      "hoeren_energy_shift": -0.075758,
+      "hoeren_energy_tone": 0.006172,
+      "sehen_form_change": -0.156798,
+      "sehen_form_flow": 0.722367,
+      "sehen_form_stability": 1.0
+    },
+    "observed_rows": 2,
+    "phase": "sensor_relation_probe6_variation",
+    "reward_sum": 2.597526
+  }
+]

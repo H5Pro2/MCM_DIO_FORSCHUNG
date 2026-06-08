@@ -1,0 +1,6 @@
+symbol_family,action,outcome_event,event_count,event_reward_sum,event_avg_reward,memory_family_count,memory_action_count,memory_reward_sum,memory_avg_reward,memory_trust,memory_caution,memory_trust_minus_caution,memory_last_reward,memory_timing_improvement_sum,consequence_effect,passive_only
+dio_14xc,WAIT,NO_TRADE,3,0.0,0.0,25,25,0.0,0.0,0.0,0.0,0.0,0.0,0.0,no_trade_or_observation,1
+dio_02qu,LONG,TP,3,3.0,1.0,9,9,5.010461,0.556718,0.490679,0.0,0.490679,1.0,0.008511,tp_trust_visible,1
+dio_0arw,LONG,TP,3,3.0,1.0,17,17,19.98703,1.175708,1.0,0.0,1.0,1.0,0.029697,tp_trust_visible,1
+dio_1u7v,SHORT,TP,3,3.0,1.0,18,18,15.525278,0.862515,0.875496,0.0,0.875496,1.0,0.011737,tp_trust_visible,1
+dio_1vpi,SHORT,TP,3,3.0,1.0,21,15,7.413749,0.49425,0.590538,0.083972,0.506566,1.0,0.048947,tp_trust_visible,1

@@ -1,0 +1,36 @@
+{
+  "burden_traces": [],
+  "bytes": 713796,
+  "class_counts": {
+    "executed_positive_trace": 181,
+    "repeated_quiet_trace": 3
+  },
+  "class_reward_sum": {
+    "executed_positive_trace": 370.496963,
+    "repeated_quiet_trace": 0.0
+  },
+  "compact_candidate_count": 0,
+  "families": 184,
+  "memory": "bot_memory\\dio_mini_sensor_relation_probe4_memory.json",
+  "new_class_counts": {
+    "executed_positive_trace": 15
+  },
+  "new_families_since_previous": 15,
+  "previous_memory": "bot_memory\\dio_mini_sensor_relation_probe3_memory.json",
+  "relations": 44,
+  "sensor_relations": 64,
+  "symbols": 184,
+  "top_executed_positive": [
+    "dio_1lam",
+    "dio_0byw",
+    "dio_0t45",
+    "dio_0n4c",
+    "dio_0nmi",
+    "dio_1ytj",
+    "dio_1cpq",
+    "dio_1d6j",
+    "dio_1k0r",
+    "dio_1iuo"
+  ],
+  "top_observed_positive": []
+}

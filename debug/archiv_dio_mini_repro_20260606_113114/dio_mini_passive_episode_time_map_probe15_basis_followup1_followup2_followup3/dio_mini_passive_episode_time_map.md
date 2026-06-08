@@ -1,0 +1,111 @@
+# DIO Mini Passive Episode Time Map
+
+## Grenze
+- passiv
+- kein Memory-Schreiben
+- keine Motorik
+- kein Gate
+
+## Quellen
+- basis: debug\dio_mini_12n_no_future_teacher_probe15
+- followup1: debug\dio_mini_12n_inner_map_followup_probe15
+- followup2: debug\dio_mini_12n_inner_map_followup2_probe15
+- followup3: debug\dio_mini_12n_inner_map_followup3_probe15
+
+## Zusammenfassung
+- dio_1g18:SHORT: fresh_recurrent_episode_trace; Quellen=basis,followup1,followup2,followup3; Episoden=12; Outcome=TP:12; RewardSumme=12.000000.
+- dio_0cgn:WAIT: fresh_recurrent_episode_trace; Quellen=basis,followup1,followup2,followup3; Episoden=12; Outcome=NO_TRADE:12; RewardSumme=0.000000.
+- dio_0gmg:WAIT: fresh_recurrent_episode_trace; Quellen=basis,followup1,followup2,followup3; Episoden=12; Outcome=NO_TRADE:12; RewardSumme=0.000000.
+- dio_173s:WAIT: fresh_recurrent_episode_trace; Quellen=basis,followup1,followup2,followup3; Episoden=12; Outcome=NO_TRADE:12; RewardSumme=0.000000.
+- dio_1mx2:WAIT: fresh_recurrent_episode_trace; Quellen=basis,followup1,followup2,followup3; Episoden=12; Outcome=NO_TRADE:12; RewardSumme=0.000000.
+- dio_1pfo:WAIT: fresh_recurrent_episode_trace; Quellen=basis,followup1,followup2,followup3; Episoden=12; Outcome=NO_TRADE:12; RewardSumme=0.000000.
+- dio_0u1i:SHORT: fresh_recurrent_episode_trace; Quellen=followup1,followup2,followup3; Episoden=9; Outcome=TP:9; RewardSumme=9.000000.
+- dio_0x52:WAIT: fresh_recurrent_episode_trace; Quellen=followup1,followup2,followup3; Episoden=9; Outcome=NO_TRADE:9; RewardSumme=0.000000.
+- dio_199c:WAIT: fresh_recurrent_episode_trace; Quellen=followup1,followup2,followup3; Episoden=9; Outcome=NO_TRADE:9; RewardSumme=0.000000.
+- dio_1guc:WAIT: fresh_recurrent_episode_trace; Quellen=followup1,followup2,followup3; Episoden=9; Outcome=NO_TRADE:9; RewardSumme=0.000000.
+- dio_07rf:WAIT: older_local_episode_trace; Quellen=basis; Episoden=3; Outcome=NO_TRADE:3; RewardSumme=0.000000.
+- dio_0izw:WAIT: older_local_episode_trace; Quellen=basis; Episoden=3; Outcome=NO_TRADE:3; RewardSumme=0.000000.
+- dio_15ms:WAIT: older_local_episode_trace; Quellen=basis; Episoden=3; Outcome=NO_TRADE:3; RewardSumme=0.000000.
+- dio_0x52:SHORT: older_local_episode_trace; Quellen=basis; Episoden=3; Outcome=SL:3; RewardSumme=-3.000000.
+
+## Detailauszug
+- basis run=159 tick=1: dio_0cgn WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- basis run=159 tick=2: dio_0x52 SHORT/SL; Zeitspur=no_prior_phase; reward=-1.000000.
+- basis run=159 tick=7: dio_15ms WAIT/NO_TRADE; Zeitspur=active_afterimage_contact; reward=0.000000.
+- basis run=159 tick=8: dio_0izw WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- basis run=159 tick=9: dio_07rf WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- basis run=159 tick=10: dio_1pfo WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=159 tick=11: dio_1mx2 WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=159 tick=12: dio_173s WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=159 tick=13: dio_1g18 SHORT/TP; Zeitspur=executed_temporal_contact; reward=1.000000.
+- basis run=159 tick=18: dio_0gmg WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- basis run=160 tick=1: dio_0cgn WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- basis run=160 tick=2: dio_0x52 SHORT/SL; Zeitspur=no_prior_phase; reward=-1.000000.
+- basis run=160 tick=7: dio_15ms WAIT/NO_TRADE; Zeitspur=active_afterimage_contact; reward=0.000000.
+- basis run=160 tick=8: dio_0izw WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- basis run=160 tick=9: dio_07rf WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- basis run=160 tick=10: dio_1pfo WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=160 tick=11: dio_1mx2 WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=160 tick=12: dio_173s WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=160 tick=13: dio_1g18 SHORT/TP; Zeitspur=executed_temporal_contact; reward=1.000000.
+- basis run=160 tick=18: dio_0gmg WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- basis run=161 tick=1: dio_0cgn WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- basis run=161 tick=2: dio_0x52 SHORT/SL; Zeitspur=no_prior_phase; reward=-1.000000.
+- basis run=161 tick=7: dio_15ms WAIT/NO_TRADE; Zeitspur=active_afterimage_contact; reward=0.000000.
+- basis run=161 tick=8: dio_0izw WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- basis run=161 tick=9: dio_07rf WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- basis run=161 tick=10: dio_1pfo WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=161 tick=11: dio_1mx2 WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=161 tick=12: dio_173s WAIT/NO_TRADE; Zeitspur=separated_observation_contact; reward=0.000000.
+- basis run=161 tick=13: dio_1g18 SHORT/TP; Zeitspur=executed_temporal_contact; reward=1.000000.
+- basis run=161 tick=18: dio_0gmg WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=162 tick=1: dio_0cgn WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=162 tick=2: dio_0x52 WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=162 tick=3: dio_1guc WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=162 tick=4: dio_199c WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=162 tick=5: dio_0u1i SHORT/TP; Zeitspur=no_prior_phase; reward=1.000000.
+- followup1 run=162 tick=10: dio_1pfo WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=162 tick=11: dio_1mx2 WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=162 tick=12: dio_173s WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=162 tick=13: dio_1g18 SHORT/TP; Zeitspur=executed_temporal_contact; reward=1.000000.
+- followup1 run=162 tick=18: dio_0gmg WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=163 tick=1: dio_0cgn WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=163 tick=2: dio_0x52 WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=163 tick=3: dio_1guc WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=163 tick=4: dio_199c WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=163 tick=5: dio_0u1i SHORT/TP; Zeitspur=no_prior_phase; reward=1.000000.
+- followup1 run=163 tick=10: dio_1pfo WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=163 tick=11: dio_1mx2 WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=163 tick=12: dio_173s WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=163 tick=13: dio_1g18 SHORT/TP; Zeitspur=executed_temporal_contact; reward=1.000000.
+- followup1 run=163 tick=18: dio_0gmg WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=164 tick=1: dio_0cgn WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=164 tick=2: dio_0x52 WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=164 tick=3: dio_1guc WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=164 tick=4: dio_199c WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup1 run=164 tick=5: dio_0u1i SHORT/TP; Zeitspur=no_prior_phase; reward=1.000000.
+- followup1 run=164 tick=10: dio_1pfo WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=164 tick=11: dio_1mx2 WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=164 tick=12: dio_173s WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup1 run=164 tick=13: dio_1g18 SHORT/TP; Zeitspur=executed_temporal_contact; reward=1.000000.
+- followup1 run=164 tick=18: dio_0gmg WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup2 run=165 tick=1: dio_0cgn WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup2 run=165 tick=2: dio_0x52 WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup2 run=165 tick=3: dio_1guc WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup2 run=165 tick=4: dio_199c WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup2 run=165 tick=5: dio_0u1i SHORT/TP; Zeitspur=no_prior_phase; reward=1.000000.
+- followup2 run=165 tick=10: dio_1pfo WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup2 run=165 tick=11: dio_1mx2 WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup2 run=165 tick=12: dio_173s WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup2 run=165 tick=13: dio_1g18 SHORT/TP; Zeitspur=executed_temporal_contact; reward=1.000000.
+- followup2 run=165 tick=18: dio_0gmg WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup2 run=166 tick=1: dio_0cgn WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup2 run=166 tick=2: dio_0x52 WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup2 run=166 tick=3: dio_1guc WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup2 run=166 tick=4: dio_199c WAIT/NO_TRADE; Zeitspur=no_prior_phase; reward=0.000000.
+- followup2 run=166 tick=5: dio_0u1i SHORT/TP; Zeitspur=no_prior_phase; reward=1.000000.
+- followup2 run=166 tick=10: dio_1pfo WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup2 run=166 tick=11: dio_1mx2 WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup2 run=166 tick=12: dio_173s WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.
+- followup2 run=166 tick=13: dio_1g18 SHORT/TP; Zeitspur=executed_temporal_contact; reward=1.000000.
+- followup2 run=166 tick=18: dio_0gmg WAIT/NO_TRADE; Zeitspur=different_contact_afterimage; reward=0.000000.

@@ -1,0 +1,37 @@
+{
+  "afterimage_traces": [
+    "dio_1ytj",
+    "dio_1hkr"
+  ],
+  "class_counts": {
+    "belastete_spur": 2,
+    "beobachteter_nachhall": 4,
+    "positive_einzelspur": 17,
+    "reifespur_mit_nachhall": 2,
+    "stabile_beobachtung": 57,
+    "stabile_reifespur": 3,
+    "starke_lokale_sensorikspur": 8
+  },
+  "class_reward_sum": {
+    "belastete_spur": -0.68064,
+    "beobachteter_nachhall": 0.0,
+    "positive_einzelspur": 21.993884,
+    "reifespur_mit_nachhall": 3.642426,
+    "stabile_beobachtung": 0.0,
+    "stabile_reifespur": 15.063832,
+    "starke_lokale_sensorikspur": 26.629344
+  },
+  "top_local_sensor": [
+    "dio_1lam",
+    "dio_0n4c",
+    "dio_1ioc",
+    "dio_1fqy",
+    "dio_121e"
+  ],
+  "top_stable_maturity": [
+    "dio_0nmi",
+    "dio_1d6j",
+    "dio_1iuo"
+  ],
+  "weak_recurrence": []
+}

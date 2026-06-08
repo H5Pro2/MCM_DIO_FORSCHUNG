@@ -1,0 +1,18 @@
+symbol_family,action,outcome_event,inner_state,event_count,event_reward_sum,memory_action_count,memory_reward_sum,memory_trust,memory_caution,memory_trust_minus_caution,consequence_effect,inner_sentence,passive_only
+dio_0ofo,LONG,TP,inner_consequence_carried,1,1.0,8,9.863302,0.851404,0.0,0.851404,tp_trust_visible,dio_0ofo: LONG wurde durch TP getragen; innen entsteht Vertrauen (0.851404) bei Vorsicht 0.000000.,1
+dio_0ps1,LONG,TP,inner_consequence_carried,1,1.0,3,2.520113,0.2404,0.0,0.2404,tp_trust_visible,dio_0ps1: LONG wurde durch TP getragen; innen entsteht Vertrauen (0.240400) bei Vorsicht 0.000000.,1
+dio_1c6b,SHORT,TP,inner_consequence_carried,1,1.0,3,2.1,0.212653,0.0,0.212653,tp_trust_visible,dio_1c6b: SHORT wurde durch TP getragen; innen entsteht Vertrauen (0.212653) bei Vorsicht 0.000000.,1
+dio_1d1z,SHORT,TP,inner_consequence_carried,1,1.0,5,2.060875,0.207658,0.0,0.207658,tp_trust_visible,dio_1d1z: SHORT wurde durch TP getragen; innen entsteht Vertrauen (0.207658) bei Vorsicht 0.000000.,1
+dio_1k7y,LONG,TP,inner_consequence_carried,3,3.0,11,6.058183,0.482303,0.0,0.482303,tp_trust_visible,dio_1k7y: LONG wurde durch TP getragen; innen entsteht Vertrauen (0.482303) bei Vorsicht 0.000000.,1
+dio_1d3r,LONG,SL,inner_consequence_burdened,1,-1.0,4,0.38821,0.088072,0.14,-0.051928,sl_caution_dominant,dio_1d3r: LONG wurde durch SL belastet; innen dominiert Vorsicht (0.140000) gegen Vertrauen 0.088072.,1
+dio_0120,WAIT,NO_TRADE,inner_consequence_quiet,1,0.0,6,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_0120: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (1 Ereignisse).,1
+dio_01vz,WAIT,NO_TRADE,inner_consequence_quiet,2,0.0,2,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_01vz: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (2 Ereignisse).,1
+dio_040y,WAIT,NO_TRADE,inner_consequence_quiet,1,0.0,3,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_040y: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (1 Ereignisse).,1
+dio_10dk,WAIT,NO_TRADE,inner_consequence_quiet,1,0.0,4,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_10dk: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (1 Ereignisse).,1
+dio_143d,WAIT,NO_TRADE,inner_consequence_quiet,1,0.0,2,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_143d: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (1 Ereignisse).,1
+dio_14xc,WAIT,NO_TRADE,inner_consequence_quiet,1,0.0,24,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_14xc: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (1 Ereignisse).,1
+dio_1c6b,WAIT,NO_TRADE,inner_consequence_quiet,2,0.0,2,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_1c6b: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (2 Ereignisse).,1
+dio_1d1z,WAIT,NO_TRADE,inner_consequence_quiet,1,0.0,4,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_1d1z: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (1 Ereignisse).,1
+dio_1f9y,WAIT,NO_TRADE,inner_consequence_quiet,1,0.0,4,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_1f9y: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (1 Ereignisse).,1
+dio_1m4n,WAIT,NO_TRADE,inner_consequence_quiet,2,0.0,2,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_1m4n: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (2 Ereignisse).,1
+dio_1mym,WAIT,NO_TRADE,inner_consequence_quiet,1,0.0,9,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_1mym: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (1 Ereignisse).,1

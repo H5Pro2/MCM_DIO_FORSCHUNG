@@ -1,0 +1,52 @@
+# DIO Mini Passive Consequence Diagnostics
+
+- label: transfer_probe16_after_probe18_12n
+- memory: bot_memory\dio_mini_12n_transfer_probe16_memory.json
+- debug_root: debug\dio_mini_12n_transfer_probe16
+
+## Umfang
+- trade_events_detail: 38
+- trade_events_summary: 16
+- memory_effect: 16
+- inner_awareness_detail: 16
+- inner_awareness_summary: 3
+- inner_protocol_detail: 38
+- inner_protocol_summary: 3
+- multisensory_detail: 38
+- multisensory_summary: 3
+- stability_detail: 15
+- stability_summary: 2
+- maturation_detail: 15
+- maturation_summary: 3
+- timeline_detail: 38
+- timeline_summary: 15
+- development_detail: 15
+- development_summary: 3
+- development_reflection_detail: 15
+- development_reflection_summary: 3
+- inner_state_landkarte_detail: 15
+- inner_state_landkarte_summary: 4
+
+## Entwicklungsdiagnose
+- development_observation_to_carried: families=1 rows=3 reward_sum=1.0 families_list=dio_0cgn
+- development_quiet_observation: families=13 rows=32 reward_sum=0.0 families_list=dio_04zi,dio_06bd,dio_0fa9,dio_0ojr,dio_0rb2,dio_0ui9,dio_0vc8,dio_1g7l,dio_1jo7,dio_1q9b,dio_1qig,dio_1t73,dio_1w4m
+- development_repeated_burden: families=1 rows=3 reward_sum=-3.0 families_list=dio_1k0r
+
+## Ausgaben
+- trade_events: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\01_trade_events
+- memory_consequence_effect: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\02_memory_consequence_effect
+- consequence_inner_awareness: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\03_consequence_inner_awareness
+- consequence_inner_state_protocol: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\04_consequence_inner_state_protocol
+- multisensory_inner_map: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\05_multisensory_inner_map
+- multisensory_stability: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\06_multisensory_stability
+- multisensory_maturation_map: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\07_multisensory_maturation_map
+- multisensory_maturation_timeline: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\08_multisensory_maturation_timeline
+- passive_development_diagnosis: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\09_passive_development_diagnosis
+- passive_development_reflection: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\10_passive_development_reflection
+- passive_inner_state_landkarte: debug\dio_mini_passive_consequence_pipeline_12n_transfer_probe16\11_passive_inner_state_landkarte
+
+## Grenze
+- kein Memory-Schreiben
+- keine Motorik
+- kein Gate
+- keine harte Regel

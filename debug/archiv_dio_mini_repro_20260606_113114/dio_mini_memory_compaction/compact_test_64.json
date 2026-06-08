@@ -1,0 +1,23 @@
+{
+  "after": {
+    "bytes": 619543,
+    "families": 159,
+    "relations": 44,
+    "sensor_relations": 64,
+    "symbols": 159
+  },
+  "before": {
+    "bytes": 660799,
+    "families": 159,
+    "relations": 44,
+    "sensor_relations": 128,
+    "symbols": 159
+  },
+  "compact_result": {
+    "after": 64,
+    "before": 128,
+    "removed": 64
+  },
+  "max_sensor_relations": 64,
+  "memory": "bot_memory\\dio_mini_sensor_relation_probe2_compact_test_memory.json"
+}

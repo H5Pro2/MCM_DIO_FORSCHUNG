@@ -1,0 +1,48 @@
+{
+  "after_map_source": "debug\\dio_mini_passive_variant_reife_map_probe7_followup2_from_probe18_12n\\dio_mini_passive_variant_reife_map.csv",
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "passive_only": true,
+    "read_by_mini_dio": false,
+    "writes_training_memory": false
+  },
+  "compare_source": "debug\\dio_mini_passive_variant_reife_map_compare_probe7_f1_to_f2_from_probe18_12n\\dio_mini_passive_variant_reife_map_compare.csv",
+  "detail": [
+    {
+      "after_episode_count": 0,
+      "after_reward": 0.0,
+      "before_episode_count": 2,
+      "before_reward": -2.0,
+      "burden_action": "SHORT",
+      "burden_family_action": "dio_19i4:SHORT",
+      "dio_syntax_sentence": "conflict_reflection|dio_19i4|SHORT|burden_reorganized_into_observation|reward_delta=2.000000|wait_traces=1",
+      "episode_delta": -2,
+      "influences_action": 0,
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reflection_sentence": "dio_19i4:SHORT war belastet und wird im Folgelauf schwaecher (-2.000000->0.000000, Episoden 2->0). Dieselbe Familie taucht zusaetzlich als Beobachtung auf. Das ist Reorganisation, keine Sperre.",
+      "reflection_state": "burden_reorganized_into_observation",
+      "reward_delta": 2.0,
+      "symbol_family": "dio_19i4",
+      "wait_family_actions": "dio_19i4:WAIT",
+      "wait_related_observation_count": 0,
+      "wait_states": "variant_local_wait_context",
+      "wait_trace_count": 1,
+      "writes_training_memory": 0
+    }
+  ],
+  "schema": "dio_mini_passive_conflict_reflection.v1",
+  "summary": [
+    {
+      "count": 1,
+      "episode_delta": -2,
+      "families": "dio_19i4",
+      "reflection_state": "burden_reorganized_into_observation",
+      "reward_delta": 2.0
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "action": "SHORT",
+    "avg_reward": 1.055038,
+    "count": 2,
+    "driver": "memory_bias",
+    "negative_count": 0,
+    "positive_count": 2,
+    "reward_sum": 2.110077
+  },
+  {
+    "action": "WAIT",
+    "avg_reward": 0.0,
+    "count": 2,
+    "driver": "wait_regulation",
+    "negative_count": 0,
+    "positive_count": 0,
+    "reward_sum": 0.0
+  },
+  {
+    "action": "LONG",
+    "avg_reward": 1.264211,
+    "count": 1,
+    "driver": "memory_bias",
+    "negative_count": 0,
+    "positive_count": 1,
+    "reward_sum": 1.264211
+  },
+  {
+    "action": "WAIT",
+    "avg_reward": 0.0,
+    "count": 1,
+    "driver": "episode_binding_hold",
+    "negative_count": 0,
+    "positive_count": 0,
+    "reward_sum": 0.0
+  }
+]

@@ -1,0 +1,32 @@
+label,debug_root,family,family_state,dominant_action,episode_count,executed_count,reward_sum,states,actions,passive_sentence
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_0arw,carried,WAIT,3,1,1.384854,executed_aligned:1|observed_trade_potential:2,LONG:1|WAIT:2,dio_0arw: wird mit WAIT getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_0ems,carried,WAIT,3,1,1.304587,executed_aligned:1|observed_trade_potential:2,LONG:1|WAIT:2,dio_0ems: wird mit WAIT getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_1u7v,carried,WAIT,4,1,0.894392,executed_aligned:1|observed_trade_potential:3,SHORT:1|WAIT:3,dio_1u7v: wird mit WAIT getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_0bmh,carried,LONG,2,1,0.817371,executed_aligned:1|observed_trade_potential:1,LONG:1|WAIT:1,dio_0bmh: wird mit LONG getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_0120,carried,WAIT,3,1,0.333693,executed_aligned:1|observed_trade_potential:2,LONG:1|WAIT:2,dio_0120: wird mit WAIT getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_00qb,observed,WAIT,1,0,0.0,observed_trade_potential:1,WAIT:1,"dio_00qb: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_02qu,observed,WAIT,3,0,0.0,observed_trade_potential:3,WAIT:3,"dio_02qu: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_0fiy,observed,WAIT,3,0,0.0,observed_trade_potential:3,WAIT:3,"dio_0fiy: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_0igh,observed,WAIT,1,0,0.0,observed_trade_potential:1,WAIT:1,"dio_0igh: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_0x1o,observed,WAIT,2,0,0.0,observed_trade_potential:2,WAIT:2,"dio_0x1o: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_14xc,observed,WAIT,3,0,0.0,observed_trade_potential:3,WAIT:3,"dio_14xc: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_16yc,observed,WAIT,3,0,0.0,observed_trade_potential:3,WAIT:3,"dio_16yc: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_1g2t,observed,WAIT,3,0,0.0,observed_trade_potential:3,WAIT:3,"dio_1g2t: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_1qwp,observed,WAIT,2,0,0.0,observed_trade_potential:2,WAIT:2,"dio_1qwp: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_1vpi,conflict,SHORT,3,3,-1.027449,executed_misaligned:3,SHORT:3,"dio_1vpi: erzeugt Handlung, aber die Konsequenz traegt noch nicht."
+probe18_first,debug\dio_mini_probe18_recovery_variation\run,dio_0t0v,conflict,SHORT,1,1,-1.236659,executed_misaligned:1,SHORT:1,"dio_0t0v: erzeugt Handlung, aber die Konsequenz traegt noch nicht."
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_0arw,carried,LONG,4,4,5.539416,executed_aligned:4,LONG:4,dio_0arw: wird mit LONG getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_1u7v,carried,SHORT,4,4,3.577568,executed_aligned:4,SHORT:4,dio_1u7v: wird mit SHORT getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_0akd,carried,LONG,2,2,1.551314,executed_aligned:2,LONG:2,dio_0akd: wird mit LONG getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_0120,carried,LONG,2,2,0.667386,executed_aligned:2,LONG:2,dio_0120: wird mit LONG getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_00qb,observed,WAIT,2,0,0.0,observed_trade_potential:2,WAIT:2,"dio_00qb: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_02qu,observed,WAIT,2,0,0.0,observed_trade_potential:2,WAIT:2,"dio_02qu: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_0t0v,observed,WAIT,2,0,0.0,observed_trade_potential:2,WAIT:2,"dio_0t0v: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_14xc,observed,WAIT,4,0,0.0,observed_trade_potential:4,WAIT:4,"dio_14xc: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_repeat1,debug\dio_mini_probe18_repeat_same_memory\run,dio_1vpi,conflict,SHORT,4,2,-0.684966,executed_misaligned:2|observed_trade_potential:2,SHORT:2|WAIT:2,"dio_1vpi: erzeugt Handlung, aber die Konsequenz traegt noch nicht."
+probe18_repeat2,debug\dio_mini_probe18_repeat2_same_memory\run,dio_0arw,carried,LONG,4,4,5.539416,executed_aligned:4,LONG:4,dio_0arw: wird mit LONG getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_repeat2,debug\dio_mini_probe18_repeat2_same_memory\run,dio_0t0v,carried,LONG,4,4,4.146636,executed_aligned:4,LONG:4,dio_0t0v: wird mit LONG getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_repeat2,debug\dio_mini_probe18_repeat2_same_memory\run,dio_1u7v,carried,SHORT,4,4,3.577568,executed_aligned:4,SHORT:4,dio_1u7v: wird mit SHORT getragen; Sensorik und Konsequenz liegen zusammen.
+probe18_repeat2,debug\dio_mini_probe18_repeat2_same_memory\run,dio_00qb,held,WAIT,4,0,0.0,held_trade_pressure:3|observed_trade_potential:1,WAIT:4,"dio_00qb: erzeugt Handelsspannung, bleibt aber gehalten."
+probe18_repeat2,debug\dio_mini_probe18_repeat2_same_memory\run,dio_14xc,observed,WAIT,4,0,0.0,observed_trade_potential:4,WAIT:4,"dio_14xc: wird gesehen, bleibt als Potenzial ohne Handlung."
+probe18_repeat2,debug\dio_mini_probe18_repeat2_same_memory\run,dio_1vpi,observed,WAIT,4,0,0.0,observed_trade_potential:4,WAIT:4,"dio_1vpi: wird gesehen, bleibt als Potenzial ohne Handlung."

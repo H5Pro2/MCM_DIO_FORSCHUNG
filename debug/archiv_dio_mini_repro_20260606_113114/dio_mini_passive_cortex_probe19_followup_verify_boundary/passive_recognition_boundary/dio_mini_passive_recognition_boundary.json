@@ -1,0 +1,120 @@
+{
+  "detail": [
+    {
+      "action_path": "probe19_run153:WAIT -> probe19_run154:WAIT -> probe19_run155:WAIT",
+      "boundary_sentence": "dio_14xc: offene Beobachtung (observed -> observed -> observed); weiter lesbar, aber nicht speicherpflichtig.",
+      "boundary_state": "open_observation_not_memory",
+      "family": "dio_14xc",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_open_observation",
+      "reward_sum": 0.0,
+      "state_path": "observed -> observed -> observed",
+      "trend": "flat",
+      "writes_memory": 0
+    },
+    {
+      "action_path": "probe19_run153:LONG -> probe19_run154:LONG -> probe19_run155:LONG",
+      "boundary_sentence": "dio_0arw: stabile Wiedererkennung (carried -> carried -> carried), reward=4.154562; kein neuer Reflexionsspeicher noetig.",
+      "boundary_state": "stable_recognition_not_memory",
+      "family": "dio_0arw",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_stable_carry",
+      "reward_sum": 4.154562,
+      "state_path": "carried -> carried -> carried",
+      "trend": "flat",
+      "writes_memory": 0
+    },
+    {
+      "action_path": "probe19_run153:LONG -> probe19_run154:LONG -> probe19_run155:LONG",
+      "boundary_sentence": "dio_0t0v: stabile Wiedererkennung (carried -> carried -> carried), reward=3.109977; kein neuer Reflexionsspeicher noetig.",
+      "boundary_state": "stable_recognition_not_memory",
+      "family": "dio_0t0v",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_stable_carry",
+      "reward_sum": 3.109977,
+      "state_path": "carried -> carried -> carried",
+      "trend": "flat",
+      "writes_memory": 0
+    },
+    {
+      "action_path": "probe19_run153:SHORT -> probe19_run154:SHORT -> probe19_run155:SHORT",
+      "boundary_sentence": "dio_1u7v: stabile Wiedererkennung (carried -> carried -> carried), reward=2.683176; kein neuer Reflexionsspeicher noetig.",
+      "boundary_state": "stable_recognition_not_memory",
+      "family": "dio_1u7v",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_stable_carry",
+      "reward_sum": 2.683176,
+      "state_path": "carried -> carried -> carried",
+      "trend": "flat",
+      "writes_memory": 0
+    },
+    {
+      "action_path": "probe19_run153:WAIT -> probe19_run154:WAIT -> probe19_run155:WAIT",
+      "boundary_sentence": "dio_00qb: unfertige/gehaltene Spur (held -> held -> held); beobachten, nicht als Reife speichern.",
+      "boundary_state": "unfinished_trace_not_memory",
+      "family": "dio_00qb",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_held_unfinished",
+      "reward_sum": 0.0,
+      "state_path": "held -> held -> held",
+      "trend": "flat",
+      "writes_memory": 0
+    },
+    {
+      "action_path": "probe19_run153:WAIT -> probe19_run154:WAIT -> probe19_run155:WAIT",
+      "boundary_sentence": "dio_1vpi: unfertige/gehaltene Spur (held -> held -> held); beobachten, nicht als Reife speichern.",
+      "boundary_state": "unfinished_trace_not_memory",
+      "family": "dio_1vpi",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_held_unfinished",
+      "reward_sum": 0.0,
+      "state_path": "held -> held -> held",
+      "trend": "flat",
+      "writes_memory": 0
+    }
+  ],
+  "summary": [
+    {
+      "boundary_state": "open_observation_not_memory",
+      "count": 1,
+      "families": "dio_14xc",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reward_sum": 0.0,
+      "writes_memory": 0
+    },
+    {
+      "boundary_state": "stable_recognition_not_memory",
+      "count": 3,
+      "families": "dio_0arw,dio_0t0v,dio_1u7v",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reward_sum": 9.947715,
+      "writes_memory": 0
+    },
+    {
+      "boundary_state": "unfinished_trace_not_memory",
+      "count": 2,
+      "families": "dio_00qb,dio_1vpi",
+      "influences_action": 0,
+      "is_gate": 0,
+      "passive_only": 1,
+      "reward_sum": 0.0,
+      "writes_memory": 0
+    }
+  ]
+}

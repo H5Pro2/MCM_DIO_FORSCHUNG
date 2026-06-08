@@ -1,0 +1,9 @@
+inner_transition,count,reward_sum,best_reward_sum,avg_reward,families,actions
+inner_open_observation_to_inner_carried,8,2.455651,6.549582,0.306956,"dio_0120,dio_0bmh,dio_0ems","LONG,WAIT"
+same_inner_state,12,1.384854,7.133923,0.115405,"dio_0arw,dio_0fiy,dio_14xc,dio_1g2t,dio_1qwp","LONG,WAIT"
+timeline_start,4,0.894392,3.577568,0.223598,dio_1u7v,"SHORT,WAIT"
+inner_carried_to_inner_open_observation,8,0.0,4.202137,0.0,"dio_0igh,dio_0x1o,dio_14xc,dio_16yc,dio_1qwp",WAIT
+inner_carried_to_inner_unfinished,1,0.0,0.629146,0.0,dio_00qb,WAIT
+inner_cautious_to_inner_open_observation,3,0.0,1.10232,0.0,dio_02qu,WAIT
+inner_open_observation_to_inner_cautious,3,-1.027449,0.427449,-0.342483,dio_1vpi,SHORT
+inner_unfinished_to_inner_carried,1,-1.236659,1.036659,-1.236659,dio_0t0v,SHORT

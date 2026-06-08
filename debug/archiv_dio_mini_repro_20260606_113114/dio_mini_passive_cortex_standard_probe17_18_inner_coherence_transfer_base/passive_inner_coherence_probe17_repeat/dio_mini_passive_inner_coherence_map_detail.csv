@@ -1,0 +1,7 @@
+inner_state,symbol_family,contact_quality,count,reward_sum,best_reward_sum,avg_reward,actions,transitions,avg_sehen_form_flow,spread_sehen_form_flow,avg_sehen_form_stability,spread_sehen_form_stability,avg_hoeren_energy_tone,spread_hoeren_energy_tone,avg_fuehlen_mcm_coherence,spread_fuehlen_mcm_coherence,avg_fuehlen_mcm_tension,spread_fuehlen_mcm_tension,coherence_note,passive_only
+inner_carried,dio_0ofo,positive_real_contact,4,5.812,5.812,1.453,LONG,same_inner_state,-0.458776,0.0,0.0,0.0,0.023375,0.0,0.393455,0.0,0.298608,0.0,getragen_sensorisch_bestaetigt,1
+inner_carried,dio_04z7,positive_real_contact,4,4.34704,4.34704,1.08676,LONG,inner_unfinished_to_inner_carried,0.021684,0.0,-1.0,0.0,-0.071409,0.0,-0.219994,0.0,0.087641,0.0,getragen_sensorisch_bestaetigt,1
+inner_carried,dio_1bwb,positive_real_contact,4,3.647524,3.647524,0.911881,SHORT,timeline_start,0.038108,0.0,1.0,0.0,0.040115,0.0,0.988768,0.0,0.045048,0.0,getragen_sensorisch_bestaetigt,1
+inner_open_observation,dio_14xc,observed_potential,4,0.0,0.378512,0.0,WAIT,inner_carried_to_inner_open_observation,0.845244,0.0,1.0,0.0,0.023468,0.0,0.993429,0.0,0.389748,0.0,offen_beobachtet_potenzial,1
+inner_unfinished,dio_1k7y,observed_potential,4,0.0,2.780168,0.0,WAIT,inner_open_observation_to_inner_unfinished,0.359266,0.0,0.0,0.0,-0.077778,0.0,0.378222,0.0,0.290899,0.0,offen_lesen,1
+inner_open_observation,dio_1mym,observed_potential,4,0.0,0.700112,0.0,WAIT,same_inner_state,0.754296,0.0,1.0,0.0,-0.070649,0.0,0.980218,0.0,0.366561,0.0,offen_beobachtet_potenzial,1

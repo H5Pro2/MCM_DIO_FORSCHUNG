@@ -1,0 +1,326 @@
+# 33 Harte innere Schwellen - Inventur
+
+Diese Datei ist eine Code-Inventur. Sie trennt technische/oekonomische harte Grenzen von DIO-internen Schwellen, die fachlich auf weiche Modulation zurueckgebaut werden sollen.
+
+## Zusammenfassung
+
+- Treffer gesamt: 902
+- dio_internal: 380
+- technical: 247
+- unclear: 246
+- economic: 29
+
+## DIO-interne Hotspots
+
+- `core\decision_regulation.py`: 153
+- `core\mcm_model.py`: 26
+- `core\form_language.py`: 25
+- `core\experience_space.py`: 15
+- `core\mcm_field.py`: 13
+- `core\temporal_perception.py`: 13
+- `trading\trade_stats.py`: 13
+- `core\perception.py`: 11
+- `core\inner_pattern.py`: 9
+- `core\neurochemistry.py`: 9
+- `core\form_symbol_orchestration.py`: 7
+- `bot_gates\entry_decision.py`: 7
+- `bot_engine\position_intervention.py`: 7
+- `bot_engine\idle_thinking_protocol.py`: 6
+- `bot_engine\mcm_core_engine.py`: 6
+- `bot_engine\world_motion_afterimage.py`: 6
+- `trading\trade_plan.py`: 6
+- `core\felt_state.py`: 5
+- `core\visual_perception.py`: 5
+- `bot_engine\target_expectation.py`: 4
+- `core\inner_context.py`: 3
+- `core\possibility_field.py`: 3
+- `core\review_feedback.py`: 3
+- `core\sensory_reality.py`: 3
+- `core\strategic_window.py`: 3
+- `core\thought_memory.py`: 3
+- `core\visual_cortex.py`: 3
+- `core\active_context.py`: 2
+- `core\runtime_entry.py`: 2
+- `core\visual_attention.py`: 2
+- `core\area_perception.py`: 1
+- `bot_engine\active_position.py`: 1
+- `bot_engine\entry_attempt.py`: 1
+- `bot_engine\entry_attempt_context.py`: 1
+- `bot_engine\matured_exit.py`: 1
+- `bot_engine\pending_entry.py`: 1
+- `bot_engine\regulation_snapshot.py`: 1
+
+## Prioritaet Rueckbau
+
+1. `bot_gates/entry_decision.py` - innere Zustimmung, Consent, Thought-Kopplung.
+2. `trading/trade_plan.py` - Entry-Geometrie/Area-Kontakt darf keine Strategie-Schwellen enthalten.
+3. `core/decision_regulation.py` - Reife, Regulation, MCM-Achse und Pre-Action-Phasen.
+4. `core/neurochemistry.py` - neurochemische Labels duerfen keine harten Zustandsklassen erzwingen.
+5. `core/perception.py`, `core/visual_*`, `core/temporal_perception.py`, `core/sensory_reality.py` - Wahrnehmungslabels als kontinuierliche Profile statt Schwellenketten.
+6. `core/mcm_model.py` - neuronale Zustandslabels und Aktivitaetsinseln pruefen; numerische Schutzgrenzen getrennt lassen.
+7. Exit-/Position-Pfade - gereifte Exit-Logik darf nicht als starre Schwellenkaskade wirken.
+
+## Grundregel
+
+Hart bleiben duerfen technische Gueltigkeit und oekonomische Realitaet: Preis, Risiko, TP/SL, Margin, Datenlaenge, Profit/Verlust. DIO-interne Zustaende muessen Druck, Naehe, Reife, Vertrauen, Vorsicht und Abstand kontinuierlich modulieren.
+
+## Umsetzungsstand
+
+- `bot_gates/entry_decision.py`: Die grobe innere Rueckgabekaskade wurde zurueckgebaut. Statt harter Abbrueche wie `consent < x` konkurrieren jetzt `act_pressure`, `observe_pressure`, `replan_pressure` und `hold_pressure`. Das ist weiterhin eine Entscheidung, aber keine starre Schwellenlogik: DIOs innere Lage waehlt die staerkste Tendenz.
+- `core/decision_regulation.py`: Der erste grosse Pre-Action-Block wurde ebenfalls auf Druckwahl umgestellt. Viele direkte `if/elif`-Schwellen fuer `observe`, `replan`, `hold` und `act` wurden durch `pre_action_pressure_trace` ersetzt. Die spaeteren Zusatzmodulationen in dieser Datei sind noch nicht vollstaendig zurueckgebaut.
+- `core/decision_regulation.py`: Der Act-Watch-/Transfer-Zusatzblock wurde auf `act_watch_trace` umgestellt. Struktur-, Entwicklungs- und Transferdruck konkurrieren jetzt gegen `plan_continuity_pressure`.
+- `core/decision_regulation.py`: Die Memory-/Orientierungsrueckfuehrung wurde von festen Zero-Point/Structure-Guard-Schwellen auf `memory_continuity_pressure`, `zero_point_pressure`, `positive_zero_point_pressure` und `structure_orientation_pressure` umgestellt.
+- `core/decision_regulation.py`: Mehrere Labelketten wurden auf Druckklassifikation umgestellt: visuelles Grounding, Transfermodus, Adaptationsphase, MCM-Achsenlabel, Zeitfeldlabel, Metaregulator-State, Integrationsantwort und vorsichtige Hypothese.
+- `core/decision_regulation.py`: Die letzten inneren Restketten wurden auf Druckprofile umgestellt: offene Hypothesenreifung, Effort-State, diffuse Posturentwicklung, Trust-Return-Motorik und Selbst/Fremd-Semantik. Die harte Schwellen-Suche in dieser Datei zeigt danach nur noch technische Clip-Begrenzung.
+- `trading/trade_plan.py`: Die zentrale Entry-Geometrie wurde von festen Werten auf Druckkonkurrenz umgestellt. `entry_geometry_pressures`, `area_contact_acceptance_pressure` und `area_contact_restraint_pressure` entscheiden jetzt, ob Bereichskontakt als tragende Naehe wirkt. Impuls bleibt Wahrnehmungsdruck, nicht Entry-Anker. Harte Pruefungen in diesem Modul bleiben technische/oekonomische Realitaet: gueltiger Preis, gueltiger Bereich, Risiko/SL/TP.
+- `core/felt_state.py`: `market_feel_state` wird nicht mehr durch eine feste `if/elif`-Schwellenkette bestimmt. Risiko, Anziehung, Fragmentierung, Spannung, Stabilitaet und Balance konkurrieren jetzt als `market_feel_pressures`.
+- `core/neurochemistry.py`: MCM-Achsenlabel und neurochemischer Gesamtzustand wurden auf Druckprofile umgestellt. `mcm_axis_state_pressures` und `neurochemical_state_pressures` beschreiben die dominante Lage, ohne harte Zustandsgrenzen zu setzen.
+- `core/perception.py`: Bewusste Wahrnehmung, Objekt-Loslassen und innere Haltung wurden auf Druckprofile umgestellt. `conscious_perception_pressures`, `object_release_pressures` und `inner_posture_pressures` ersetzen feste Label-Schwellen. Uebrig sind dort nur technische Clip-/Audio-Amplitudenbegrenzungen.
+- `core/sensory_reality.py`: Aussenreiz-Realitaet wird jetzt ueber `sensory_reality_pressures` klassifiziert. Aktive Achsen werden als kontinuierlicher Druck gezaehlt, nicht mehr als harte Liste oberhalb eines Grenzwerts.
+- `core/visual_perception.py`: Formfamilie und Sichtlabel wurden auf weiche Profilwahl umgestellt. Uebrig ist dort nur eine technische Richtungswechsel-Erkennung in der visuellen Spur.
+- `core/visual_cortex.py`: Objektstaerke, Lage, Objektbeziehung, Lebenszyklus und dominantes Objekt wurden von harten Labelgrenzen auf Profilwahl umgestellt. Uebrig sind nur Clip-Funktionen.
+- `core/visual_attention.py`: Visuelle Aufmerksamkeit nutzt jetzt `visual_attention_pressures`, statt Fokus/Kontakt ueber feste Grenzwerte zu labeln. Uebrig ist nur Clip-Normierung.
+- `core/temporal_perception.py`: Zeitbindung, Selbst-Verortung und Raumzeit-Regulation wurden auf Druckprofile umgestellt. `temporal_binding_pressures`, `temporal_self_location_pressures` und `spacetime_regulation_pressures` ersetzen feste Zeitlabel-Grenzen.
+- `core/form_language.py`: Form/MCM-Syntax, Syntaxursprung, Satzverdichtung, unsichere Formfamilien, semantische Schichten, semantische Pakete, Formauflösung und Kontakt-Lernzustand wurden auf Druckprofile umgestellt. Lern-Alphas sind jetzt kontinuierlich moduliert. Uebrig sind nur Konsequenz-Zaehlungen nach positiv/negativem Ergebnis.
+- `core/form_symbol_orchestration.py`: Kontaktzustand nach Outcome wird jetzt ueber `contact_learning_pressures` gebildet. Schmerz, Vorsicht, Nutzen, Reifung, Reframing und Schutz-Reorganisation wirken als konkurrierende Erfahrungsdruecke statt harter Kontaktklassen.
+- `core/experience_space.py`: Felt-Trend, Felt-Profil, Einzel-Felt-Label und Review-Label wurden auf Druckprofile umgestellt. Statistikanteile fuer positiv/negativ/neutral, Konflikt, Fragmentierung und Support sind jetzt kontinuierliche Druckanteile. Uebrig bleiben echte Realitaetspruefungen: Gewinn/Verlust-Richtung und ausreichende Datenlaenge.
+- `core/area_perception.py`: Multisensorischer Bereichszustand und sensorische Bindung wurden auf Profilwahl umgestellt. `area_profile_pressures` und `multisensory_binding_pressures` machen sichtbar, wie Sehen, Hoeren, Zeit und selektives Fuehlen zusammenwirken.
+- `core/inner_context.py`: Innerer Musterzustand wurde auf `inner_pattern_state_pressures` umgestellt. Konflikt, Fragilitaet, Support und Bearing konkurrieren jetzt weich.
+- `bot_engine/position_intervention.py`: Positionserleben und Interventionslage wurden auf Druckprofile umgestellt. `intervention_label_pressures` und `position_experience_pressures` ersetzen harte Zustandsketten. Uebrig sind technische Schutzpruefungen fuer Risiko und Kapazitaet sowie Debug-Taktung.
+- `bot_engine/target_expectation.py`: Zielerwartung, Erwartungsbruch und Erholungsbeobachtung wurden auf Druckkonkurrenz umgestellt. `target_expectation_label_pressures`, `expectation_break_active_pressure` und `expectation_hold_active_pressure` trennen Erwartungsbruch, Halten, Retrace und Erholung ohne feste innere Muss-Schwellen.
+- `bot_engine/exit_candidate_observe.py`: Exit-Kandidat wird jetzt als Konkurrenz zwischen `exit_candidate_pressure` und `exit_candidate_restraint_pressure` gebildet. Planvertrauen, Haltstabilitaet, Fitness, Evidenz und adverse Bewegung wirken als Druckanteile, nicht als einzelne Ja/Nein-Bedingungen.
+- `bot_engine/matured_exit.py`: Gereifter Exit wurde von `MFE/Giveback/Maturity`-Mindestkaskade auf `matured_exit_pressures` umgestellt. `matured_exit` und `continue_position` konkurrieren; harte Checks bleiben nur bei realer Position, gueltigem Risiko und gueltigem Preis.
+- `bot_engine/world_motion_afterimage.py`: Bewegte-Welt-Nachhall und Doppler-Achse wurden auf Druckprofile umgestellt. `afterimage_doppler_label_pressures` und `world_motion_afterimage_label_pressures` beschreiben Annäherung, Entfernung, Frequenzverschiebung, Varianzdruck und Sichtbarkeit ohne feste Label-Schwellen.
+- `bot_engine/idle_thinking_protocol.py`: Idle-Denkphase wurde auf Profilwahl umgestellt. `act_watch`, `plan_pressure`, `pause`, `replay`, `hypothesize`, `reflect`, `stabilize` und `hold` konkurrieren jetzt als Denk-/Regulationsdruck statt als Schwellenkaskade.
+- `core/mcm_model.py`: MCM-Neuron-Labels, Areal-Labels, Aktivitätsinseln, Feldwahrnehmungslabel, SelfModel, Attractor und Feld-Regulator wurden auf Profil-/Druckwahl umgestellt. `activity_label_pressures`, `areal_label_pressures`, `island_label_pressures`, `field_perception_label_pressures` und `reorganization_direction_pressures` machen sichtbar, welche innere Tendenz trägt. Technische Topologie- und Array-Grenzen bleiben hart.
+- `core/inner_pattern.py`: Innere Mustererkennung und verdichtete Musterband-Syntax wurden auf Druckwahl umgestellt. Wiederkehr, Identitaetswechsel, Formung, schwache Muster und Unruhe konkurrieren als `recognition_label_pressures`; Low/Mid/High-Baender entstehen ueber kontinuierliche Bandpressures statt fester Grenzwerte.
+- `core/possibility_field.py`: Moeglichkeitsfeld, Collapse-Grund, Beobachterzustand und Soft-Collapse wurden auf Druckprofile umgestellt. Hypothese bleibt damit offene Moeglichkeit, bis Realitaetskontakt, Memory, Doppler/Vorhall oder Reflexion als staerkste Tendenz tragen.
+- `core/review_feedback.py`: Review-Tendenz `act/observe/replan/hold` wurde auf `tendency_hint_pressures` umgestellt. Rueckmeldung aus Erfahrung wirkt damit als graduelle Orientierung, nicht als feste Handlungsanweisung.
+- `core/thought_memory.py`: Thought-Memory-Entwicklungszustand wurde auf Druckwahl umgestellt. Reinterpretation, Replay, Trust-Return, Digest, Distance und eigene Feldbindung konkurrieren als Reifungstendenzen; Gedanken werden dadurch nicht als absolute Realitaet behandelt.
+- `bot_engine/mcm_core_engine.py`: `coh_zone` wurde von diskreten Kohärenzschubladen auf eine kontinuierliche Kohärenzlage umgestellt. Die Core-Spur bleibt Sensorik: Energie, Kohärenz, Asymmetrie, Hören.
+- `bot_engine/market_perception.py`: Bewegungssequenz `up/down/neutral` wird jetzt ueber `sequence_bias_pressures` gebildet. Das ist Bewegungswahrnehmung, keine Entry-Regel.
+- Technische/oekonomische Gates bleiben davon getrennt. Das Value-/Preis-/Risiko-System darf weiterhin hart entscheiden, ob eine Order real ausfuehrbar ist.
+- Naechster Rueckbaupunkt: alte Kompatibilitaetspfade und Trade-Stat-/Debug-Pfade. Dort muss geprueft werden, ob harte Werte nur als Beschreibung/Skalierung dienen oder ob sie DIOs Handeln wieder indirekt mechanisieren.
+
+## Beispiele DIO-intern
+
+- `core\active_context.py:155` `if item["activation"] <= 0.01:`
+- `core\active_context.py:434` `if activation <= 0.01:`
+- `core\area_perception.py:53` `if coherence >= 0.34:`
+- `core\decision_regulation.py:108` `if symbolic_regulation > 0.0:`
+- `core\decision_regulation.py:192` `if form_symbol_contact_maturity > 0.0 or form_symbol_contact_pain_memory > 0.0 or form_symbol_contact_burden_evidence > 0.0:`
+- `core\decision_regulation.py:215` `if variant_learning_pressure > 0.0:`
+- `core\decision_regulation.py:368` `if structure_action_uncertainty > 0.0:`
+- `core\decision_regulation.py:546` `if visual_resonance_unbound >= 0.30 and visual_grounding_strength < 0.38:`
+- `core\decision_regulation.py:548` `elif visual_grounding_need >= 0.32:`
+- `core\decision_regulation.py:552` `elif visual_cortex_grounding >= 0.40 and visual_object_binding >= 0.36:`
+- `core\decision_regulation.py:554` `elif visual_grounding_strength >= 0.54 and visual_object_binding >= 0.48:`
+- `core\decision_regulation.py:557` `if visual_grounding_need > 0.0:`
+- `core\decision_regulation.py:575` `if visual_action_uncertainty > 0.0:`
+- `core\decision_regulation.py:770` `if transfer_maturity_gap >= 0.58 and trust_transfer_support < 0.42:`
+- `core\decision_regulation.py:772` `elif transfer_maturity_gap >= 0.46:`
+- `core\decision_regulation.py:774` `elif trust_transfer_support >= 0.56 and transfer_bearing >= 0.48:`
+- `core\decision_regulation.py:833` `and transfer_maturity_gap >= 0.48`
+- `core\decision_regulation.py:834` `and trust_transfer_support < 0.40`
+- `core\decision_regulation.py:835` `and transfer_bearing < 0.40`
+- `core\decision_regulation.py:836` `and structure_action_bearing < 0.48`
+- `core\decision_regulation.py:840` `elif transfer_maturity_gap >= 0.58 and trust_transfer_support < 0.42:`
+- `core\decision_regulation.py:842` `elif semantic_shift_pressure >= 0.56 and route_familiarity < 0.48:`
+- `core\decision_regulation.py:844` `elif transfer_bearing < 0.42 and semantic_shift_pressure >= 0.42:`
+- `core\decision_regulation.py:846` `elif route_familiarity >= 0.58 and transfer_bearing >= 0.50:`
+- `core\decision_regulation.py:851` `if semantic_shift_pressure > 0.0:`
+- `core\decision_regulation.py:865` `if transfer_maturity_gap > 0.0:`
+- `core\decision_regulation.py:1006` `if symbolic_regulation > 0.0:`
+- `core\decision_regulation.py:1008` `if structure_action_uncertainty > 0.0:`
+- `core\decision_regulation.py:1018` `if semantic_shift_pressure > 0.0:`
+- `core\decision_regulation.py:1024` `if transfer_maturity_gap > 0.0:`
+- `core\decision_regulation.py:1034` `if visual_action_uncertainty > 0.0:`
+- `core\decision_regulation.py:1039` `if variant_learning_pressure > 0.0:`
+- `core\decision_regulation.py:1060` `if structure_action_uncertainty > 0.0:`
+- `core\decision_regulation.py:1070` `if semantic_shift_pressure > 0.0:`
+- `core\decision_regulation.py:1076` `if transfer_maturity_gap > 0.0:`
+- `core\decision_regulation.py:1086` `if visual_action_uncertainty > 0.0:`
+- `core\decision_regulation.py:1091` `if variant_learning_pressure > 0.0:`
+- `core\decision_regulation.py:1223` `if mcm_axis_displacement >= 0.45:`
+- `core\decision_regulation.py:1225` `elif mcm_axis_displacement >= 0.18:`
+- `core\decision_regulation.py:1227` `elif mcm_axis_displacement <= -0.45:`
+- `core\decision_regulation.py:1229` `elif mcm_axis_displacement <= -0.18:`
+- `core\decision_regulation.py:1233` `if positive_return_pressure > 0.0:`
+- `core\decision_regulation.py:1294` `if symbolic_regulation > 0.0:`
+- `core\decision_regulation.py:1306` `if symbolic_regulation > 0.0:`
+- `core\decision_regulation.py:1311` `and memory_support < 0.045`
+- `core\decision_regulation.py:1312` `and memory_orientation < 0.22`
+- `core\decision_regulation.py:1317` `and field_action_support < 0.46`
+- `core\decision_regulation.py:1318` `and structure_action_bearing < 0.50`
+- `core\decision_regulation.py:1323` `and structure_quality < 0.56`
+- `core\decision_regulation.py:1325` `and memory_support < 0.035`
+- `core\decision_regulation.py:1326` `and memory_orientation < 0.22`
+- `core\decision_regulation.py:1335` `and structure_quality < 0.58`
+- `core\decision_regulation.py:1336` `and memory_support < 0.04`
+- `core\decision_regulation.py:1689` `elif open_hypothesis_learning_charge >= 0.32:`
+- `core\decision_regulation.py:1865` `elif dominant_tension_cause in ("external_pressure", "uncertainty_pressure", "aftereffect_pressure", "areal_conflict_pressure") and dominant_tension_value >= 0.56 and decision_strength < 1.14:`
+- `core\decision_regulation.py:1869` `elif pre_action_observation_need >= max(0.58, observe_priority_threshold - 0.04) and decision_strength < 1.10:`
+- `core\decision_regulation.py:1873` `elif observe_priority >= observe_priority_threshold and decision_strength < 1.06:`
+- `core\decision_regulation.py:1877` `elif uncertainty_score >= uncertainty_threshold and decision_strength < 1.12:`
+- `core\decision_regulation.py:1885` `elif processing_areal_tension >= 0.58 and processing_areal_support < 0.46 and decision_strength < 1.14:`
+- `core\decision_regulation.py:1889` `elif field_perception_label == "fragmented_perception_field" and field_observation_need >= 0.52 and decision_strength < 1.14:`
+- `core\decision_regulation.py:1893` `elif field_perception_fragmentation >= 0.70 and field_perception_focus < 0.30 and decision_strength < 1.36:`
+- `core\decision_regulation.py:1897` `elif field_perception_fragmentation >= 0.64 and field_perception_focus < 0.34 and decision_strength < 1.16:`
+- `core\decision_regulation.py:1901` `elif field_perception_pressure >= 0.62 and field_perception_clarity < 0.46 and decision_strength < 1.14:`
+- `core\decision_regulation.py:1905` `elif field_perception_strain >= 0.72 and field_perception_stability < 0.36 and decision_strength < 1.36:`
+- `core\decision_regulation.py:1909` `elif field_perception_strain >= 0.66 and field_perception_stability < 0.40 and decision_strength < 1.16:`
+- `core\decision_regulation.py:1913` `elif expectation_pressure >= 0.58 and courage_gap >= 0.12 and decision_strength < 1.16:`
+- `core\decision_regulation.py:1917` `elif repetition_pressure >= 0.56 and courage_gap >= 0.10 and decision_strength < 1.16:`
+- `core\decision_regulation.py:1921` `elif action_inhibition >= 0.62 and action_clearance < 0.52 and decision_strength < 1.18:`
+- `core\decision_regulation.py:1925` `elif action_inhibition >= 0.70 and courage_gap >= 0.16 and decision_strength < 1.18:`
+- `core\decision_regulation.py:1934` `or decision_readiness < 0.58`
+- `core\decision_regulation.py:1935` `or structure_quality < 0.52`
+- `core\decision_regulation.py:1936` `or structure_action_bearing < 0.38`
+- `core\decision_regulation.py:1937` `or action_clearance < 0.44`
+- `core\decision_regulation.py:1943` `elif action_clearance < 0.34 and decision_strength < 1.08:`
+- `core\decision_regulation.py:1947` `elif dominant_tension_cause in ("inner_conflict_pressure", "repetition_pressure", "expectation_pressure") and dominant_tension_value >= 0.58 and decision_strength < 1.16:`
+- `core\decision_regulation.py:1951` `elif field_replan_pressure >= 0.62 and action_readiness_from_field < 0.40 and decision_strength < 1.16:`
+- `core\decision_regulation.py:1955` `elif open_hypothesis_reifung_state == "open_hypothesis_reorganizing_memory" and open_hypothesis_reality_check_need >= 0.46 and open_hypothesis_reality_permission < 0.44 and decision_strength < 1.16:`
+- `core\decision_regulation.py:1959` `elif open_hypothesis_reifung_state == "open_hypothesis_burden_memory" and open_hypothesis_motor_tension >= 0.50 and action_weight < 0.48 and decision_strength < 1.12:`
+- `core\decision_regulation.py:1967` `elif positive_overextension >= 0.26 and positive_return_pressure >= 0.20 and decision_strength < 1.20:`
+- `core\decision_regulation.py:1971` `elif field_perception_clarity >= 0.58 and field_perception_stability >= 0.56 and action_readiness_from_field >= 0.48 and action_clearance >= 0.44:`
+- `core\decision_regulation.py:1975` `elif areal_conflict_pressure >= 0.60 and areal_support < 0.42 and decision_strength < 1.16:`
+- `core\decision_regulation.py:1979` `elif decision_conflict >= conflict_threshold or rumination_depth >= rumination_threshold or felt_conflict >= 0.58:`
+- `core\decision_regulation.py:1983` `elif ((state_maturity < maturity_min) and decision_strength < 1.10) or ((decision_readiness < readiness_min) and decision_strength < 1.02) or ((signal_quality < signal_quality_min) and decision_strength < 1.08):`
+- `core\decision_regulation.py:1991` `elif processing_areal_tension >= 0.72 and areal_support < 0.34 and decision_strength < 1.18:`
+- `core\decision_regulation.py:1995` `elif field_perception_instability >= 0.72 and action_readiness_from_field < 0.30 and decision_strength < 1.18:`
+- `core\decision_regulation.py:1999` `elif felt_pressure > 0.94 and state_maturity < 0.50 and decision_strength < 1.18:`
+- `core\decision_regulation.py:2025` `or structure_action_uncertainty >= 0.22`
+- `core\decision_regulation.py:2027` `or visual_action_uncertainty >= 0.20`
+- `core\decision_regulation.py:2028` `or variant_learning_pressure >= 0.18`
+- `core\decision_regulation.py:2029` `or transfer_maturity_gap >= 0.46`
+- `core\decision_regulation.py:2034` `allow_ruminate = bool(form_symbol_reframe_binding >= 0.28 or field_replan_pressure >= 0.56)`
+- `core\decision_regulation.py:2064` `if structure_quality < 0.55 and decision_strength < low_strength_min:`
+- `core\decision_regulation.py:2071` `elif decision_strength < mid_strength_min and structure_action_bearing < 0.46:`
+- `core\decision_regulation.py:2078` `elif bool(allow_plan) and semantic_shift_pressure >= 0.56 and transfer_bearing <= 0.42 and decision_strength < 1.28:`
+- `core\decision_regulation.py:2081` `allow_ruminate = bool(form_symbol_reframe_binding >= 0.30 or field_replan_pressure >= 0.58)`
+- `core\decision_regulation.py:2085` `elif bool(allow_plan) and transfer_maturity_gap >= 0.58 and trust_transfer_support < 0.42 and decision_strength < (1.18 + form_symbol_action_trust * 0.24):`
+- `core\decision_regulation.py:2088` `allow_ruminate = bool(form_symbol_reframe_binding >= 0.26 or transfer_maturity_gap >= 0.68)`
+- `core\decision_regulation.py:2095` `allow_ruminate = bool(transfer_recovery_need >= 0.46 or form_symbol_reframe_binding >= 0.24)`
+- `core\decision_regulation.py:2348` `if spacetime_unlocated_pressure >= 0.34 and spacetime_regulation_support < 0.28:`
+- `core\decision_regulation.py:2350` `elif temporal_self_location_state == "afterimage_trace" and spacetime_reflection_need >= 0.24:`
+- `core\decision_regulation.py:2352` `elif temporal_self_location_state == "remembered_experience" and spacetime_memory_bearing >= 0.34:`
+- `core\decision_regulation.py:2354` `elif temporal_self_location_state == "future_possibility" and spacetime_future_bearing >= 0.38:`
+- `core\decision_regulation.py:2356` `elif temporal_self_location_state == "present_contact" and spacetime_regulation_support >= 0.34:`
+- `core\decision_regulation.py:2532` `if (effort_reorganization_pressure >= 0.30 or pre_action_reorganization_pressure >= 0.36) and engaged_effort < 0.45:`
+- `core\decision_regulation.py:2534` `elif engaged_effort >= 0.48 and effort_reorganization_pressure < 0.30 and pre_action_reorganization_pressure < 0.34:`
+- `core\decision_regulation.py:2612` `if diffuse_open_development_pressure >= 0.34:`
+- `core\decision_regulation.py:2613` `if object_contact_depth < 0.20 and curiosity_tone < 0.16:`
+- `core\decision_regulation.py:2615` `elif perceptual_distance < 0.18 or inner_outer_alignment < 0.24:`
+- `core\decision_regulation.py:2804` `or trust_return_motor_contact_strength >= 0.24`
+- `core\decision_regulation.py:2807` `if trust_return_stabilization_need >= 0.32 and cortisol_load >= 0.35:`
+- `core\decision_regulation.py:2809` `elif trust_return_focus_pull >= 0.30:`
+- `core\decision_regulation.py:3264` `"positive_zero_point_regulation": bool(positive_zero_point_regulation or positive_zero_point_signal >= 0.50),`
+- `core\decision_regulation.py:3268` `positive_zero_point_regulation = bool(positive_zero_point_regulation or positive_zero_point_signal >= 0.50)`
+- `core\decision_regulation.py:3311` `if mcm_axis_displacement >= 0.45:`
+- `core\decision_regulation.py:3313` `elif mcm_axis_displacement >= 0.18:`
+- `core\decision_regulation.py:3315` `elif mcm_axis_displacement <= -0.45:`
+- `core\decision_regulation.py:3317` `elif mcm_axis_displacement <= -0.18:`
+- `core\decision_regulation.py:3321` `if positive_return_pressure > 0.0:`
+- `core\decision_regulation.py:3424` `if nervous_context_overcoupling > 0.0:`
+- `core\decision_regulation.py:3474` `and field_action_support < 0.46`
+- `core\decision_regulation.py:3475` `and structure_action_bearing < 0.50`
+- `core\decision_regulation.py:3659` `if subconscious_afterimage_reflection_pull > 0.0:`
+- `core\decision_regulation.py:3833` `if spacetime_regulation_support > 0.0:`
+- `core\decision_regulation.py:3971` `if thought_economy_need > 0.0:`
+- `core\decision_regulation.py:3985` `elif positive_return_pressure >= 0.30 and positive_overextension >= 0.24:`
+- `core\decision_regulation.py:3987` `elif spacetime_reflection_need >= 0.22 and spacetime_regulation_support < 0.32:`
+- `core\decision_regulation.py:3991` `elif nervous_context_overcoupling >= 0.18 and nervous_overload_reflection_need >= 0.30:`
+- `core\decision_regulation.py:3993` `elif subconscious_leakage >= 0.36 and protective_distance_regulation < 0.38:`
+- `core\decision_regulation.py:3995` `elif conscious_workspace_load >= 0.36 and distance_regulation < 0.20:`
+- `core\decision_regulation.py:3999` `elif impulse_control < 0.35 and plan_pressure > 0.44:`
+- `core\decision_regulation.py:4001` `elif fatigue_tone >= 0.26 and serotonin_stability >= 0.50 and load_tolerance >= 0.22:`
+- `core\decision_regulation.py:4003` `elif reflective_perception_value > 0.0 and self_reflection_regulator >= 0.20:`
+- `core\decision_regulation.py:4005` `elif protective_distance_regulation < 0.35 and field_attachment > 0.24:`
+- `core\decision_regulation.py:4007` `elif thought_overprocessing_signal >= 0.34 and thought_efficiency_support < 0.26:`
+- `core\decision_regulation.py:4009` `elif load_tolerance < 0.26 and variance_regulation < 0.24 and regulatory_second_order_load >= 0.46:`
+- `core\decision_regulation.py:4099` `elif integration_sorting_need >= 0.34 and integration_memory_recall >= 0.20:`
+- `core\decision_regulation.py:4101` `elif integration_contact_deepening >= 0.30:`
+- `core\decision_regulation.py:4195` `if cautious_hypothesis_strength >= 0.30 and cautious_hypothesis_clarity >= 0.24:`
+- `core\decision_regulation.py:4197` `elif integration_memory_recall >= 0.32 and integration_reframe_pull >= 0.24:`
+- `core\decision_regulation.py:4199` `elif integration_sorting_need >= 0.32 and cautious_hypothesis_patience >= 0.24:`
+- `core\decision_regulation.py:4201` `elif integration_contact_deepening >= 0.25:`
+- `core\decision_regulation.py:4203` `elif cautious_hypothesis_strength >= 0.22:`
+- `core\decision_regulation.py:4235` `and pre_action_reorganization_pressure >= 0.34`
+- `core\decision_regulation.py:4236` `and pre_action_context_selectivity < 0.46`
+- `core\decision_regulation.py:4241` `allow_ruminate = bool(field_replan_pressure >= 0.52 or effort_learning_pull >= 0.30 or pre_action_reorganization_pressure >= 0.42)`
+- `core\decision_regulation.py:4248` `and diffuse_open_development_pressure >= 0.38`
+- `core\decision_regulation.py:4255` `or field_replan_pressure >= 0.56`
+- `core\decision_regulation.py:4270` `allow_ruminate = bool(integration_reframe_pull >= 0.30 or field_replan_pressure >= 0.52)`
+- `core\decision_regulation.py:4278` `and cautious_hypothesis_clarity < 0.26`
+- `core\decision_regulation.py:4283` `allow_ruminate = bool(cautious_hypothesis_state == "observe_until_clear" and integration_reframe_pull >= 0.28)`
+- `core\decision_regulation.py:4312` `and trust_return_act_bridge >= 0.28`
+- `core\decision_regulation.py:4320` `or trust_return_context_instability >= 0.16`
+- `core\decision_regulation.py:4354` `and metaregulator_reflection_pressure >= 0.18`
+- `core\decision_regulation.py:4355` `and (field_action_support < 0.24 or inner_outer_alignment < 0.30 or perceptual_distance < 0.22)`
+- `core\decision_regulation.py:4356` `and action_clearance < 0.56`
+- `core\decision_regulation.py:4363` `or pre_action_reorganization_pressure >= 0.38`
+- `core\experience_space.py:1253` `areal_supported_ratio = float(sum(1.0 for value in areal_support_values if value >= 0.58) / total)`
+- `core\experience_space.py:1288` `if felt_bearing_score >= 0.66 and felt_stability >= 0.58 and areal_supported_ratio >= 0.42 and areal_fragmented_ratio <= 0.24:`
+- `core\experience_space.py:1292` `elif euphoric_ratio >= 0.34 and bearing_avg < 0.62:`
+- `core\experience_space.py:1298` `elif valence_variance >= 0.10 or bearing_variance >= 0.08 or areal_support_variance >= 0.10:`
+- `core\experience_space.py:1375` `if overactivation >= 0.72 and valence >= 0.18 and areal_conflict_pressure < 0.42:`
+- `core\experience_space.py:1380` `or field_areal_fragmentation >= 0.54`
+- `core\experience_space.py:1382` `or thought_areal_pressure >= 0.54`
+- `core\experience_space.py:1391` `and regulation_quality >= 0.56`
+- `core\experience_space.py:1393` `and areal_support >= 0.52`
+- `core\experience_space.py:1394` `and areal_conflict_pressure <= 0.34`
+- `core\experience_space.py:1398` `if bearing >= 0.48 and areal_support >= 0.46 and recovery_cost <= 0.46 and conflict <= 0.42:`
+- `core\experience_space.py:1404` `if abs(valence) <= 0.12 and abs(bearing) <= 0.12 and areal_support <= 0.18 and areal_conflict_pressure <= 0.18:`
+- `core\experience_space.py:1407` `if field_areal_fragmentation >= 0.38 or areal_conflict_pressure >= 0.40:`
+- `core\experience_space.py:2156` `if event_key in ("observed_only", "withheld") and observation_quality >= 0.54 and bearing_regulation_cost <= 0.54:`
+- `core\experience_space.py:2162` `elif bearing_regulation_cost >= 0.58 and review_score < 0.50:`
+- `core\felt_state.py:703` `elif areal_conflict_pressure >= 0.58:`
+- `core\felt_state.py:705` `elif field_perception_label == "fragmented_perception_field" and field_perception_pressure >= 0.46:`
+- `core\felt_state.py:707` `elif field_perception_label == "coherent_perception_field" and field_perception_clarity >= 0.54:`
+- `core\felt_state.py:711` `elif felt_pressure >= 0.58 and breakout_tension >= 0.54:`
+- `core\felt_state.py:713` `elif felt_stability < 0.34:`
+- `core\form_language.py:152` `if visual_mcm_mismatch >= 0.48 and hypothesis_reality_binding < 0.40:`
+- `core\form_language.py:154` `elif form_mcm_syntax_density >= 0.54 and hypothesis_reality_binding >= 0.46:`
+- `core\form_language.py:156` `elif form_to_mcm_recall >= 0.42 and mcm_to_form_confirmation >= 0.34:`
+- `core\form_language.py:158` `elif form_to_mcm_recall >= 0.34 or mcm_to_form_confirmation >= 0.34:`
+- `core\form_language.py:199` `if syntax_coherence >= 0.56 and syntax_compression >= 0.48:`
+- `core\form_language.py:201` `elif syntax_density >= 0.46 and syntax_coherence >= 0.40:`
+- `core\form_language.py:203` `elif open_pressure >= 0.42 or reifung_word in ("replay_maturation", "reinterpretation_maturation", "distance_maturation"):`
+- `core\form_language.py:1007` `elif uncertain_form_exposure >= 0.42 and variant_spread >= 0.42:`
+- `core\form_language.py:1009` `elif uncertain_form_exposure >= 0.34 and uncertainty_familiarity >= 0.42 and variant_bearing_memory < 0.42:`
+- `core\form_language.py:1011` `elif uncertain_form_exposure >= 0.28 and variant_bearing_memory >= 0.48:`
+- `core\form_language.py:1133` `if semantic_action_nearness >= 0.56 and semantic_coherence >= 0.48:`
+- `core\form_language.py:1137` `elif learned_observation_binding >= max(learned_action_binding, learned_reframe_binding) and learned_observation_binding >= 0.32:`
+- `core\form_language.py:1139` `elif learned_reframe_binding >= 0.30 or symbolic_field_decoupling >= 0.44:`
+- `core\form_language.py:1164` `if semantic_action_nearness >= 0.58 and semantic_coherence >= 0.52:`
+- `core\form_language.py:1166` `elif semantic_compression >= 0.52 and semantic_coherence >= 0.48:`
+- `core\form_language.py:1172` `elif learned_reframe_binding >= 0.38 or symbolic_field_decoupling >= 0.46:`
+- `core\form_language.py:1174` `elif compound_maturity >= 0.46 and compound_resonance >= 0.34:`
+- `core\form_language.py:1254` `contact_alpha = 0.12 if contact_pain_sample < 0.32 else 0.18`
+- `core\form_language.py:1320` `if contact_learning_state == "protective_reorganization_contact" and next_contact_maturity < 0.44:`
+- `core\form_language.py:1322` `elif next_contact_burden_evidence >= 0.16 and next_contact_carefulness >= 0.06 and next_contact_maturity < 0.20:`
+- `core\form_language.py:1324` `elif next_contact_pain >= 0.09 and next_contact_maturity < 0.16 and next_quality < -0.04:`
+- `core\form_language.py:1326` `elif next_contact_utility_evidence >= 0.16 and next_contact_utility >= 0.10 and next_contact_maturity >= 0.08 and next_contact_pain < 0.13:`
+- `core\form_language.py:1327` `stored_contact_state = "constructive_contact" if next_contact_maturity >= 0.16 else "maturing_contact"`
+- `core\form_language.py:1328` `elif next_contact_burden_evidence >= 0.10 or next_contact_carefulness >= 0.08:`
+- `core\form_language.py:1330` `elif next_contact_maturity >= 0.10:`
+- `core\form_symbol_orchestration.py:815` `if contact_pain_sample >= 0.30 and contact_maturity_sample < 0.30:`
+- `core\form_symbol_orchestration.py:817` `elif contact_carefulness_sample >= 0.22 and contact_pain_sample >= 0.20 and contact_maturity_sample < 0.38:`
+- `core\form_symbol_orchestration.py:819` `elif contact_utility_sample >= 0.40 and contact_maturity_sample >= 0.32:`
+- `core\form_symbol_orchestration.py:821` `elif contact_learning_need >= 0.30 or contact_context_reframe_need >= 0.28:`
+- `core\form_symbol_orchestration.py:823` `elif contact_maturity_sample >= 0.30:`
+- `core\form_symbol_orchestration.py:825` `if position_consequence_burden >= 0.48 and contact_maturity_sample < 0.42:`
+- `core\form_symbol_orchestration.py:827` `elif position_experience_label == "unearned_relief_watch" and contact_maturity_sample < 0.46:`
+- `core\inner_context.py:123` `if inner_pattern_conflict >= 0.58 and inner_pattern_support < 0.46:`
+- `core\inner_context.py:125` `elif inner_pattern_fragility >= 0.44:`
+- `core\inner_context.py:127` `elif inner_pattern_support >= 0.54 and inner_pattern_conflict <= 0.36:`
+- `core\inner_pattern.py:42` `elif stability >= 0.42:`
+- `core\inner_pattern.py:355` `if regulation_pressure >= 0.72 or areal_pressure_mean >= 0.68 or areal_conflict >= 0.66:`
+- `core\inner_pattern.py:357` `elif regulation_pressure >= 0.46 or areal_pressure_mean >= 0.42 or areal_conflict >= 0.42:`
+- `core\inner_pattern.py:366` `elif areal_support >= 0.58 and areal_dominance >= 0.34:`
+- `core\inner_pattern.py:375` `if areal_conflict_mean >= 0.24 or competition_bias >= 0.34 or neuron_coupling_norm_mean >= 0.30:`
+- `core\inner_pattern.py:379` `elif neuron_stability_mean >= 0.64 and field_stability >= 0.58 and areal_support >= 0.46:`
+- `core\inner_pattern.py:381` `elif neuron_activation_mean >= 0.66 or neuron_external_impulse_norm_mean >= 0.34:`
+- `core\inner_pattern.py:388` `elif thought_state_maturity >= 0.52 and thought_decision_readiness >= 0.48 and areal_support >= 0.52:`
+- `core\inner_pattern.py:390` `elif areal_support >= 0.44 and areal_conflict <= 0.38:`

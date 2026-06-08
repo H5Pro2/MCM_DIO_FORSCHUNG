@@ -1,0 +1,90 @@
+{
+  "detail": [
+    {
+      "action_path": "probe19_run153:LONG -> probe19_run154:LONG -> probe19_run155:LONG",
+      "family": "dio_0arw",
+      "inner_sentence": "dio_0arw: Diese Spur fuehlt sich innen getragen an (carried -> carried -> carried); reward_sum=4.154562.",
+      "inner_state": "inner_carried",
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_stable_carry",
+      "reward_sum": 4.154562,
+      "state_path": "carried -> carried -> carried",
+      "trend": "flat"
+    },
+    {
+      "action_path": "probe19_run153:LONG -> probe19_run154:LONG -> probe19_run155:LONG",
+      "family": "dio_0t0v",
+      "inner_sentence": "dio_0t0v: Diese Spur fuehlt sich innen getragen an (carried -> carried -> carried); reward_sum=3.109977.",
+      "inner_state": "inner_carried",
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_stable_carry",
+      "reward_sum": 3.109977,
+      "state_path": "carried -> carried -> carried",
+      "trend": "flat"
+    },
+    {
+      "action_path": "probe19_run153:SHORT -> probe19_run154:SHORT -> probe19_run155:SHORT",
+      "family": "dio_1u7v",
+      "inner_sentence": "dio_1u7v: Diese Spur fuehlt sich innen getragen an (carried -> carried -> carried); reward_sum=2.683176.",
+      "inner_state": "inner_carried",
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_stable_carry",
+      "reward_sum": 2.683176,
+      "state_path": "carried -> carried -> carried",
+      "trend": "flat"
+    },
+    {
+      "action_path": "probe19_run153:WAIT -> probe19_run154:WAIT -> probe19_run155:WAIT",
+      "family": "dio_00qb",
+      "inner_sentence": "dio_00qb: Diese Spur fuehlt sich innen unfertig/gehalten an (held -> held -> held).",
+      "inner_state": "inner_unfinished",
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_held_unfinished",
+      "reward_sum": 0.0,
+      "state_path": "held -> held -> held",
+      "trend": "flat"
+    },
+    {
+      "action_path": "probe19_run153:WAIT -> probe19_run154:WAIT -> probe19_run155:WAIT",
+      "family": "dio_14xc",
+      "inner_sentence": "dio_14xc: Diese Spur bleibt innen beobachtend offen (observed -> observed -> observed).",
+      "inner_state": "inner_open_observation",
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_open_observation",
+      "reward_sum": 0.0,
+      "state_path": "observed -> observed -> observed",
+      "trend": "flat"
+    },
+    {
+      "action_path": "probe19_run153:WAIT -> probe19_run154:WAIT -> probe19_run155:WAIT",
+      "family": "dio_1vpi",
+      "inner_sentence": "dio_1vpi: Diese Spur fuehlt sich innen unfertig/gehalten an (held -> held -> held).",
+      "inner_state": "inner_unfinished",
+      "passive_only": 1,
+      "reflection_posture": "passive_reflection_held_unfinished",
+      "reward_sum": 0.0,
+      "state_path": "held -> held -> held",
+      "trend": "flat"
+    }
+  ],
+  "summary": [
+    {
+      "count": 3,
+      "families": "dio_0arw,dio_0t0v,dio_1u7v",
+      "inner_state": "inner_carried",
+      "reward_sum": 9.947715
+    },
+    {
+      "count": 1,
+      "families": "dio_14xc",
+      "inner_state": "inner_open_observation",
+      "reward_sum": 0.0
+    },
+    {
+      "count": 2,
+      "families": "dio_00qb,dio_1vpi",
+      "inner_state": "inner_unfinished",
+      "reward_sum": 0.0
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "class_counts": {
+    "held_observation": 15,
+    "observation_to_positive_action": 3,
+    "quiet_family": 1
+  },
+  "class_reward_sum": {
+    "held_observation": 0.0,
+    "observation_to_positive_action": 6.009556,
+    "quiet_family": 0.0
+  },
+  "debug_root": "debug\\dio_mini_sensor_relation_probe13_short_reife_varianz_shift",
+  "held_observation": [
+    "dio_0avw",
+    "dio_0jco",
+    "dio_1g18",
+    "dio_05s4",
+    "dio_14jl",
+    "dio_12jm",
+    "dio_1k8m",
+    "dio_1guc"
+  ],
+  "top_direct_action": [],
+  "top_observation_to_action": [
+    "dio_0hd3",
+    "dio_0c6o",
+    "dio_1wie"
+  ]
+}

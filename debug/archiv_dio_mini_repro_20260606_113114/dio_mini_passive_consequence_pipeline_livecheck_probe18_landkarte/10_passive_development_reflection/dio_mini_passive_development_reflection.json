@@ -1,0 +1,119 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "writes_memory": false
+  },
+  "detail": [
+    {
+      "action_path": "WAIT -> WAIT -> WAIT",
+      "binding_path": "multisensory_quiet_hold -> multisensory_quiet_hold -> multisensory_quiet_hold",
+      "count": 3,
+      "development_state": "development_quiet_observation",
+      "event_reward_sum": 0.0,
+      "first_moment_state": "moment_quiet_held",
+      "last_moment_state": "moment_quiet_held",
+      "maturation_state": "maturation_quiet_observation",
+      "moment_path": "moment_quiet_held -> moment_quiet_held -> moment_quiet_held",
+      "passive_only": 1,
+      "passive_reflection_state": "reflection_quiet_observation",
+      "reflection_pressure": 0.4,
+      "reflection_sentence": "dio_14xc: Wiederkehr blieb ruhig; Innenlage darf Beobachtung halten. Aktionen=WAIT -> WAIT -> WAIT.",
+      "reward_sum": 0.0,
+      "runs": "156,157,158",
+      "symbol_family": "dio_14xc"
+    },
+    {
+      "action_path": "LONG -> LONG -> LONG",
+      "binding_path": "multisensory_carried_contact -> multisensory_carried_contact -> multisensory_carried_contact",
+      "count": 3,
+      "development_state": "development_stable_carried",
+      "event_reward_sum": 3.0,
+      "first_moment_state": "moment_carried",
+      "last_moment_state": "moment_carried",
+      "maturation_state": "maturation_stable_carried",
+      "moment_path": "moment_carried -> moment_carried -> moment_carried",
+      "passive_only": 1,
+      "passive_reflection_state": "reflection_trust_seed",
+      "reflection_pressure": 1.0,
+      "reflection_sentence": "dio_02qu: Wiederkehr wurde getragen; Innenlage darf Vertrauen erinnern. Aktionen=LONG -> LONG -> LONG.",
+      "reward_sum": 3.0,
+      "runs": "156,157,158",
+      "symbol_family": "dio_02qu"
+    },
+    {
+      "action_path": "LONG -> LONG -> LONG",
+      "binding_path": "multisensory_carried_contact -> multisensory_carried_contact -> multisensory_carried_contact",
+      "count": 3,
+      "development_state": "development_stable_carried",
+      "event_reward_sum": 3.0,
+      "first_moment_state": "moment_carried",
+      "last_moment_state": "moment_carried",
+      "maturation_state": "maturation_stable_carried",
+      "moment_path": "moment_carried -> moment_carried -> moment_carried",
+      "passive_only": 1,
+      "passive_reflection_state": "reflection_trust_seed",
+      "reflection_pressure": 1.0,
+      "reflection_sentence": "dio_0arw: Wiederkehr wurde getragen; Innenlage darf Vertrauen erinnern. Aktionen=LONG -> LONG -> LONG.",
+      "reward_sum": 3.0,
+      "runs": "156,157,158",
+      "symbol_family": "dio_0arw"
+    },
+    {
+      "action_path": "SHORT -> SHORT -> SHORT",
+      "binding_path": "multisensory_carried_contact -> multisensory_carried_contact -> multisensory_carried_contact",
+      "count": 3,
+      "development_state": "development_stable_carried",
+      "event_reward_sum": 3.0,
+      "first_moment_state": "moment_carried",
+      "last_moment_state": "moment_carried",
+      "maturation_state": "maturation_stable_carried",
+      "moment_path": "moment_carried -> moment_carried -> moment_carried",
+      "passive_only": 1,
+      "passive_reflection_state": "reflection_trust_seed",
+      "reflection_pressure": 1.0,
+      "reflection_sentence": "dio_1u7v: Wiederkehr wurde getragen; Innenlage darf Vertrauen erinnern. Aktionen=SHORT -> SHORT -> SHORT.",
+      "reward_sum": 3.0,
+      "runs": "156,157,158",
+      "symbol_family": "dio_1u7v"
+    },
+    {
+      "action_path": "SHORT -> SHORT -> SHORT",
+      "binding_path": "multisensory_carried_contact -> multisensory_carried_contact -> multisensory_carried_contact",
+      "count": 3,
+      "development_state": "development_stable_carried",
+      "event_reward_sum": 3.0,
+      "first_moment_state": "moment_carried",
+      "last_moment_state": "moment_carried",
+      "maturation_state": "maturation_stable_carried",
+      "moment_path": "moment_carried -> moment_carried -> moment_carried",
+      "passive_only": 1,
+      "passive_reflection_state": "reflection_trust_seed",
+      "reflection_pressure": 1.0,
+      "reflection_sentence": "dio_1vpi: Wiederkehr wurde getragen; Innenlage darf Vertrauen erinnern. Aktionen=SHORT -> SHORT -> SHORT.",
+      "reward_sum": 3.0,
+      "runs": "156,157,158",
+      "symbol_family": "dio_1vpi"
+    }
+  ],
+  "source": "debug\\dio_mini_passive_consequence_pipeline_livecheck_probe18_landkarte\\09_passive_development_diagnosis\\dio_mini_passive_development_diagnosis.csv",
+  "summary": [
+    {
+      "families": "dio_14xc",
+      "family_count": 1,
+      "max_reflection_pressure": 0.4,
+      "passive_reflection_state": "reflection_quiet_observation",
+      "reward_sum": 0.0,
+      "row_count": 3
+    },
+    {
+      "families": "dio_02qu,dio_0arw,dio_1u7v,dio_1vpi",
+      "family_count": 4,
+      "max_reflection_pressure": 1.0,
+      "passive_reflection_state": "reflection_trust_seed",
+      "reward_sum": 12.0,
+      "row_count": 12
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "writes_memory": false
+  },
+  "comparison_rows": 5,
+  "family_rows": 5,
+  "inner_awareness_rows": 5,
+  "inner_awareness_summary_rows": 3,
+  "maturation_reflection_rows": 5,
+  "maturation_rows": 5,
+  "outputs": {
+    "family_file": "family_file",
+    "family_maturation_path": "family_maturation_path",
+    "family_maturation_reflection": "family_maturation_reflection",
+    "family_reflection_timeline": "family_reflection_timeline",
+    "passive_cortex_comparison": "passive_cortex_comparison",
+    "passive_inner_awareness": "passive_inner_awareness"
+  },
+  "probes": [
+    "probe18_first",
+    "probe18_repeat1",
+    "probe18_repeat2"
+  ],
+  "timeline_rows": 0,
+  "view_dirs": {
+    "probe18_first": "debug\\dio_mini_passive_cortex_standard_probe18_selected_inner_awareness_verify\\passive_cortex_probe18_first",
+    "probe18_repeat1": "debug\\dio_mini_passive_cortex_standard_probe18_selected_inner_awareness_verify\\passive_cortex_probe18_repeat1",
+    "probe18_repeat2": "debug\\dio_mini_passive_cortex_standard_probe18_selected_inner_awareness_verify\\passive_cortex_probe18_repeat2"
+  }
+}

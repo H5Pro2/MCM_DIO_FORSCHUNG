@@ -1,0 +1,6 @@
+symbol_family,action,outcome_event,inner_state,event_count,event_reward_sum,memory_action_count,memory_reward_sum,memory_trust,memory_caution,memory_trust_minus_caution,consequence_effect,inner_sentence,passive_only
+dio_02qu,LONG,TP,inner_consequence_carried,3,3.0,9,5.010461,0.490679,0.0,0.490679,tp_trust_visible,dio_02qu: LONG wurde durch TP getragen; innen entsteht Vertrauen (0.490679) bei Vorsicht 0.000000.,1
+dio_0arw,LONG,TP,inner_consequence_carried,3,3.0,17,19.98703,1.0,0.0,1.0,tp_trust_visible,dio_0arw: LONG wurde durch TP getragen; innen entsteht Vertrauen (1.000000) bei Vorsicht 0.000000.,1
+dio_1u7v,SHORT,TP,inner_consequence_carried,3,3.0,18,15.525278,0.875496,0.0,0.875496,tp_trust_visible,dio_1u7v: SHORT wurde durch TP getragen; innen entsteht Vertrauen (0.875496) bei Vorsicht 0.000000.,1
+dio_1vpi,SHORT,TP,inner_consequence_carried,3,3.0,15,7.413749,0.590538,0.083972,0.506566,tp_trust_visible,dio_1vpi: SHORT wurde durch TP getragen; innen entsteht Vertrauen (0.590538) bei Vorsicht 0.083972.,1
+dio_14xc,WAIT,NO_TRADE,inner_consequence_quiet,3,0.0,25,0.0,0.0,0.0,0.0,no_trade_or_observation,dio_14xc: keine reale Handlung; innen bleibt die Familie ruhig beobachtet (3 Ereignisse).,1

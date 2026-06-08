@@ -1,0 +1,4 @@
+binding_state,inner_state,contact_state,action,count,reward_sum,event_reward_sum,avg_reward,families,sight_states,hearing_states,feeling_states
+multisensory_carried_contact,inner_consequence_carried,real_contact_carried,LONG,6,6.0,6.0,1.0,"dio_02qu,dio_0arw",sehen_teilform,"hoeren_leise,hoeren_mittlere_spannung",fuehlen_offen
+multisensory_carried_contact,inner_consequence_carried,real_contact_carried,SHORT,6,6.0,6.0,1.0,"dio_1u7v,dio_1vpi","sehen_geformte_bewegung,sehen_stabile_form",hoeren_mittlere_spannung,"fuehlen_koharent_gespannt,fuehlen_koharent_ruhig"
+multisensory_quiet_hold,inner_consequence_quiet,held_impulse_without_action,WAIT,3,0.0,0.0,0.0,dio_14xc,sehen_geformte_bewegung,hoeren_leise,fuehlen_koharent_gespannt

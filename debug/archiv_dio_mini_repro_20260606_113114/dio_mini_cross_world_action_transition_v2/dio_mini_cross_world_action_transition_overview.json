@@ -1,0 +1,47 @@
+{
+  "class_counts": {
+    "burdened_action_pattern": 1,
+    "direct_mature_pattern": 3,
+    "held_observation_pattern": 59,
+    "local_direct_action": 3,
+    "local_observation_to_action": 11,
+    "matured_action_pattern": 7,
+    "observation_maturing_pattern": 1
+  },
+  "class_reward_sum": {
+    "burdened_action_pattern": -0.431148,
+    "direct_mature_pattern": 5.737034,
+    "held_observation_pattern": 0.0,
+    "local_direct_action": 10.207592,
+    "local_observation_to_action": 21.160392,
+    "matured_action_pattern": 30.026822,
+    "observation_maturing_pattern": 0.939096
+  },
+  "held_observation": [
+    "dio_185j",
+    "dio_0v15",
+    "dio_1y2t",
+    "dio_0rps",
+    "dio_0e10",
+    "dio_1kqv",
+    "dio_08wa",
+    "dio_1wwt"
+  ],
+  "top_direct_mature": [
+    "dio_1alf",
+    "dio_01yf",
+    "dio_18jg"
+  ],
+  "top_matured_action": [
+    "dio_0a54",
+    "dio_0nmi",
+    "dio_1d6j",
+    "dio_14wi",
+    "dio_0x52",
+    "dio_1vm7",
+    "dio_0qb3"
+  ],
+  "top_observation_maturing": [
+    "dio_09jn"
+  ]
+}

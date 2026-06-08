@@ -1,0 +1,275 @@
+def build_entry_attempt_context(bot, entry_result: dict, state_before: dict | None = None, state_after: dict | None = None, state_delta: dict | None = None) -> dict:
+    result = dict(entry_result or {})
+    action_capacity = float(result.get("action_capacity", 0.0) or 0.0)
+    pressure_to_capacity = 0.0
+
+    regulation_snapshot = dict(state_after or {}) if state_after is not None else (bot._build_regulation_state_snapshot() if bot is not None else {
+        "tension": {
+            "energy": 0.0,
+            "coherence": 0.0,
+            "stability": 0.0,
+            "momentum": 0.0,
+            "perceived_pressure": 0.0,
+            "volume_pressure": 0.0,
+        },
+        "field": {
+            "regulatory_load": 0.0,
+            "action_capacity": 0.0,
+            "recovery_need": 0.0,
+            "survival_pressure": 0.0,
+            "pressure_to_capacity": 0.0,
+            "capacity_reserve": 0.0,
+            "recovery_balance": 0.0,
+        },
+        "experience": {
+            "approach_pressure": 0.0,
+            "pressure_release": 0.0,
+            "experience_regulation": 0.0,
+            "reflection_maturity": 0.0,
+            "load_bearing_capacity": 0.0,
+            "protective_width_regulation": 0.0,
+            "protective_courage": 0.0,
+            "carrying_balance": 0.0,
+            "bearing_pressure_gap": 0.0,
+        },
+    })
+
+    if state_before is not None:
+        previous_snapshot = dict(state_before or {})
+    else:
+        previous_snapshot = dict(getattr(bot, "_last_regulation_state_snapshot", {}) or {})
+
+    if not previous_snapshot:
+        previous_snapshot = dict(regulation_snapshot or {})
+
+    state_before = dict(previous_snapshot or {})
+    state_after = dict(regulation_snapshot or {})
+
+    if state_delta is None:
+        state_delta = bot._build_regulation_state_delta(
+            state_before,
+            state_after,
+        )
+    else:
+        state_delta = dict(state_delta or {})
+
+    if action_capacity > 0.0:
+        pressure_to_capacity = float(result.get("regulatory_load", 0.0) or 0.0) / max(0.05, action_capacity)
+
+    structure_perception_state = dict(result.get("structure_perception_state", {}) or {})
+    market_hearing_state = dict(result.get("market_hearing_state", {}) or {})
+    if not market_hearing_state:
+        vision_state = dict(result.get("vision", {}) or {})
+        market_hearing_state = dict(vision_state.get("market_hearing_state", {}) or {})
+    market_loudness = float(market_hearing_state.get("loudness", result.get("market_loudness", 0.0)) or 0.0)
+    market_frequency_hz = float(market_hearing_state.get("frequency_hz", result.get("market_frequency_hz", 0.0)) or 0.0)
+    market_hearing_compression = float(market_hearing_state.get("compression", result.get("market_hearing_compression", 0.0)) or 0.0)
+    market_tone = str(market_hearing_state.get("tone", result.get("market_tone", "silent_tone")) or "silent_tone")
+
+    field_state = {
+        "field_stimulus_density": float(result.get("field_stimulus_density", 0.0) or 0.0),
+        "field_density": float(result.get("field_density", 0.0) or 0.0),
+        "field_stability": float(result.get("field_stability", 0.0) or 0.0),
+        "regulatory_load": float(result.get("regulatory_load", 0.0) or 0.0),
+        "action_capacity": float(action_capacity),
+        "recovery_need": float(result.get("recovery_need", 0.0) or 0.0),
+        "survival_pressure": float(result.get("survival_pressure", 0.0) or 0.0),
+        "pressure_to_capacity": float(pressure_to_capacity),
+        "capacity_reserve": float((regulation_snapshot.get("field", {}) or {}).get("capacity_reserve", 0.0) or 0.0),
+        "recovery_balance": float((regulation_snapshot.get("field", {}) or {}).get("recovery_balance", 0.0) or 0.0),
+    }
+
+    experience_state = {
+        "entry_expectation": float(getattr(bot, "entry_expectation", 0.0) or 0.0) if bot is not None else 0.0,
+        "target_expectation": float(getattr(bot, "target_expectation", 0.0) or 0.0) if bot is not None else 0.0,
+        "approach_pressure": float(getattr(bot, "approach_pressure", 0.0) or 0.0) if bot is not None else 0.0,
+        "pressure_release": float(getattr(bot, "pressure_release", 0.0) or 0.0) if bot is not None else 0.0,
+        "experience_regulation": float(getattr(bot, "experience_regulation", 0.0) or 0.0) if bot is not None else 0.0,
+        "reflection_maturity": float(getattr(bot, "reflection_maturity", 0.0) or 0.0) if bot is not None else 0.0,
+        "load_bearing_capacity": float(getattr(bot, "load_bearing_capacity", 0.0) or 0.0) if bot is not None else 0.0,
+        "protective_width_regulation": float(getattr(bot, "protective_width_regulation", 0.0) or 0.0) if bot is not None else 0.0,
+        "protective_courage": float(getattr(bot, "protective_courage", 0.0) or 0.0) if bot is not None else 0.0,
+        "carrying_balance": float((regulation_snapshot.get("experience", {}) or {}).get("carrying_balance", 0.0) or 0.0),
+        "bearing_pressure_gap": float((regulation_snapshot.get("experience", {}) or {}).get("bearing_pressure_gap", 0.0) or 0.0),
+    }
+
+    return {
+        "decision_tendency": str(result.get("decision_tendency", "") or ""),
+        "proposed_decision": str(result.get("proposed_decision", "") or ""),
+        "rejection_reason": str(result.get("rejection_reason", "") or ""),
+        "action_intent_state": dict(result.get("action_intent_state", {}) or {}),
+        "inner_action_consent": float(result.get("inner_action_consent", 0.0) or 0.0),
+        "inner_action_support": float(result.get("inner_action_support", 0.0) or 0.0),
+        "inner_action_no": float(result.get("inner_action_no", 0.0) or 0.0),
+        "inner_action_consent_state": str(result.get("inner_action_consent_state", "") or ""),
+        "strategy_confirmation": float(result.get("strategy_confirmation", 0.0) or 0.0),
+        "strategy_rejection": float(result.get("strategy_rejection", 0.0) or 0.0),
+        "strategy_trust_bearing": float(result.get("strategy_trust_bearing", 0.0) or 0.0),
+        "strategy_context_bearing": float(result.get("strategy_context_bearing", 0.0) or 0.0),
+        "raw_strategy_contradiction_pressure": float(result.get("raw_strategy_contradiction_pressure", 0.0) or 0.0),
+        "strategy_contradiction_pressure": float(result.get("strategy_contradiction_pressure", 0.0) or 0.0),
+        "thought_confirmation_bearing": float(result.get("thought_confirmation_bearing", result.get("strategy_confirmation", 0.0)) or 0.0),
+        "thought_rejection_pressure": float(result.get("thought_rejection_pressure", result.get("strategy_rejection", 0.0)) or 0.0),
+        "thought_trust_bearing": float(result.get("thought_trust_bearing", result.get("strategy_trust_bearing", 0.0)) or 0.0),
+        "contact_context_bearing": float(result.get("contact_context_bearing", result.get("strategy_context_bearing", 0.0)) or 0.0),
+        "raw_thought_contradiction_pressure": float(result.get("raw_thought_contradiction_pressure", result.get("raw_strategy_contradiction_pressure", 0.0)) or 0.0),
+        "thought_contradiction_pressure": float(result.get("thought_contradiction_pressure", result.get("strategy_contradiction_pressure", 0.0)) or 0.0),
+        "open_hypothesis_reality_permission": float(result.get("open_hypothesis_reality_permission", result.get("open_hypothesis_action_permission", 0.0)) or 0.0),
+        "possibility_contact_bearing": float(result.get("possibility_contact_bearing", result.get("possibility_action_support", 0.0)) or 0.0),
+        "dominant_hypothesis_reality_bearing": float(result.get("dominant_hypothesis_reality_bearing", result.get("dominant_hypothesis_action_readiness", 0.0)) or 0.0),
+        "current_hypothesis_reality_bearing": float(result.get("current_hypothesis_reality_bearing", result.get("current_hypothesis_action_support", 0.0)) or 0.0),
+        "market_hearing_state": dict(market_hearing_state or {}),
+        "market_loudness": float(market_loudness),
+        "market_frequency_hz": float(market_frequency_hz),
+        "market_hearing_compression": float(market_hearing_compression),
+        "market_tone": str(market_tone),
+        "state": {
+            "energy": float(result.get("energy", 0.0) or 0.0),
+            "market_loudness": float(market_loudness),
+            "market_frequency_hz": float(market_frequency_hz),
+            "market_hearing_compression": float(market_hearing_compression),
+            "market_tone": str(market_tone),
+            "coherence": float(result.get("coherence", 0.0) or 0.0),
+            "asymmetry": int(result.get("asymmetry", 0) or 0),
+            "coh_zone": float(result.get("coh_zone", 0.0) or 0.0),
+            "self_state": str(result.get("self_state", "stable") or "stable"),
+            "attractor": str(result.get("attractor", "neutral") or "neutral"),
+        },
+        "focus": {
+            "focus_point": float(getattr(bot, "focus_point", 0.0) or 0.0) if bot is not None else 0.0,
+            "focus_confidence": float(result.get("focus", {}).get("focus_confidence", getattr(bot, "focus_confidence", 0.0) if bot is not None else 0.0) or 0.0),
+            "target_lock": float(getattr(bot, "target_lock", 0.0) or 0.0) if bot is not None else 0.0,
+            "target_drift": float(getattr(bot, "target_drift", 0.0) or 0.0) if bot is not None else 0.0,
+        },
+        "experience": dict(experience_state or {}),
+        "field_state": dict(field_state or {}),
+        "bearing_context": {
+            "felt_bearing_score": float(result.get("felt_bearing_score", 0.0) or 0.0),
+            "felt_profile_label": str(result.get("felt_profile_label", "mixed_unclear") or "mixed_unclear"),
+            "structure_quality": float(structure_perception_state.get("structure_quality", 0.0) or 0.0),
+            "stress_relief_potential": float(structure_perception_state.get("stress_relief_potential", 0.0) or 0.0),
+            "context_confidence": float(structure_perception_state.get("context_confidence", 0.0) or 0.0),
+            "pressure_to_capacity": float(field_state.get("pressure_to_capacity", 0.0) or 0.0),
+            "regulatory_load": float(field_state.get("regulatory_load", 0.0) or 0.0),
+            "action_capacity": float(field_state.get("action_capacity", 0.0) or 0.0),
+            "recovery_need": float(field_state.get("recovery_need", 0.0) or 0.0),
+            "survival_pressure": float(field_state.get("survival_pressure", 0.0) or 0.0),
+            "pressure_release": float(experience_state.get("pressure_release", 0.0) or 0.0),
+            "experience_regulation": float(experience_state.get("experience_regulation", 0.0) or 0.0),
+            "reflection_maturity": float(experience_state.get("reflection_maturity", 0.0) or 0.0),
+            "load_bearing_capacity": float(experience_state.get("load_bearing_capacity", 0.0) or 0.0),
+            "protective_width_regulation": float(experience_state.get("protective_width_regulation", 0.0) or 0.0),
+            "protective_courage": float(experience_state.get("protective_courage", 0.0) or 0.0),
+            "capacity_reserve": float(field_state.get("capacity_reserve", 0.0) or 0.0),
+            "recovery_balance": float(field_state.get("recovery_balance", 0.0) or 0.0),
+            "carrying_balance": float(experience_state.get("carrying_balance", 0.0) or 0.0),
+            "bearing_pressure_gap": float(experience_state.get("bearing_pressure_gap", 0.0) or 0.0),
+            "state_stability": float((regulation_snapshot.get("tension", {}) or {}).get("stability", 0.0) or 0.0),
+        },
+        "regulation_snapshot": dict(regulation_snapshot or {}),
+        "state_before": dict(state_before or {}),
+        "state_after": dict(state_after or {}),
+        "state_delta": dict(state_delta or {}),
+        "vision": dict(result.get("vision", {}) or {}),
+        "filtered_vision": dict(result.get("filtered_vision", {}) or {}),
+        "world_state": dict(result.get("world_state", {}) or {}),
+        "structure_perception_state": dict(structure_perception_state or {}),
+        "outer_visual_perception_state": dict(result.get("outer_visual_perception_state", {}) or {}),
+        "inner_field_perception_state": dict(result.get("inner_field_perception_state", {}) or {}),
+        "perception_state": dict(result.get("perception_state", {}) or {}),
+        "processing_state": dict(result.get("processing_state", {}) or {}),
+        "felt_state": dict(result.get("felt_state", {}) or {}),
+        "thought_state": dict(result.get("thought_state", {}) or {}),
+        "meta_regulation_state": dict(result.get("meta_regulation_state", {}) or {}),
+        "expectation_state": dict(result.get("expectation_state", {}) or {}),
+        "form_symbol_state": dict(result.get("form_symbol_state", getattr(bot, "form_symbol_state", {}) if bot is not None else {}) or {}),
+        "thought_seed_state": dict(result.get("thought_seed_state", getattr(bot, "mcm_thought_seed_state", {}) if bot is not None else {}) or {}),
+        "state_signature": dict(result.get("state_signature", {}) or {}),
+        "trade_plan": {
+            "decision": str(result.get("proposed_decision", "WAIT") if str(result.get("decision", "WAIT") or "WAIT").upper().strip() == "WAIT" else result.get("decision", "WAIT")),
+            "entry_price": float(result.get("entry_price", 0.0) or 0.0),
+            "sl_price": float(result.get("sl_price", 0.0) or 0.0),
+            "tp_price": float(result.get("tp_price", 0.0) or 0.0),
+            "rr_value": float(result.get("rr_value", 0.0) or 0.0),
+            "risk_model_score": float(result.get("risk_model_score", 0.0) or 0.0),
+            "reward_model_score": float(result.get("reward_model_score", 0.0) or 0.0),
+            "entry_mode": str(result.get("entry_mode", "no_mature_entry_thesis") or "no_mature_entry_thesis"),
+            "contact_entry_mode": str(result.get("contact_entry_mode", result.get("entry_mode", "no_mature_entry_thesis")) or "no_mature_entry_thesis"),
+            "impulse_entry_price": float(result.get("impulse_entry_price", result.get("entry_price", 0.0)) or 0.0),
+            "contact_entry_price": float(result.get("contact_entry_price", result.get("strategic_entry_price", result.get("entry_price", 0.0))) or 0.0),
+            "strategic_entry_price": float(result.get("strategic_entry_price", result.get("contact_entry_price", result.get("entry_price", 0.0))) or 0.0),
+            "area_contact_weight": float(result.get("area_contact_weight", result.get("strategic_entry_weight", 0.0)) or 0.0),
+            "area_contact_fit": float(result.get("area_contact_fit", result.get("strategic_entry_fit", 0.0)) or 0.0),
+            "area_contact_intention": float(result.get("area_contact_intention", result.get("area_motor_intention", 0.0)) or 0.0),
+            "contact_entry_weight": float(result.get("contact_entry_weight", result.get("strategic_entry_weight", 0.0)) or 0.0),
+            "contact_entry_fit": float(result.get("contact_entry_fit", result.get("strategic_entry_fit", 0.0)) or 0.0),
+            "strategic_entry_weight": float(result.get("strategic_entry_weight", result.get("contact_entry_weight", 0.0)) or 0.0),
+            "strategic_entry_fit": float(result.get("strategic_entry_fit", result.get("contact_entry_fit", 0.0)) or 0.0),
+            "area_contact_distance_fit": float(result.get("area_contact_distance_fit", result.get("area_motor_distance_fit", 0.0)) or 0.0),
+            "area_motor_intention": float(result.get("area_motor_intention", 0.0) or 0.0),
+            "area_motor_distance_fit": float(result.get("area_motor_distance_fit", result.get("area_contact_distance_fit", 0.0)) or 0.0),
+            "impulse_perception_pressure": float(result.get("impulse_perception_pressure", result.get("impulse_entry_intention", 0.0)) or 0.0),
+            "impulse_entry_intention": float(result.get("impulse_entry_intention", 0.0) or 0.0),
+            "area_order_geometry_intention": float(result.get("area_order_geometry_intention", result.get("area_entry_intention", 0.0)) or 0.0),
+            "area_entry_intention": float(result.get("area_entry_intention", 0.0) or 0.0),
+            "entry_contact_pressure": float(result.get("entry_contact_pressure", result.get("entry_choice_pressure", result.get("entry_choice_conflict", 0.0))) or 0.0),
+            "entry_choice_pressure": float(result.get("entry_choice_pressure", result.get("entry_contact_pressure", result.get("entry_choice_conflict", 0.0))) or 0.0),
+            "entry_choice_conflict": float(result.get("entry_choice_conflict", result.get("entry_contact_pressure", 0.0)) or 0.0),
+            "entry_contact_bearing": float(result.get("entry_contact_bearing", result.get("entry_choice_bearing", 0.0)) or 0.0),
+            "entry_choice_bearing": float(result.get("entry_choice_bearing", 0.0) or 0.0),
+            "area_contact_readiness": float(result.get("area_contact_readiness", result.get("area_direct_readiness", 0.0)) or 0.0),
+            "area_direct_readiness": float(result.get("area_direct_readiness", 0.0) or 0.0),
+            "area_contact_restraint": float(result.get("area_contact_restraint", result.get("area_motor_restraint", 0.0)) or 0.0),
+            "area_motor_restraint": float(result.get("area_motor_restraint", 0.0) or 0.0),
+            "entry_contact_state": str(result.get("entry_contact_state", result.get("entry_choice_state", "no_entry_choice")) or "no_entry_choice"),
+            "entry_choice_state": str(result.get("entry_choice_state", "no_entry_choice") or "no_entry_choice"),
+            "entry_choice_sync": str(result.get("entry_choice_sync", "-") or "-"),
+            "inner_action_consent": float(result.get("inner_action_consent", 0.0) or 0.0),
+            "inner_action_support": float(result.get("inner_action_support", 0.0) or 0.0),
+            "inner_action_no": float(result.get("inner_action_no", 0.0) or 0.0),
+            "inner_action_consent_state": str(result.get("inner_action_consent_state", "-") or "-"),
+            "strategy_confirmation": float(result.get("strategy_confirmation", 0.0) or 0.0),
+            "strategy_rejection": float(result.get("strategy_rejection", 0.0) or 0.0),
+            "strategy_trust_bearing": float(result.get("strategy_trust_bearing", 0.0) or 0.0),
+            "strategy_context_bearing": float(result.get("strategy_context_bearing", 0.0) or 0.0),
+            "raw_strategy_contradiction_pressure": float(result.get("raw_strategy_contradiction_pressure", 0.0) or 0.0),
+            "strategy_contradiction_pressure": float(result.get("strategy_contradiction_pressure", 0.0) or 0.0),
+            "thought_confirmation_bearing": float(result.get("thought_confirmation_bearing", result.get("strategy_confirmation", 0.0)) or 0.0),
+            "thought_rejection_pressure": float(result.get("thought_rejection_pressure", result.get("strategy_rejection", 0.0)) or 0.0),
+            "thought_trust_bearing": float(result.get("thought_trust_bearing", result.get("strategy_trust_bearing", 0.0)) or 0.0),
+            "contact_context_bearing": float(result.get("contact_context_bearing", result.get("strategy_context_bearing", 0.0)) or 0.0),
+            "raw_thought_contradiction_pressure": float(result.get("raw_thought_contradiction_pressure", result.get("raw_strategy_contradiction_pressure", 0.0)) or 0.0),
+            "thought_contradiction_pressure": float(result.get("thought_contradiction_pressure", result.get("strategy_contradiction_pressure", 0.0)) or 0.0),
+            "open_hypothesis_reality_permission": float(result.get("open_hypothesis_reality_permission", result.get("open_hypothesis_action_permission", 0.0)) or 0.0),
+            "possibility_contact_bearing": float(result.get("possibility_contact_bearing", result.get("possibility_action_support", 0.0)) or 0.0),
+            "dominant_hypothesis_reality_bearing": float(result.get("dominant_hypothesis_reality_bearing", result.get("dominant_hypothesis_action_readiness", 0.0)) or 0.0),
+            "current_hypothesis_reality_bearing": float(result.get("current_hypothesis_reality_bearing", result.get("current_hypothesis_action_support", 0.0)) or 0.0),
+            "hypothesis_reality_bearing": float(result.get("hypothesis_reality_bearing", result.get("hypothesis_action_support", 0.0)) or 0.0),
+            "rejection_reason": str(result.get("rejection_reason", "") or ""),
+            "strategic_area_focus_id": str(result.get("strategic_area_focus_id", "-") or "-"),
+            "strategic_area_price_low": float(result.get("strategic_area_price_low", 0.0) or 0.0),
+            "strategic_area_price_high": float(result.get("strategic_area_price_high", 0.0) or 0.0),
+            "strategic_entry_location": str(result.get("strategic_entry_location", "-") or "-"),
+            "entry_validity_band": dict(result.get("entry_validity_band", {}) or {}),
+        },
+        "signal": {
+            "signature_bias": float(result.get("signature_bias", 0.0) or 0.0),
+            "signature_block": bool(result.get("signature_block", False)),
+            "signature_quality": float(result.get("signature_quality", 0.0) or 0.0),
+            "signature_distance": float(result.get("signature_distance", 0.0) or 0.0),
+            "context_cluster_id": str(result.get("context_cluster_id", "-") or "-"),
+            "context_cluster_bias": float(result.get("context_cluster_bias", 0.0) or 0.0),
+            "context_cluster_quality": float(result.get("context_cluster_quality", 0.0) or 0.0),
+            "context_cluster_distance": float(result.get("context_cluster_distance", 0.0) or 0.0),
+            "context_cluster_block": bool(result.get("context_cluster_block", False)),
+            "inhibition_level": float(result.get("inhibition_level", 0.0) or 0.0),
+            "habituation_level": float(result.get("habituation_level", 0.0) or 0.0),
+            "competition_bias": float(result.get("competition_bias", 0.0) or 0.0),
+            "observation_mode": bool(result.get("observation_mode", False)),
+            "long_score": float(result.get("long_score", 0.0) or 0.0),
+            "short_score": float(result.get("short_score", 0.0) or 0.0),
+        },
+        "felt_bearing_score": float(result.get("felt_bearing_score", 0.0) or 0.0),
+        "felt_profile_label": str(result.get("felt_profile_label", "mixed_unclear") or "mixed_unclear"),
+        "episode_felt_summary": dict(result.get("episode_felt_summary", {}) or {}),
+    }

@@ -1,0 +1,263 @@
+Exit code: 0
+Wall time: 0.3 seconds
+Output:
+"""Decision and meta-regulation construction for DIO.
+
+This module owns the meta-regulatory bridge between perception, felt state,
+thought state, memory/form context, neurochemistry and pre-action phases.
+It computes regulation state only; it does not place orders.
+"""
+
+from config import Config
+from core.mcm_field import _normalize_active_context_trace
+from core.neurochemistry import build_neurochemical_state
+from core.perception import build_conscious_perception_state
+
+
+def _clip01(value):
+    try:
+        value = float(value)
+    except Exception:
+        return 0.0
+    if value < 0.0:
+        return 0.0
+    if value > 1.0:
+        return 1.0
+    return value
+
+
+def build_meta_regulation_state(perception_state, processing_state, felt_state, thought_state, fused, pause_mode=False, bot=None):
+
+    perception = dict(perception_state or {})
+    processing = dict(processing_state or {})
+    felt = dict(felt_state or {})
+    thought = dict(thought_state or {})
+    fused_state = dict(fused or {})
+
+    uncertainty_score = float(perception.get("uncertainty_score", 0.0) or 0.0)
+    observe_priority = float(perception.get("observe_priority", 0.0) or 0.0)
+    signal_quality = float(perception.get("signal_quality", 0.0) or 0.0)
+    processing_load = float(processing.get("processing_load", 0.0) or 0.0)
+    processing_alignment = float(processing.get("processing_alignment", 0.0) or 0.0)
+    processing_tension = float(processing.get("processing_tension", 0.0) or 0.0)
+    processing_areal_tension = float(processing.get("processing_areal_tension", 0.0) or 0.0)
+    processing_areal_support = float(processing.get("processing_areal_support", 0.0) or 0.0)
+    field_perception_pressure = float(felt.get("field_perception_pressure", thought.get("field_perception_pressure", processing.get("field_perception_pressure", 0.0))) or 0.0)
+    field_perception_support = float(felt.get("field_perception_support", thought.get("field_perception_support", processing.get("field_perception_support", 0.0))) or 0.0)
+    field_perception_clarity = float(felt.get("field_perception_clarity", thought.get("field_perception_clarity", processing.get("field_perception_clarity", 0.0))) or 0.0)
+    field_perception_focus = float(felt.get("field_perception_focus", thought.get("field_perception_focus", processing.get("field_perception_focus", 0.0))) or 0.0)
+    field_perception_stability = float(felt.get("field_perception_stability", thought.get("field_perception_stability", processing.get("field_perception_stability", 0.0))) or 0.0)
+    field_perception_fragmentation = float(felt.get("field_perception_fragmentation", thought.get("field_perception_fragmentation", processing.get("field_perception_fragmentation", 0.0))) or 0.0)
+    field_perception_strain = float(felt.get("field_perception_strain", thought.get("field_perception_strain", processing.get("field_perception_strain", 0.0))) or 0.0)
+    dominant_activity_island_id = str(felt.get("dominant_activity_island_id", thought.get("dominant_activity_island_id", processing.get("dominant_activity_island_id", "-"))) or "-")
+    field_perception_label = str(felt.get("field_perception_label", thought.get("field_perception_label", processing.get("field_perception_label", "quiet_field"))) or "quiet_field").strip().lower()
+    field_activity_island_count = int(felt.get("field_activity_island_count", thought.get("field_activity_island_count", processing.get("field_activity_island_count", 0))) or 0)
+    field_activity_island_activation_mean = float(felt.get("field_activity_island_activation_mean", thought.get("field_activity_island_activation_mean", processing.get("field_activity_island_activation_mean", 0.0))) or 0.0)
+    field_activity_island_pressure_mean = float(felt.get("field_activity_island_pressure_mean", thought.get("field_activity_island_pressure_mean", processing.get("field_activity_island_pressure_mean", 0.0))) or 0.0)
+    field_activity_island_coherence_mean = float(felt.get("field_activity_island_coherence_mean", thought.get("field_activity_island_coherence_mean", processing.get("field_activity_island_coherence_mean", 0.0))) or 0.0)
+    field_activity_island_context_reactivation_mean = float(felt.get("field_activity_island_context_reactivation_mean", thought.get("field_activity_island_context_reactivation_mean", processing.get("field_activity_island_context_reactivation_mean", 0.0))) or 0.0)
+    felt_conflict = float(felt.get("felt_conflict", 0.0) or 0.0)
+    felt_pressure = float(felt.get("felt_pressure", 0.0) or 0.0)
+    felt_alignment = float(felt.get("felt_alignment", 0.0) or 0.0)
+    structure_quality = float(felt.get("structure_quality", perception.get("structure_quality", 0.0)) or 0.0)
+    context_confidence = float(felt.get("context_confidence", perception.get("context_confidence", 0.0)) or 0.0)
+    market_balance = float(felt.get("market_balance", perception.get("market_balance", 0.0)) or 0.0)
+    breakout_tension = float(felt.get("breakout_tension", perception.get("breakout_tension", 0.0)) or 0.0)
+    visual_coherence = float(felt.get("visual_coherence", perception.get("visual_coherence", 0.0)) or 0.0)
+    visual_clarity = float(felt.get("visual_clarity", processing.get("visual_clarity", perception.get("visual_clarity", 0.0))) or 0.0)
+    visual_object_stability = float(felt.get("visual_object_stability", processing.get("visual_object_stability", perception.get("visual_object_stability", 0.0))) or 0.0)
+    visual_form_novelty = float(felt.get("visual_form_novelty", processing.get("visual_form_novelty", perception.get("visual_form_novelty", 0.0))) or 0.0)
+    visual_blindness = float(felt.get("visual_blindness", processing.get("visual_blindness", perception.get("visual_blindness", 0.0))) or 0.0)
+    visual_form_pressure = float(felt.get("visual_form_pressure", processing.get("visual_form_pressure", perception.get("visual_form_pressure", 0.0))) or 0.0)
+    visual_shape_resonance = float(felt.get("visual_shape_resonance", processing.get("visual_shape_resonance", perception.get("visual_shape_resonance", 0.0))) or 0.0)
+    visual_shape_fragility = float(felt.get("visual_shape_fragility", processing.get("visual_shape_fragility", perception.get("visual_shape_fragility", 0.0))) or 0.0)
+    external_pressure = float(felt.get("external_pressure", 0.0) or 0.0)
+    inner_conflict_pressure = float(felt.get("inner_conflict_pressure", 0.0) or 0.0)
+    repetition_pressure = float(felt.get("repetition_pressure", 0.0) or 0.0)
+    expectation_pressure = float(felt.get("expectation_pressure", 0.0) or 0.0)
+    uncertainty_pressure = float(felt.get("uncertainty_pressure", 0.0) or 0.0)
+    aftereffect_pressure = float(felt.get("aftereffect_pressure", 0.0) or 0.0)
+    areal_support = float(felt.get("areal_support", 0.0) or 0.0)
+    areal_conflict_pressure = float(felt.get("areal_conflict_pressure", 0.0) or 0.0)
+    dominant_tension_cause = str(felt.get("dominant_tension_cause", "-") or "-")
+    dominant_tension_value = float(felt.get("dominant_tension_value", 0.0) or 0.0)
+    pre_action_observation_need = float(felt.get("pre_action_observation_need", 0.0) or 0.0)
+    state_maturity = float(thought.get("state_maturity", 0.0) or 0.0)
+    decision_conflict = float(thought.get("decision_conflict", 0.0) or 0.0)
+    rumination_depth = float(thought.get("rumination_depth", 0.0) or 0.0)
+    decision_readiness = float(thought.get("decision_readiness", 0.0) or 0.0)
+    long_hypothesis = float(thought.get("long_hypothesis", 0.0) or 0.0)
+    short_hypothesis = float(thought.get("short_hypothesis", 0.0) or 0.0)
+    decision_strength = max(long_hypothesis, short_hypothesis)
+    observation_mode = bool(fused_state.get("observation_mode", False))
+    decision = str(thought.get("decision", fused_state.get("decision", "WAIT")) or "WAIT")
+    experience_regulation = float(felt.get("experience_regulation", 0.0) or 0.0)
+    load_bearing_capacity = float(felt.get("load_bearing_capacity", 0.0) or 0.0)
+    protective_width_regulation = float(felt.get("protective_width_regulation", 0.0) or 0.0)
+    protective_courage = float(felt.get("protective_courage", 0.0) or 0.0)
+    memory_complexity_state = dict(fused_state.get("memory_complexity_state", {}) or {})
+    memory_support = float(memory_complexity_state.get("memory_support", 0.0) or 0.0)
+    memory_inhibition = float(memory_complexity_state.get("memory_inhibition", 0.0) or 0.0)
+    memory_compare_load = float(memory_complexity_state.get("memory_compare_load", 0.0) or 0.0)
+    memory_conflict = float(memory_complexity_state.get("memory_conflict", 0.0) or 0.0)
+    thinking_complexity = float(memory_complexity_state.get("thinking_complexity", 0.0) or 0.0)
+    cognitive_load = float(memory_complexity_state.get("cognitive_load", 0.0) or 0.0)
+    decision_energy_cost = float(memory_complexity_state.get("decision_energy_cost", 0.0) or 0.0)
+    memory_effect_on_phase = str(memory_complexity_state.get("memory_effect_on_phase", "neutral") or "neutral")
+    context_cluster_negative_evidence = str(memory_complexity_state.get("context_cluster_negative_evidence", "-") or "-")
+    form_symbol_state = dict(fused_state.get("form_symbol_state", {}) or {})
+    form_symbol_object_distance = float(form_symbol_state.get("form_symbol_object_distance", 0.0) or 0.0)
+    form_symbol_containment = float(form_symbol_state.get("form_symbol_containment", 0.0) or 0.0)
+    form_symbol_field_decoupling = float(form_symbol_state.get("form_symbol_field_decoupling", 0.0) or 0.0)
+    form_symbol_zoom_need = float(form_symbol_state.get("form_symbol_zoom_need", 0.0) or 0.0)
+    form_symbol_detail_pressure = float(form_symbol_state.get("form_symbol_detail_pressure", 0.0) or 0.0)
+    form_symbol_compound_load_reduction = float(form_symbol_state.get("form_symbol_compound_load_reduction", 0.0) or 0.0)
+    form_symbol_compound_bearing = float(form_symbol_state.get("form_symbol_compound_bearing", 0.0) or 0.0)
+    form_symbol_compound_novelty = float(form_symbol_state.get("form_symbol_compound_novelty", 1.0) or 1.0)
+    form_symbol_maturity = float(form_symbol_state.get("form_symbol_maturity", 0.0) or 0.0)
+    form_symbol_stability = float(form_symbol_state.get("form_symbol_stability", 0.0) or 0.0)
+    form_symbol_novelty = float(form_symbol_state.get("form_symbol_novelty", 1.0) or 1.0)
+    form_symbol_distance = float(form_symbol_state.get("form_symbol_distance", 0.0) or 0.0)
+    form_symbol_development_quality = float(form_symbol_state.get("form_symbol_development_quality", 0.0) or 0.0)
+    form_symbol_action_binding = float(form_symbol_state.get("form_symbol_action_binding", form_symbol_state.get("form_symbol_action_affinity", 0.50)) or 0.50)
+    form_symbol_observation_binding = float(form_symbol_state.get("form_symbol_observation_binding", form_symbol_state.get("form_symbol_observation_affinity", 0.0)) or 0.0)
+    form_symbol_reframe_binding = float(form_symbol_state.get("form_symbol_reframe_binding", form_symbol_state.get("form_symbol_reframe_potential", 0.0)) or 0.0)
+    form_symbol_learning_trust = float(form_symbol_state.get("form_symbol_learning_trust", 0.0) or 0.0)
+    form_symbol_action_trust = float(form_symbol_state.get("form_symbol_action_trust", 0.0) or 0.0)
+    form_symbol_caution_trust = float(form_symbol_state.get("form_symbol_caution_trust", 0.0) or 0.0)
+    form_symbol_contact_maturity = float(form_symbol_state.get("form_symbol_contact_maturity", 0.0) or 0.0)
+    form_symbol_contact_utility = float(form_symbol_state.get("form_symbol_contact_utility", 0.0) or 0.0)
+    form_symbol_contact_pain_memory = float(form_symbol_state.get("form_symbol_contact_pain_memory", 0.0) or 0.0)
+    form_symbol_contact_carefulness = float(form_symbol_state.get("form_symbol_contact_carefulness", 0.0) or 0.0)
+    form_symbol_contact_burden_evidence = float(form_symbol_state.get("form_symbol_contact_burden_evidence", 0.0) or 0.0)
+    form_symbol_contact_utility_evidence = float(form_symbol_state.get("form_symbol_contact_utility_evidence", 0.0) or 0.0)
+    form_symbol_contact_learning_state = str(form_symbol_state.get("form_symbol_contact_learning_state", "unformed_contact") or "unformed_contact")
+    uncertain_form_family_state = str(form_symbol_state.get("uncertain_form_family_state", "quiet_form_family") or "quiet_form_family")
+    uncertain_form_exposure = float(form_symbol_state.get("uncertain_form_exposure", 0.0) or 0.0)
+    uncertainty_familiarity = float(form_symbol_state.get("uncertainty_familiarity", 0.0) or 0.0)
+    variant_similarity = float(form_symbol_state.get("variant_similarity", 0.0) or 0.0)
+    variant_spread = float(form_symbol_state.get("variant_spread", 0.0) or 0.0)
+    variant_learning_pressure = float(form_symbol_state.get("variant_learning_pressure", 0.0) or 0.0)
+    variant_bearing_memory = float(form_symbol_state.get("variant_bearing_memory", 0.0) or 0.0)
+    symbolic_regulation = max(
+        0.0,
+        min(
+            1.0,
+            (form_symbol_object_distance * 0.36)
+            + (form_symbol_containment * 0.34)
+            + (form_symbol_field_decoupling * 0.30)
+            + (form_symbol_compound_load_reduction * 0.055)
+            + (form_symbol_compound_bearing * 0.025)
+            - (form_symbol_zoom_need * 0.16)
+            - (form_symbol_detail_pressure * 0.06),
+        ),
+    )
+    symbolic_inner_regulation = float(symbolic_regulation)
+    symbolic_action_regulation = max(
+        0.0,
+        min(
+            0.035,
+            symbolic_regulation
+            * max(0.0, min(1.0, form_symbol_object_distance))
+            * max(0.0, min(1.0, form_symbol_field_decoupling)),
+        ),
+    )
+
+    observe_priority_threshold = float(getattr(Config, "MCM_META_OBSERVE_PRIORITY_ALLOW", 0.66) or 0.66)
+    uncertainty_threshold = float(getattr(Config, "MCM_META_UNCERTAINTY_ALLOW", 0.72) or 0.72)
+    conflict_threshold = float(getattr(Config, "MCM_META_CONFLICT_ALLOW", 0.60) or 0.60)
+    rumination_threshold = float(getattr(Config, "MCM_META_RUMINATION_ALLOW", 0.64) or 0.64)
+    maturity_min = float(getattr(Config, "MCM_META_MATURITY_MIN", 0.34) or 0.34)
+    readiness_min = float(getattr(Config, "MCM_META_READINESS_MIN", 0.38) or 0.38)
+    signal_quality_min = float(getattr(Config, "MCM_META_SIGNAL_QUALITY_MIN", 0.24) or 0.24)
+
+    field_fragmentation_bias = 1.0 if field_perception_label == "fragmented_perception_field" else 0.0
+    field_strain_bias = 1.0 if field_perception_label == "strained_field" else 0.0
+    field_coherence_bias = 1.0 if field_perception_label == "coherent_perception_field" else 0.0
+    field_memory_bias = 1.0 if field_perception_label == "memory_reactivated_field" else 0.0
+    field_activity_presence = max(0.0, min(1.0, float(field_activity_island_count) / 4.0))
+    field_perception_instability = max(
+        0.0,
+        min(
+            1.0,
+            (field_perception_pressure * 0.42)
+            + (field_perception_strain * 0.20)
+            + (field_perception_fragmentation * 0.16)
+            + (field_activity_island_pressure_mean * 0.18)
+            + (field_activity_presence * 0.08)
+            + (field_fragmentation_bias * 0.16)
+            + (field_strain_bias * 0.12)
+            - (field_perception_clarity * 0.18)
+            - (field_perception_support * 0.10)
+            - (field_perception_stability * 0.10),
+        ),
+    )
+    field_observation_need = max(
+        0.0,
+        min(
+            1.0,
+            (field_perception_instability * 0.42)
+            + (field_perception_pressure * 0.24)
+            + (field_perception_fragmentation * 0.16)
+            + (field_perception_strain * 0.10)
+            + (max(0.0, 1.0 - field_perception_clarity) * 0.14)
+            + (field_activity_island_context_reactivation_mean * 0.08)
+            + (field_fragmentation_bias * 0.08)
+            + (field_strain_bias * 0.04)
+            - (field_perception_focus * 0.06),
+        ),
+    )
+    field_replan_pressure = max(
+        0.0,
+        min(
+            1.0,
+            (field_perception_instability * 0.36)
+            + (field_perception_pressure * 0.22)
+            + (field_perception_fragmentation * 0.18)
+            + (field_perception_strain * 0.12)
+            + (max(0.0, 1.0 - field_perception_support) * 0.16)
+            + (field_activity_island_context_reactivation_mean * 0.08)
+            + (field_fragmentation_bias * 0.12)
+            + (field_strain_bias * 0.06)
+            - (field_perception_stability * 0.06),
+        ),
+    )
+    field_action_support = max(
+        0.0,
+        min(
+            1.0,
+            (field_perception_support * 0.34)
+            + (field_perception_clarity * 0.28)
+            + (field_perception_focus * 0.16)
+            + (field_perception_stability * 0.14)
+            + (field_activity_island_coherence_mean * 0.14)
+            + (field_coherence_bias * 0.10)
+            + (field_memory_bias * 0.04)
+            - (field_perception_pressure * 0.18)
+            - (field_perception_fragmentation * 0.14)
+            - (field_perception_strain * 0.10)
+            - (field_fragmentation_bias * 0.10),
+        ),
+    )
+    if symbolic_regulation > 0.0:
+        field_observation_need = max(0.0, min(1.0, field_observation_need * (1.0 - symbolic_regulation * 0.10)))
+        field_replan_pressure = max(0.0, min(1.0, field_replan_pressure * (1.0 - symbolic_regulation * 0.08)))
+        field_action_support = max(0.0, min(1.0, field_action_support + symbolic_action_regulation))
+    learned_development_uncertainty = max(
+        0.0,
+        min(
+            1.0,
+            (max(0.0, 0.46 - form_symbol_action_binding) * 0.74)
+            + (form_symbol_observation_binding * 0.22)
+            + (form_symbol_reframe_binding * 0.18)
+            + (max(0.0, -form_symbol_development_quality) * 0.26)
+            + (form_symbol_caution_trust * 0.44)
+            + (form_symbol_contact_pain_memory * 0.18)
+            + (form_symbol_contact_carefulness * 0.12)
+            + (form_symbol_contact_burden_evidence * 0.16)
+            + (variant_learning_pressure * 0.12)
+            - (form_symbol_contact_maturity * 0.08)
+            - (form_symbol_contact_utility * 0.05)
+            - (form_symbol_contact_utility_evidence * 0.05)
+            - (form_symbol_action_trust * 0.10),
+        ),

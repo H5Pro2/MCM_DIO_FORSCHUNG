@@ -1,0 +1,6 @@
+inner_transition,stability_kind,count,reward_sum,best_reward_sum,avg_reward,positive_contacts,observed_potentials,families,actions
+same_inner_state,stable_state,2,1.384854,2.014,0.692427,1,1,"dio_00qb,dio_0arw","LONG,WAIT"
+inner_unfinished_to_inner_carried,transition_state,1,1.036659,1.036659,1.036659,1,0,dio_0t0v,LONG
+timeline_start,start_state,1,0.894392,0.894392,0.894392,1,0,dio_1u7v,SHORT
+inner_carried_to_inner_open_observation,transition_state,1,0.0,0.094515,0.0,0,1,dio_14xc,WAIT
+inner_open_observation_to_inner_unfinished,transition_state,1,0.0,0.142483,0.0,0,1,dio_1vpi,WAIT

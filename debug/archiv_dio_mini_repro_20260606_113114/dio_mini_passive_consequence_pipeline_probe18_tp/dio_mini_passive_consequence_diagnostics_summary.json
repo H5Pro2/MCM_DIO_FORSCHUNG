@@ -1,0 +1,70 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "writes_memory": false
+  },
+  "debug_root": "debug\\dio_mini_tp_sl_followup_probe18",
+  "development_summary": [
+    {
+      "development_state": "development_stable_carried",
+      "event_reward_sum": 9.0,
+      "families": "dio_02qu,dio_0arw,dio_0t0v,dio_1u7v",
+      "family_count": 4,
+      "maturation_states": "maturation_stable_carried",
+      "reward_sum": 9.0,
+      "row_count": 9
+    },
+    {
+      "development_state": "development_observation_to_carried",
+      "event_reward_sum": 1.0,
+      "families": "dio_1vpi",
+      "family_count": 1,
+      "maturation_states": "maturation_mixed_recurrence",
+      "reward_sum": 1.0,
+      "row_count": 3
+    },
+    {
+      "development_state": "development_quiet_observation",
+      "event_reward_sum": 0.0,
+      "families": "dio_00qb,dio_14xc",
+      "family_count": 2,
+      "maturation_states": "maturation_quiet_observation",
+      "reward_sum": 0.0,
+      "row_count": 5
+    }
+  ],
+  "label": "probe18_tp",
+  "memory_path": "bot_memory\\dio_mini_tp_sl_followup_memory.json",
+  "outputs": {
+    "consequence_inner_awareness": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\03_consequence_inner_awareness",
+    "consequence_inner_state_protocol": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\04_consequence_inner_state_protocol",
+    "memory_consequence_effect": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\02_memory_consequence_effect",
+    "multisensory_inner_map": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\05_multisensory_inner_map",
+    "multisensory_maturation_map": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\07_multisensory_maturation_map",
+    "multisensory_maturation_timeline": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\08_multisensory_maturation_timeline",
+    "multisensory_stability": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\06_multisensory_stability",
+    "passive_development_diagnosis": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\09_passive_development_diagnosis",
+    "trade_events": "debug\\dio_mini_passive_consequence_pipeline_probe18_tp\\01_trade_events"
+  },
+  "rows": {
+    "development_detail": 7,
+    "development_summary": 3,
+    "inner_awareness_detail": 8,
+    "inner_awareness_summary": 2,
+    "inner_protocol_detail": 17,
+    "inner_protocol_summary": 3,
+    "maturation_detail": 7,
+    "maturation_summary": 3,
+    "memory_effect": 8,
+    "multisensory_detail": 17,
+    "multisensory_summary": 4,
+    "stability_detail": 7,
+    "stability_summary": 3,
+    "timeline_detail": 17,
+    "timeline_summary": 7,
+    "trade_events_detail": 17,
+    "trade_events_summary": 8
+  }
+}

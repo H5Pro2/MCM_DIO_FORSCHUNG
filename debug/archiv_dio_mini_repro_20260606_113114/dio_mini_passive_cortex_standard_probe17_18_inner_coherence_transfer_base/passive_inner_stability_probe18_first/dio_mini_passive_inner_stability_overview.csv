@@ -1,0 +1,12 @@
+stability_kind,inner_state,contact_quality,count,reward_sum,best_reward_sum,avg_reward,families,actions
+stable_state,inner_carried,positive_real_contact,1,1.384854,1.384854,1.384854,dio_0arw,LONG
+stable_state,inner_carried,observed_potential,2,0.0,2.769708,0.0,dio_0arw,WAIT
+stable_state,inner_open_observation,observed_potential,9,0.0,2.979361,0.0,"dio_0fiy,dio_14xc,dio_1g2t,dio_1qwp",WAIT
+transition_state,inner_carried,positive_real_contact,3,2.455651,2.455651,0.81855,"dio_0120,dio_0bmh,dio_0ems",LONG
+start_state,inner_carried,positive_real_contact,1,0.894392,0.894392,0.894392,dio_1u7v,SHORT
+start_state,inner_carried,observed_potential,3,0.0,2.683176,0.0,dio_1u7v,WAIT
+transition_state,inner_carried,observed_potential,5,0.0,4.093931,0.0,"dio_0120,dio_0bmh,dio_0ems",WAIT
+transition_state,inner_open_observation,observed_potential,11,0.0,5.304457,0.0,"dio_02qu,dio_0igh,dio_0x1o,dio_14xc,dio_16yc,dio_1qwp",WAIT
+transition_state,inner_unfinished,observed_potential,1,0.0,0.629146,0.0,dio_00qb,WAIT
+transition_state,inner_cautious,negative_real_contact,3,-1.027449,0.427449,-0.342483,dio_1vpi,SHORT
+transition_state,inner_carried,negative_real_contact,1,-1.236659,1.036659,-1.236659,dio_0t0v,SHORT

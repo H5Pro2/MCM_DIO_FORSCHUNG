@@ -1,0 +1,2169 @@
+{
+  "families": {
+    "dio_05vm": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.4096193599681954,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.4096193599681954,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.03276954879745563
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_05vm",
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.00849637989430383,
+          "last_reward": 0.33514311270125074,
+          "recognition_sum": 0.00849637989430383,
+          "reward_sum": 0.33514311270125074
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.2662938552692919,
+        0.0,
+        0.2952816294041021,
+        0.24519662346251797,
+        0.47872340425530063,
+        0.331344945430495,
+        0.26207106177201644,
+        0.3157368308588481,
+        0.02493679913006373
+      ]
+    },
+    "dio_0e6t": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.7227666866307262,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.7227666866307262,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.057821334930458095
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_0e6t",
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.009095648420631704,
+          "last_reward": 0.5913545617887759,
+          "recognition_sum": 0.009095648420631704,
+          "reward_sum": 0.5913545617887759
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.02219115460577761,
+        -1.0,
+        0.2664491312411357,
+        0.05649902818269898,
+        0.18367346938776133,
+        -0.21581972789115567,
+        0.07568173776974188,
+        0.11310953195466028,
+        0.01817569876880108
+      ]
+    },
+    "dio_0odx": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.14325665224800005,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.14325665224800005,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.011460532179840005
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_0odx",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.00559495995748704,
+          "last_reward": 0.11720998820290914,
+          "recognition_sum": 0.00559495995748704,
+          "reward_sum": 0.11720998820290914
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.8540183225749163,
+        1.0,
+        0.2832460949813953,
+        0.31337293538105326,
+        0.1000000000000038,
+        0.912255578093305,
+        0.5356237035385304,
+        0.5662293234374888,
+        0.05072520766305991
+      ]
+    },
+    "dio_0olv": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 1.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 1.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.08
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_0olv",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.005291423803217324,
+          "last_reward": 0.9,
+          "recognition_sum": 0.005291423803217324,
+          "reward_sum": 0.9
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.2746468042097862,
+        -1.0,
+        -0.32896658048687555,
+        -0.2107765396547187,
+        -0.06134969325152144,
+        -0.2590174311033212,
+        0.25651245730099215,
+        0.06258029239032586,
+        0.06841564544828635
+      ]
+    },
+    "dio_0t45": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.9948946814112725,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.9948946814112725,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0795915745129018
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_0t45",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.0041318039540582385,
+          "last_reward": 0.8140047393364956,
+          "recognition_sum": 0.0041318039540582385,
+          "reward_sum": 0.8140047393364956
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        -0.3271823059808895,
+        0.0,
+        -0.4224750920453212,
+        0.17808519982432916,
+        0.606060606060593,
+        0.35013614404918786,
+        0.2798083671654432,
+        -0.16340399222805663,
+        0.0038623058864211413
+      ]
+    },
+    "dio_0z1h": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0468930207491303,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0468930207491303,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.003751441659930424
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_0z1h",
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.004706325855333033,
+          "last_reward": 0.038367016976561155,
+          "recognition_sum": 0.004706325855333033,
+          "reward_sum": 0.038367016976561155
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        -0.8839388314328696,
+        0.0,
+        0.7716064057541444,
+        -0.3162596186015396,
+        -0.23041474654378263,
+        0.31144730679156896,
+        0.627540373935115,
+        -0.3559031575301689,
+        0.07669699075605874
+      ]
+    },
+    "dio_13ey": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.20783699162876465,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.20783699162876465,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.016626959330301172
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_13ey",
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.007365610339653895,
+          "last_reward": 0.17004844769626198,
+          "recognition_sum": 0.007365610339653895,
+          "reward_sum": 0.17004844769626198
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.6108667644053458,
+        1.0,
+        0.3598578944521893,
+        0.4268272425249228,
+        0.6250000000000259,
+        0.8804883720930216,
+        0.4934087460230631,
+        0.5534512827355244,
+        0.02846100840371213
+      ]
+    },
+    "dio_1cpq": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.7107120127287223,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.7107120127287223,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.056856961018297784
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1cpq",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.006188314480353578,
+          "last_reward": 0.5814916467780454,
+          "recognition_sum": 0.006188314480353578,
+          "reward_sum": 0.5814916467780454
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        -0.6443439704693843,
+        0.0,
+        -0.6224299498781196,
+        0.40627705627705624,
+        0.4901960784313698,
+        0.2862424242424243,
+        0.5408496232140041,
+        -0.41217659574733,
+        0.0396665834289625
+      ]
+    },
+    "dio_1gzm": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 1.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 1.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.08
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1gzm",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.004720367400427599,
+          "last_reward": 0.9,
+          "recognition_sum": 0.004720367400427599,
+          "reward_sum": 0.9
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.0,
+        -1.0,
+        0.11649603761444503,
+        -0.19277905345915758,
+        -0.07092198581558853,
+        -0.2539781349685641,
+        0.09960656847115738,
+        0.013774651864349098,
+        0.04235309989735067
+      ]
+    },
+    "dio_1h37": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.009801723557530739,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.009801723557530739,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0007841378846024591
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1h37",
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.004850481842890511,
+          "last_reward": 0.008019592001616059,
+          "recognition_sum": 0.004850481842890511,
+          "reward_sum": 0.008019592001616059
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        -1.0,
+        1.0,
+        -0.16498564274358332,
+        0.2211417542585465,
+        0.04566210045662819,
+        0.938080308807607,
+        0.5392772396275629,
+        -0.5904641341671344,
+        -0.0056395640205588946
+      ]
+    },
+    "dio_1hjj": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.3215865063460223,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.3215865063460223,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.025726920507681786
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1hjj",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.006702322249490529,
+          "last_reward": 0.2631162324649273,
+          "recognition_sum": 0.006702322249490529,
+          "reward_sum": 0.2631162324649273
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        -1.0,
+        0.0,
+        -0.4453895665810494,
+        0.34073375727102223,
+        0.10869565217391094,
+        0.3045945479641138,
+        0.6343705087067972,
+        -0.6451543655446698,
+        0.048631172553468265
+      ]
+    },
+    "dio_1hzf": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.8189597667256396,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.8189597667256396,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.06551678133805117
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1hzf",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.004785546848328328,
+          "last_reward": 0.6700579909573415,
+          "recognition_sum": 0.004785546848328328,
+          "reward_sum": 0.6700579909573415
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.6183882152874348,
+        0.0,
+        -0.6147417156940626,
+        -0.18394819466248713,
+        -0.1785714285714565,
+        0.3484945054945036,
+        0.43533996669001723,
+        0.16304510308009723,
+        0.0695493464867449
+      ]
+    },
+    "dio_1jtc": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.6030259222332992,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.6030259222332992,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.048242073778663935
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1jtc",
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.009159666155728339,
+          "last_reward": 0.4933848454636084,
+          "recognition_sum": 0.009159666155728339,
+          "reward_sum": 0.4933848454636084
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.08876461842309467,
+        -0.33333333333333337,
+        0.11082497196541635,
+        0.0496671163134744,
+        0.0,
+        0.18609320743222718,
+        0.07587332410382563,
+        0.07630617958863295,
+        -0.004269831613753847
+      ]
+    },
+    "dio_1lam": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.7146921231507364,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.7146921231507364,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.05717536985205891
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1lam",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        -0.055477886514432195,
+        1.0,
+        -0.11095577302886439,
+        -0.020060790273563455,
+        -0.06451612903229059,
+        0.9943829787234022,
+        0.049479167935576475,
+        -0.0706002277814676,
+        -0.07444371653107312
+      ]
+    },
+    "dio_1mml": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.13048495885605976,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.13048495885605976,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.010438796708484781
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1mml",
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.003877866642946092,
+          "last_reward": 0.1067604208822307,
+          "recognition_sum": 0.003877866642946092,
+          "reward_sum": 0.1067604208822307
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        -1.0,
+        1.0,
+        0.6306988615509328,
+        -0.17113930616234674,
+        -0.5411255411255422,
+        0.952080994274543,
+        0.5927903264363349,
+        -0.5168573814528846,
+        0.01678872455676135
+      ]
+    },
+    "dio_1r0b": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.538835885355317,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.538835885355317,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.04310687082842536
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "family": "dio_1r0b",
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.004710324196954759,
+          "last_reward": 0.440865724381623,
+          "recognition_sum": 0.004710324196954759,
+          "reward_sum": 0.440865724381623
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "vector": [
+        0.875152320815331,
+        1.0,
+        -0.34719172672745696,
+        -0.04648086624830343,
+        -0.4629629629629573,
+        0.986985357450475,
+        0.44263661484311956,
+        0.31416669264940433,
+        0.03362055843855108
+      ]
+    }
+  },
+  "relations": {},
+  "runs": 1,
+  "symbols": {
+    "dio_05vmtg8": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.4096193599681954,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.4096193599681954,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.04096193599681954
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.00849637989430383,
+          "last_reward": 0.33514311270125074,
+          "recognition_sum": 0.00849637989430383,
+          "reward_sum": 0.33514311270125074
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_05vmtg8",
+      "syntax_family": "dio_05vm",
+      "vector": [
+        0.2662938552692919,
+        0.0,
+        0.2952816294041021,
+        0.24519662346251797,
+        0.47872340425530063,
+        0.331344945430495,
+        0.26207106177201644,
+        0.3157368308588481,
+        0.02493679913006373
+      ]
+    },
+    "dio_0e6t3ev": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.7227666866307262,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.7227666866307262,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.07227666866307263
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.009095648420631704,
+          "last_reward": 0.5913545617887759,
+          "recognition_sum": 0.009095648420631704,
+          "reward_sum": 0.5913545617887759
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_0e6t3ev",
+      "syntax_family": "dio_0e6t",
+      "vector": [
+        0.02219115460577761,
+        -1.0,
+        0.2664491312411357,
+        0.05649902818269898,
+        0.18367346938776133,
+        -0.21581972789115567,
+        0.07568173776974188,
+        0.11310953195466028,
+        0.01817569876880108
+      ]
+    },
+    "dio_0odxxpf": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.14325665224800005,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.14325665224800005,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.014325665224800006
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.00559495995748704,
+          "last_reward": 0.11720998820290914,
+          "recognition_sum": 0.00559495995748704,
+          "reward_sum": 0.11720998820290914
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_0odxxpf",
+      "syntax_family": "dio_0odx",
+      "vector": [
+        0.8540183225749163,
+        1.0,
+        0.2832460949813953,
+        0.31337293538105326,
+        0.1000000000000038,
+        0.912255578093305,
+        0.5356237035385304,
+        0.5662293234374888,
+        0.05072520766305991
+      ]
+    },
+    "dio_0olvh9b": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 1.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 1.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.1
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.005291423803217324,
+          "last_reward": 0.9,
+          "recognition_sum": 0.005291423803217324,
+          "reward_sum": 0.9
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_0olvh9b",
+      "syntax_family": "dio_0olv",
+      "vector": [
+        0.2746468042097862,
+        -1.0,
+        -0.32896658048687555,
+        -0.2107765396547187,
+        -0.06134969325152144,
+        -0.2590174311033212,
+        0.25651245730099215,
+        0.06258029239032586,
+        0.06841564544828635
+      ]
+    },
+    "dio_0t458zs": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.9948946814112725,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.9948946814112725,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.09948946814112725
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.0041318039540582385,
+          "last_reward": 0.8140047393364956,
+          "recognition_sum": 0.0041318039540582385,
+          "reward_sum": 0.8140047393364956
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_0t458zs",
+      "syntax_family": "dio_0t45",
+      "vector": [
+        -0.3271823059808895,
+        0.0,
+        -0.4224750920453212,
+        0.17808519982432916,
+        0.606060606060593,
+        0.35013614404918786,
+        0.2798083671654432,
+        -0.16340399222805663,
+        0.0038623058864211413
+      ]
+    },
+    "dio_0z1hltj": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0468930207491303,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0468930207491303,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.00468930207491303
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.004706325855333033,
+          "last_reward": 0.038367016976561155,
+          "recognition_sum": 0.004706325855333033,
+          "reward_sum": 0.038367016976561155
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_0z1hltj",
+      "syntax_family": "dio_0z1h",
+      "vector": [
+        -0.8839388314328696,
+        0.0,
+        0.7716064057541444,
+        -0.3162596186015396,
+        -0.23041474654378263,
+        0.31144730679156896,
+        0.627540373935115,
+        -0.3559031575301689,
+        0.07669699075605874
+      ]
+    },
+    "dio_13ey2w7": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.20783699162876465,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.20783699162876465,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.020783699162876465
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.007365610339653895,
+          "last_reward": 0.17004844769626198,
+          "recognition_sum": 0.007365610339653895,
+          "reward_sum": 0.17004844769626198
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_13ey2w7",
+      "syntax_family": "dio_13ey",
+      "vector": [
+        0.6108667644053458,
+        1.0,
+        0.3598578944521893,
+        0.4268272425249228,
+        0.6250000000000259,
+        0.8804883720930216,
+        0.4934087460230631,
+        0.5534512827355244,
+        0.02846100840371213
+      ]
+    },
+    "dio_1cpqz7w": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.7107120127287223,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.7107120127287223,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.07107120127287224
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.006188314480353578,
+          "last_reward": 0.5814916467780454,
+          "recognition_sum": 0.006188314480353578,
+          "reward_sum": 0.5814916467780454
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1cpqz7w",
+      "syntax_family": "dio_1cpq",
+      "vector": [
+        -0.6443439704693843,
+        0.0,
+        -0.6224299498781196,
+        0.40627705627705624,
+        0.4901960784313698,
+        0.2862424242424243,
+        0.5408496232140041,
+        -0.41217659574733,
+        0.0396665834289625
+      ]
+    },
+    "dio_1gzmk4v": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 1.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 1.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.1
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.004720367400427599,
+          "last_reward": 0.9,
+          "recognition_sum": 0.004720367400427599,
+          "reward_sum": 0.9
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1gzmk4v",
+      "syntax_family": "dio_1gzm",
+      "vector": [
+        0.0,
+        -1.0,
+        0.11649603761444503,
+        -0.19277905345915758,
+        -0.07092198581558853,
+        -0.2539781349685641,
+        0.09960656847115738,
+        0.013774651864349098,
+        0.04235309989735067
+      ]
+    },
+    "dio_1h37wgg": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.009801723557530739,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.009801723557530739,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.000980172355753074
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.004850481842890511,
+          "last_reward": 0.008019592001616059,
+          "recognition_sum": 0.004850481842890511,
+          "reward_sum": 0.008019592001616059
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1h37wgg",
+      "syntax_family": "dio_1h37",
+      "vector": [
+        -1.0,
+        1.0,
+        -0.16498564274358332,
+        0.2211417542585465,
+        0.04566210045662819,
+        0.938080308807607,
+        0.5392772396275629,
+        -0.5904641341671344,
+        -0.0056395640205588946
+      ]
+    },
+    "dio_1hjj12i": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.3215865063460223,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.3215865063460223,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.032158650634602236
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.006702322249490529,
+          "last_reward": 0.2631162324649273,
+          "recognition_sum": 0.006702322249490529,
+          "reward_sum": 0.2631162324649273
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1hjj12i",
+      "syntax_family": "dio_1hjj",
+      "vector": [
+        -1.0,
+        0.0,
+        -0.4453895665810494,
+        0.34073375727102223,
+        0.10869565217391094,
+        0.3045945479641138,
+        0.6343705087067972,
+        -0.6451543655446698,
+        0.048631172553468265
+      ]
+    },
+    "dio_1hzf9jc": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.8189597667256396,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.8189597667256396,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.08189597667256397
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.004785546848328328,
+          "last_reward": 0.6700579909573415,
+          "recognition_sum": 0.004785546848328328,
+          "reward_sum": 0.6700579909573415
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1hzf9jc",
+      "syntax_family": "dio_1hzf",
+      "vector": [
+        0.6183882152874348,
+        0.0,
+        -0.6147417156940626,
+        -0.18394819466248713,
+        -0.1785714285714565,
+        0.3484945054945036,
+        0.43533996669001723,
+        0.16304510308009723,
+        0.0695493464867449
+      ]
+    },
+    "dio_1jtc0dy": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.6030259222332992,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.6030259222332992,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.060302592223329926
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.009159666155728339,
+          "last_reward": 0.4933848454636084,
+          "recognition_sum": 0.009159666155728339,
+          "reward_sum": 0.4933848454636084
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1jtc0dy",
+      "syntax_family": "dio_1jtc",
+      "vector": [
+        0.08876461842309467,
+        -0.33333333333333337,
+        0.11082497196541635,
+        0.0496671163134744,
+        0.0,
+        0.18609320743222718,
+        0.07587332410382563,
+        0.07630617958863295,
+        -0.004269831613753847
+      ]
+    },
+    "dio_1lamhgi": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.7146921231507364,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.7146921231507364,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.07146921231507364
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1lamhgi",
+      "syntax_family": "dio_1lam",
+      "vector": [
+        -0.055477886514432195,
+        1.0,
+        -0.11095577302886439,
+        -0.020060790273563455,
+        -0.06451612903229059,
+        0.9943829787234022,
+        0.049479167935576475,
+        -0.0706002277814676,
+        -0.07444371653107312
+      ]
+    },
+    "dio_1mml4kx": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.13048495885605976,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.13048495885605976,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.013048495885605978
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 1,
+          "last_recognition": 0.003877866642946092,
+          "last_reward": 0.1067604208822307,
+          "recognition_sum": 0.003877866642946092,
+          "reward_sum": 0.1067604208822307
+        },
+        "SHORT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1mml4kx",
+      "syntax_family": "dio_1mml",
+      "vector": [
+        -1.0,
+        1.0,
+        0.6306988615509328,
+        -0.17113930616234674,
+        -0.5411255411255422,
+        0.952080994274543,
+        0.5927903264363349,
+        -0.5168573814528846,
+        0.01678872455676135
+      ]
+    },
+    "dio_1r0b6zz": {
+      "actions": {
+        "LONG": {
+          "caution": 0.0,
+          "count": 0,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        },
+        "SHORT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.538835885355317,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.538835885355317,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.053883588535531705
+        },
+        "WAIT": {
+          "caution": 0.0,
+          "count": 1,
+          "last_reward": 0.0,
+          "last_timing_improvement": 0.0,
+          "reward_sum": 0.0,
+          "timing_improvement_sum": 0.0,
+          "trust": 0.0
+        }
+      },
+      "count": 1,
+      "observations": {
+        "LONG": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        },
+        "SHORT": {
+          "count": 1,
+          "last_recognition": 0.004710324196954759,
+          "last_reward": 0.440865724381623,
+          "recognition_sum": 0.004710324196954759,
+          "reward_sum": 0.440865724381623
+        },
+        "WAIT": {
+          "count": 0,
+          "last_recognition": 0.0,
+          "last_reward": 0.0,
+          "recognition_sum": 0.0,
+          "reward_sum": 0.0
+        }
+      },
+      "symbol": "dio_1r0b6zz",
+      "syntax_family": "dio_1r0b",
+      "vector": [
+        0.875152320815331,
+        1.0,
+        -0.34719172672745696,
+        -0.04648086624830343,
+        -0.4629629629629573,
+        0.986985357450475,
+        0.44263661484311956,
+        0.31416669264940433,
+        0.03362055843855108
+      ]
+    }
+  },
+  "version": 1
+}
