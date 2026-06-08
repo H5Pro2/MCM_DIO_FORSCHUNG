@@ -1,0 +1,3843 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_future_teacher": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "passive_only": true,
+    "read_by_mini_dio": false
+  },
+  "entries": [
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.3648955,
+      "avg_world_carry": 0.279846,
+      "class_counts": {
+        "acted_carried": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_acted_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3648955,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "action_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0120",
+          "world_carry": 0.279846,
+          "world_label": "probe17",
+          "world_state_class": "acted_carried"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0120"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2378685,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2378685,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_01vz",
+          "world_carry": 0.0,
+          "world_label": "probe18",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_01vz"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.209842,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.209842,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_02qu",
+          "world_carry": 0.0,
+          "world_label": "probe18",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_02qu"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1710145,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.1710145,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_04z7",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_04z7"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1771495,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.1771495,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_04zi",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_04zi"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2678705,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2678705,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_05s4",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_05s4"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1178045,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1178045,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_06bd",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_06bd"
+    },
+    {
+      "avg_afterlook_best_reward": 0.287356,
+      "avg_reflection_carry": 0.2585745,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.287356,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2585745,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_07rf",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_07rf"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.300017,
+      "avg_world_carry": 0.275567,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.300017,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0989",
+          "world_carry": 0.275567,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0989"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1727015,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.1727015,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0akd",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0akd"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.3122735,
+      "avg_world_carry": 0.276918,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3122735,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0avw",
+          "world_carry": 0.276918,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0avw"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2979565,
+      "avg_world_carry": 0.275203,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2979565,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0b66",
+          "world_carry": 0.275203,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0b66"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.228765,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.228765,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0be3",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0be3"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2759198333333333,
+      "avg_world_carry": 0.086733,
+      "class_counts": {
+        "open_potential": 1,
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "LONG": 2,
+        "SHORT": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_context_dependent_withholding",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 3,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3268425,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0cgn",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.314754,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0cgn",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.186163,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0cgn",
+          "world_carry": 0.260199,
+          "world_label": "conflict16",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0cgn"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2725735,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "SHORT": 2
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2759225,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0eh8",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2692245,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0eh8",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0eh8"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.234283,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "acted_carried": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_acted_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.234283,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "action_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0ems",
+          "world_carry": 0.0,
+          "world_label": "probe18",
+          "world_state_class": "acted_carried"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0ems"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.0922085,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.0922085,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0fa9",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0fa9"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2026825,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2026825,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0fiy",
+          "world_carry": 0.0,
+          "world_label": "probe18",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0fiy"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1714485,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.1714485,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0fzl",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0fzl"
+    },
+    {
+      "avg_afterlook_best_reward": 0.167866,
+      "avg_reflection_carry": 0.3028505,
+      "avg_world_carry": 0.278738,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.167866,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3028505,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0g0p",
+          "world_carry": 0.278738,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0g0p"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.25902725000000004,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 2
+      },
+      "direction_counts": {
+        "LONG": 2
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.258263,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0gmg",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "cautious_potential"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2597915,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0gmg",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0gmg"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2575015,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2575015,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0gtz",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0gtz"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.30749825,
+      "avg_world_carry": 0.279867,
+      "class_counts": {
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "SHORT": 2
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.3059665,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0hd3",
+          "world_carry": 0.279407,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.30903,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0hd3",
+          "world_carry": 0.280327,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0hd3"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2273665,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2273665,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0izw",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0izw"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2686865,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2686865,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0jco",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0jco"
+    },
+    {
+      "avg_afterlook_best_reward": 0.242291,
+      "avg_reflection_carry": 0.2611625,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.242291,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2611625,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0n45",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0n45"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2135575,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "acted_carried": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_acted_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2135575,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "action_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0n9e",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "acted_carried"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0n9e"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.132691,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.132691,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0ojr",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0ojr"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.31068075,
+      "avg_world_carry": 0.27362200000000003,
+      "class_counts": {
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "LONG": 2
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3138105,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0qze",
+          "world_carry": 0.273554,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.307551,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0qze",
+          "world_carry": 0.27369,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0qze"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.106919,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.106919,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0rb2",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0rb2"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.22942449999999998,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 2
+      },
+      "direction_counts": {
+        "SHORT": 2
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.231559,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0szn",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "cautious_potential"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.22729,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0szn",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0szn"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2903091666666667,
+      "avg_world_carry": 0.27578366666666665,
+      "class_counts": {
+        "acted_carried": 2,
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 3
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_context_switches_action_and_withholding",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 3,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.286121,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "action_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0u1i",
+          "world_carry": 0.276992,
+          "world_label": "probe12",
+          "world_state_class": "acted_carried"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2885395,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "action_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0u1i",
+          "world_carry": 0.275603,
+          "world_label": "probe13",
+          "world_state_class": "acted_carried"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.296267,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0u1i",
+          "world_carry": 0.274756,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0u1i"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.22961,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.22961,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0u8u",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0u8u"
+    },
+    {
+      "avg_afterlook_best_reward": 0.36855,
+      "avg_reflection_carry": 0.26365,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.36855,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.26365,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0ufv",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0ufv"
+    },
+    {
+      "avg_afterlook_best_reward": 0.438144,
+      "avg_reflection_carry": 0.1300035,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.438144,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1300035,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0vc8",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0vc8"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.30972125,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "LONG": 2
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.31443,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0x52",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3050125,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0x52",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0x52"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.262003,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.262003,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0xpt",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0xpt"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2930075,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2930075,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_0y8w",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_0y8w"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1840545,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1840545,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_10dk",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_10dk"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1416645,
+      "avg_world_carry": 0.217393,
+      "class_counts": {
+        "open_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_open_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1416645,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_10kx",
+          "world_carry": 0.217393,
+          "world_label": "conflict16",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_10kx"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.27160483333333335,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 3
+      },
+      "direction_counts": {
+        "LONG": 3
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 3,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2812585,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_12jm",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2657885,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_12jm",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2677675,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_12jm",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_12jm"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2646735,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2646735,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1361",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1361"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.210538,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.210538,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_13u8",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_13u8"
+    },
+    {
+      "avg_afterlook_best_reward": 0.023364,
+      "avg_reflection_carry": 0.312459,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.023364,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.312459,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_13zu",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_13zu"
+    },
+    {
+      "avg_afterlook_best_reward": 0.307004,
+      "avg_reflection_carry": 0.23970249999999999,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 2
+      },
+      "direction_counts": {
+        "LONG": 2
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.301508,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2393755,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_143d",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        },
+        {
+          "afterlook_avg_best_reward": 0.3125,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2400295,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_143d",
+          "world_carry": 0.0,
+          "world_label": "probe18",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_143d"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.301077,
+      "avg_world_carry": 0.278254,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.301077,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_14eb",
+          "world_carry": 0.278254,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_14eb"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.260666,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.260666,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_14i8",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_14i8"
+    },
+    {
+      "avg_afterlook_best_reward": 0.7205373333333334,
+      "avg_reflection_carry": 0.22331516666666668,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 3
+      },
+      "direction_counts": {
+        "LONG": 3
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 3,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.71066,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2317315,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_14jl",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "cautious_potential"
+        },
+        {
+          "afterlook_avg_best_reward": 0.707547,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2187285,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_14jl",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "cautious_potential"
+        },
+        {
+          "afterlook_avg_best_reward": 0.743405,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2194855,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_14jl",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_14jl"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.26107,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.26107,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_15ms",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_15ms"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1580165,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1580165,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_16yc",
+          "world_carry": 0.0,
+          "world_label": "probe18",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_16yc"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.260066,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1,
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "SHORT": 2
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_context_dependent_withholding",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2591525,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_173s",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "cautious_potential"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2609795,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_173s",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_173s"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.30158850000000004,
+      "avg_world_carry": 0.27119150000000003,
+      "class_counts": {
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "LONG": 2
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.310929,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_199c",
+          "world_carry": 0.271577,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.292248,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_199c",
+          "world_carry": 0.270806,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_199c"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.301539,
+      "avg_world_carry": 0.276681,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.301539,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1ayy",
+          "world_carry": 0.276681,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1ayy"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.25464,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "open_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_open_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.25464,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1c6b",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1c6b"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1581575,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1581575,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1d1z",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1d1z"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2023375,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2023375,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1d3r",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1d3r"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.257405,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.257405,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1d8w",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1d8w"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1028725,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1028725,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1f4v",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1f4v"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2566595,
+      "avg_world_carry": 0.279324,
+      "class_counts": {
+        "open_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_open_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2566595,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1f9y",
+          "world_carry": 0.279324,
+          "world_label": "probe17",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1f9y"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2332845,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 2
+      },
+      "direction_counts": {
+        "SHORT": 2
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.240356,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1g18",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "cautious_potential"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.226213,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1g18",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1g18"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1864245,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1864245,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1g2t",
+          "world_carry": 0.0,
+          "world_label": "probe18",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1g2t"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.100925,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.100925,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1g7l",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1g7l"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.30208225,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 4
+      },
+      "direction_counts": {
+        "LONG": 4
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 4,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3021055,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1guc",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.312415,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1guc",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.29575,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1guc",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2980585,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1guc",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1guc"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.25730699999999995,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "SHORT": 2
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.256868,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1gxl",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.257746,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1gxl",
+          "world_carry": 0.0,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1gxl"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.258466,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.258466,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1jn5",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1jn5"
+    },
+    {
+      "avg_afterlook_best_reward": 0.541401,
+      "avg_reflection_carry": 0.0985345,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.541401,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.0985345,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1jo7",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1jo7"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.143785,
+      "avg_world_carry": 0.249606,
+      "class_counts": {
+        "open_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_open_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.143785,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1k0r",
+          "world_carry": 0.249606,
+          "world_label": "conflict16",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1k0r"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.204766,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.204766,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1k7y",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1k7y"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.3172685,
+      "avg_world_carry": 0.27067,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3172685,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1k8m",
+          "world_carry": 0.27067,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1k8m"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.238926,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.238926,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1m4n",
+          "world_carry": 0.0,
+          "world_label": "probe17",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1m4n"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2206525,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2206525,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1mpo",
+          "world_carry": 0.0,
+          "world_label": "probe12",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1mpo"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2989975,
+      "avg_world_carry": 0.275835,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2989975,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1mx2",
+          "world_carry": 0.275835,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1mx2"
+    },
+    {
+      "avg_afterlook_best_reward": 0.0610015,
+      "avg_reflection_carry": 0.300628,
+      "avg_world_carry": 0.276031,
+      "class_counts": {
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "LONG": 2
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.076754,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.300796,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1pfo",
+          "world_carry": 0.276104,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 0.045249,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.30046,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1pfo",
+          "world_carry": 0.275958,
+          "world_label": "probe15",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1pfo"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.102764,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.102764,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1q9b",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1q9b"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.183022,
+      "avg_world_carry": 0.182286,
+      "class_counts": {
+        "open_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_open_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.183022,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1qig",
+          "world_carry": 0.182286,
+          "world_label": "conflict16",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1qig"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2549995,
+      "avg_world_carry": 0.279482,
+      "class_counts": {
+        "open_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_open_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.2549995,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1qwp",
+          "world_carry": 0.279482,
+          "world_label": "probe18",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1qwp"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.3085865,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.3085865,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1rv1",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1rv1"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.293994,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.293994,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1t1w",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1t1w"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1361955,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.1361955,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1t73",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1t73"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.253938,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "open_potential": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_open_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.253938,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1txv",
+          "world_carry": 0.0,
+          "world_label": "probe18",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1txv"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.267394,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.267394,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1uv4",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1uv4"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.1830575,
+      "avg_world_carry": 0.203678,
+      "class_counts": {
+        "open_potential": 1
+      },
+      "direction_counts": {
+        "LONG": 1
+      },
+      "dominant_direction": "LONG",
+      "family_stability_state": "family_stably_open_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "LONG",
+          "avg_reflection_carry": 0.1830575,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_open_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1vjg",
+          "world_carry": 0.203678,
+          "world_label": "conflict16",
+          "world_state_class": "open_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1vjg"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.2174365,
+      "avg_world_carry": 0.277654,
+      "class_counts": {
+        "acted_carried": 1
+      },
+      "direction_counts": {
+        "SHORT": 1
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_acted_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2174365,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "action_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1vpi",
+          "world_carry": 0.277654,
+          "world_label": "probe18",
+          "world_state_class": "acted_carried"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1vpi"
+    },
+    {
+      "avg_afterlook_best_reward": 0.745399,
+      "avg_reflection_carry": 0.16245025,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "cautious_potential": 1
+      },
+      "direction_counts": {
+        "MIXED": 1
+      },
+      "dominant_direction": "MIXED",
+      "family_stability_state": "family_stably_cautious_potential",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 1,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 0.745399,
+          "afterlook_direction_hint": "MIXED",
+          "avg_reflection_carry": 0.16245025,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "followup",
+          "maturity_consequence_state": "withheld_cautious_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1w4m",
+          "world_carry": 0.0,
+          "world_label": "conflict16",
+          "world_state_class": "cautious_potential"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1w4m"
+    },
+    {
+      "avg_afterlook_best_reward": 1.0,
+      "avg_reflection_carry": 0.277744,
+      "avg_world_carry": 0.0,
+      "class_counts": {
+        "overcautious_carried_context": 2
+      },
+      "direction_counts": {
+        "SHORT": 2
+      },
+      "dominant_direction": "SHORT",
+      "family_stability_state": "family_stably_overcautious_carried",
+      "influences_action": false,
+      "is_future_teacher": false,
+      "is_gate": false,
+      "is_motoric": false,
+      "observation_count": 2,
+      "observations": [
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2854285,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe12_13",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1wie",
+          "world_carry": 0.0,
+          "world_label": "probe13",
+          "world_state_class": "overcautious_carried_context"
+        },
+        {
+          "afterlook_avg_best_reward": 1.0,
+          "afterlook_direction_hint": "SHORT",
+          "avg_reflection_carry": 0.2700595,
+          "influences_action": false,
+          "is_future_teacher": false,
+          "is_gate": false,
+          "is_motoric": false,
+          "landscape_label": "probe14_15",
+          "maturity_consequence_state": "withheld_carried_context_later_carried",
+          "passive_only": true,
+          "read_by_mini_dio": false,
+          "symbol_family": "dio_1wie",
+          "world_carry": 0.0,
+          "world_label": "probe14",
+          "world_state_class": "overcautious_carried_context"
+        }
+      ],
+      "passive_only": true,
+      "read_by_mini_dio": false,
+      "symbol_family": "dio_1wie"
+    }
+  ],
+  "landscapes": {
+    "followup": "debug\\dio_mini_passive_maturity_consequence_landscape_followup\\passive_maturity_consequence_landscape.csv",
+    "probe12_13": "debug\\dio_mini_passive_maturity_consequence_landscape_probe12_13\\passive_maturity_consequence_landscape.csv",
+    "probe14_15": "debug\\dio_mini_passive_maturity_consequence_landscape_probe14_15\\passive_maturity_consequence_landscape.csv"
+  },
+  "summary": {
+    "avg_afterlook_best_reward": 0.916504868627451,
+    "avg_reflection_carry": 0.23234417647058825,
+    "avg_world_carry": 0.0663572137254902,
+    "families": 85,
+    "stability_counts": {
+      "family_context_dependent_withholding": 2,
+      "family_context_switches_action_and_withholding": 1,
+      "family_stably_acted_carried": 4,
+      "family_stably_cautious_potential": 38,
+      "family_stably_open_potential": 8,
+      "family_stably_overcautious_carried": 32
+    }
+  }
+}

@@ -1,0 +1,5 @@
+source_label,passive_family_action,real_family_action,action,sense_similarity,sensory_similarity,mcm_similarity,passive_wait_traces,passive_potential_sum,real_action_traces,real_tp_count,real_sl_count,real_reward_sum,maturity_reading,passive_only
+probe15,dio_173s:SHORT,dio_1g18:SHORT,SHORT,0.811962125,0.8090512,0.816813667,3,3.0,3,3,0,3.0,passive_near_carried_outcome,1
+probe15,dio_173s:SHORT,dio_0u1i:SHORT,SHORT,0.705807375,0.6482025,0.8018155,3,3.0,3,3,0,3.0,passive_near_carried_outcome,1
+probe18,dio_14xc:LONG,dio_02qu:LONG,LONG,0.80021625,0.7742395,0.843510833,3,0.9375,3,3,0,3.0,passive_near_carried_outcome,1
+probe18,dio_14xc:LONG,dio_0arw:LONG,LONG,0.7319945,0.6940059,0.795308833,3,0.9375,3,3,0,3.0,passive_near_carried_outcome,1

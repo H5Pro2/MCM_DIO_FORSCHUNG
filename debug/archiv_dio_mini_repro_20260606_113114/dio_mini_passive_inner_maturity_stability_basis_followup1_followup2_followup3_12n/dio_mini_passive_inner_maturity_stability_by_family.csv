@@ -1,0 +1,9 @@
+passive_family_action,map_count,map_labels,source_labels,seeds,actions,trace_count,avg_similarity,avg_mcm_similarity,real_reward_sum,transition_state,passive_only
+dio_14xc:LONG,4,"basis,followup1,followup2,followup3",probe18,inner_trust_seed,LONG,4,0.80021625,0.843510833,12.0,inner_seed_repeats_stably,1
+dio_173s:SHORT,4,"basis,followup1,followup2,followup3",probe15,"inner_reorganization_seed,inner_trust_seed",SHORT,4,0.811962125,0.816813667,12.0,inner_seed_reorganizes,1
+dio_04zi:LONG,2,"basis,followup1",probe16,inner_carefulness_seed,LONG,2,0.737970375,0.730839667,-4.0,inner_seed_repeats_stably,1
+dio_1qig:LONG,2,"basis,followup1",probe16,inner_carefulness_seed,LONG,2,0.762543437,0.752622,-4.0,inner_seed_repeats_stably,1
+dio_1w4m:LONG,2,"basis,followup1",probe16,inner_carefulness_seed,LONG,2,0.886422438,0.913190833,-4.0,inner_seed_repeats_stably,1
+dio_0izw:SHORT,1,basis,probe15,inner_reorganization_seed,SHORT,1,0.884336312,0.9442415,3.0,inner_seed_local,1
+dio_15ms:SHORT,1,basis,probe15,inner_reorganization_seed,SHORT,1,0.787475125,0.84984,-3.0,inner_seed_local,1
+dio_1vjg:LONG,1,followup1,probe16,inner_carefulness_seed,LONG,1,0.78529625,0.797495167,-1.0,inner_seed_local,1

@@ -1,0 +1,66 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_future_teacher": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "writes_training_memory": false
+  },
+  "detail": [
+    {
+      "action": "SHORT",
+      "best_mcm_similarity": 0.816813667,
+      "best_real_family_action": "dio_1g18:SHORT",
+      "best_real_reward_sum": 3.0,
+      "best_real_sl_count": 0,
+      "best_real_tp_count": 3,
+      "best_sensory_similarity": 0.8090512,
+      "best_similarity": 0.811962125,
+      "burdened_candidate_count": 0,
+      "candidate_count": 2,
+      "carried_candidate_count": 2,
+      "inner_maturity_seed": "inner_trust_seed",
+      "inner_sentence": "dio_173s:SHORT: Ich habe diese Form passiv gesehen. Eine nahe reale Spur dio_1g18:SHORT wurde getragen (Naehe=0.811962, Konsequenz=3.000000).",
+      "mixed_candidate_count": 0,
+      "passive_family_action": "dio_173s:SHORT",
+      "passive_maturity_state": "passive_observation_has_carried_neighbor",
+      "passive_only": 1,
+      "source_label": "probe15"
+    },
+    {
+      "action": "LONG",
+      "best_mcm_similarity": 0.843510833,
+      "best_real_family_action": "dio_02qu:LONG",
+      "best_real_reward_sum": 3.0,
+      "best_real_sl_count": 0,
+      "best_real_tp_count": 3,
+      "best_sensory_similarity": 0.7742395,
+      "best_similarity": 0.80021625,
+      "burdened_candidate_count": 0,
+      "candidate_count": 2,
+      "carried_candidate_count": 2,
+      "inner_maturity_seed": "inner_trust_seed",
+      "inner_sentence": "dio_14xc:LONG: Ich habe diese Form passiv gesehen. Eine nahe reale Spur dio_02qu:LONG wurde getragen (Naehe=0.800216, Konsequenz=3.000000).",
+      "mixed_candidate_count": 0,
+      "passive_family_action": "dio_14xc:LONG",
+      "passive_maturity_state": "passive_observation_has_carried_neighbor",
+      "passive_only": 1,
+      "source_label": "probe18"
+    }
+  ],
+  "source": "debug\\dio_mini_passive_maturity_bridge_12n_inner_map_followup3_probe15_probe16_probe18\\dio_mini_passive_maturity_bridge_summary.csv",
+  "summary": [
+    {
+      "actions": "LONG,SHORT",
+      "avg_mcm_similarity": 0.83016225,
+      "avg_similarity": 0.806089188,
+      "families": "dio_14xc:LONG,dio_173s:SHORT",
+      "inner_maturity_seed": "inner_trust_seed",
+      "passive_only": 1,
+      "real_reward_sum": 6.0,
+      "source_count": 2,
+      "sources": "probe15,probe18",
+      "trace_count": 2
+    }
+  ]
+}
