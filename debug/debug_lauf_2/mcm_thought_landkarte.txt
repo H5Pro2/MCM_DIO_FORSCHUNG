@@ -1,0 +1,34 @@
+# MCM Thought Landkarte
+# Lesbares Debug-Protokoll: Formseite + MCM-Wirkseite + Hypothesenpruefung.
+# Es beschreibt vorhandene Zustaende und veraendert keine Entscheidung.
+
+[130] t=1767757800000000 tick=1275 phase=replan reason=metaregulator_reflection_replan decision=LONG | verdichtet=120+ aehnliche/offene Denkwechsel
+Form/MCM: form=fs_2c88e2f008/fc_86a6c83488 family=fmf_9a018baac3 feld=quiet_field kontakt=overcoupled_touch/overcoupled_touch
+Pruefung: form=offen(0.343) mcm=offen(0.279) hypothese=offen(0.287) mismatch=0.072
+Denkonomie: fundamental=0.122 ereignis=0.228 last=0.016 sparbedarf=0.034 effizienz=schwach(0.200) -> ich ordne die Hypothese neu
+
+[253] t=1767864300000000 tick=1630 phase=replan reason=metaregulator_reflection_replan decision=SHORT | verdichtet=120+ aehnliche/offene Denkwechsel
+Form/MCM: form=fs_a8613b4c0b/- family=fmf_3d4348e616 feld=quiet_field kontakt=overcoupled_touch/overcoupled_touch
+Pruefung: form=offen(0.375) mcm=offen(0.365) hypothese=offen(0.298) mismatch=0.014
+Denkonomie: fundamental=0.113 ereignis=0.265 last=0.000 sparbedarf=0.022 effizienz=offen(0.239) -> ich ordne die Hypothese neu
+
+[382] t=1767984300000000 tick=2030 phase=replan reason=metaregulator_reflection_replan decision=LONG | verdichtet=120+ aehnliche/offene Denkwechsel
+Form/MCM: form=fs_6e9b9966d9/fc_f688aacd36 family=fmf_1635a1f0f3 feld=quiet_field kontakt=deepening_contact/deepening_contact
+Pruefung: form=teilweise passend(0.470) mcm=teilweise passend(0.431) hypothese=offen(0.336) mismatch=0.039
+Denkonomie: fundamental=0.141 ereignis=0.356 last=0.000 sparbedarf=0.007 effizienz=offen(0.290) -> ich ordne die Hypothese neu
+
+[515] t=1768172400000000 tick=2657 phase=replan reason=pre_action_reorganization_replan decision=SHORT | verdichtet=120+ aehnliche/offene Denkwechsel
+Form/MCM: form=fs_1d0d06fbde/fc_e2c6e29704 family=fmf_9f76b70b60 feld=quiet_field kontakt=overcoupled_touch/overcoupled_touch
+Pruefung: form=teilweise passend(0.439) mcm=offen(0.290) hypothese=offen(0.313) mismatch=0.158
+Denkonomie: fundamental=0.158 ereignis=0.310 last=0.000 sparbedarf=0.015 effizienz=offen(0.232) -> ich ordne die Hypothese neu
+
+[642] t=1768249800000000 tick=2915 phase=replan reason=metaregulator_reflection_replan decision=SHORT | verdichtet=120+ aehnliche/offene Denkwechsel
+Form/MCM: form=fs_77511e312f/fc_cc96408adf family=fmf_9f76b70b60 feld=quiet_field kontakt=overcoupled_touch/overcoupled_touch
+Pruefung: form=teilweise passend(0.464) mcm=offen(0.379) hypothese=offen(0.329) mismatch=0.084
+Denkonomie: fundamental=0.148 ereignis=0.338 last=0.000 sparbedarf=0.010 effizienz=offen(0.263) -> ich ordne die Hypothese neu
+
+[769] t=1768489800000000 tick=3715 phase=replan reason=metaregulator_reflection_replan decision=SHORT | verdichtet=120+ aehnliche/offene Denkwechsel
+Form/MCM: form=fs_dae1eec7ad/fc_04eb3cf09c family=fmf_9f76b70b60 feld=quiet_field kontakt=deepening_contact/deepening_contact
+Pruefung: form=teilweise passend(0.483) mcm=offen(0.314) hypothese=offen(0.308) mismatch=0.172
+Denkonomie: fundamental=0.170 ereignis=0.372 last=0.000 sparbedarf=0.005 effizienz=offen(0.274) -> ich ordne die Hypothese neu
+

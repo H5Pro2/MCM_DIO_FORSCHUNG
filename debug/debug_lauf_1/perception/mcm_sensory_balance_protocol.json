@@ -1,0 +1,90 @@
+{
+  "state": "sensory_balance_observed",
+  "integration_score": 0.4410105968120929,
+  "break_layer": "fuehlen",
+  "interpretation": "Form kann sichtbar sein, aber das MCM-Feld traegt den Kontakt nicht stabil.",
+  "sehen": {
+    "state": "partial_form",
+    "score": 0.5388516896440072,
+    "structure_quality": 0.5491711027553149,
+    "visual_grounding_strength": 0.3537412931402276,
+    "visual_object_binding": 0.4168170823304124,
+    "visual_grounding_gap": 0.14182517079599638,
+    "visual_blind_action_load": 0.1557579749654171,
+    "visual_sight_label": "pressured_unclear_form",
+    "visual_form_family": "flow_form",
+    "visual_contact_candidate": 0.26303278908094263,
+    "visual_background_load": 0.2859393884110213,
+    "visual_depth": 0.4128798668560031,
+    "visual_cortex_label": "unformed_visual_background",
+    "dominant_visual_object": "compression_object",
+    "visual_object_presence": 0.47364588342640745,
+    "visual_object_clarity": 0.2905203788655339,
+    "visual_relation_coherence": 0.4928586056113898,
+    "visual_readiness": 0.26208728219194133,
+    "visual_relation_label": "near_contact_object",
+    "visual_lifecycle_label": "contacting_object",
+    "visual_object_side": "lower_area",
+    "visual_object_distance": 0.487262112869325,
+    "visual_contact_nearness": 0.4067657892821256,
+    "visual_lifecycle_stability": 0.409979408676564,
+    "visual_lifecycle_rejection": 0.2599204837490299,
+    "visual_lifecycle_dissolution": 0.24545256994550532,
+    "visual_object_binding_quality": 0.3329700972771352,
+    "visual_cortex_grounding": 0.3261893158129464
+  },
+  "bereich": {
+    "state": "coherent_multisensory_area",
+    "multisensory_coherence": 0.4008878450930625,
+    "attention_need": 0.3062910327500571,
+    "felt_depth": 0.3638049016674777,
+    "overcoupling_risk": 0.22970776382447805,
+    "role": "perception_only"
+  },
+  "hoeren": {
+    "state": "calm_hearing",
+    "score": 0.9430676443915812,
+    "loudness": 0.029112835110129964,
+    "compression": 0.17571714693956417,
+    "frequency_hz": 0.0,
+    "overstimulation": 0.07907271612280388
+  },
+  "fuehlen": {
+    "state": "burdened_field",
+    "score": 0.3020325630403247,
+    "mcm_axis_displacement": -0.009094358306963785,
+    "mcm_axis_field_position": -0.027283074920891354,
+    "mcm_axis_tension": 0.18231802999895355,
+    "mcm_axis_state": "0",
+    "contact_carrying_quality": 0.2031458134887704,
+    "outer_inner_coherence": 0.19145387696620356,
+    "pressure_to_capacity": 0.7453660364200227,
+    "contact_overcoupling_risk": 0.28780405857133884
+  },
+  "denken": {
+    "state": "thought_disabled",
+    "score": 1.0,
+    "enabled": false,
+    "confirmation_bearing": 0.0,
+    "trust_bearing": 3.065055234823711e-05,
+    "rejection_pressure": 0.0005200000000000001,
+    "contradiction_pressure": 0.0
+  },
+  "handlung": {
+    "state": "action_break",
+    "score": 0.2890003563575161,
+    "inner_action_consent": 0.008865656031162909,
+    "inner_action_support": 0.010986956756067846,
+    "inner_action_no": 0.008473674738188742,
+    "action_inhibition": 0.4905197493178964,
+    "plan_quality": 0.290275383983786,
+    "execution_quality": 0.2621547096446511,
+    "risk_fit_quality": 0.12115977608419509
+  },
+  "sample": {
+    "recent_attempts": 80,
+    "trades": 76,
+    "attempts": 2306,
+    "pnl_netto": -8.45887000159928
+  }
+}

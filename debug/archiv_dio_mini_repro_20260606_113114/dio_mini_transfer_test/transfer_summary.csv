@@ -1,0 +1,15 @@
+phase,phase_run,global_run,data_path,candles,episodes,trades,long_trades,short_trades,waits,total_reward,avg_reward,unique_symbols,top_long_family,top_long_trust,top_short_family,top_short_trust
+referenz,1,1,data\kontrolliert_2episoden_5m_SOLUSDT.csv,18,12,0,0,0,12,0.0,0.0,12,dio_0byw,0.08,dio_0zlr,0.04919579029428961
+referenz,2,2,data\kontrolliert_2episoden_5m_SOLUSDT.csv,18,12,0,0,0,12,0.0,0.0,12,dio_0byw,0.15360000000000001,dio_0zlr,0.09445591736503606
+referenz,3,3,data\kontrolliert_2episoden_5m_SOLUSDT.csv,18,5,2,1,1,3,3.758544,0.751709,5,dio_0byw,0.4087413226613301,dio_14zx,0.3790548238623836
+referenz,4,4,data\kontrolliert_2episoden_5m_SOLUSDT.csv,18,4,2,1,1,2,2.686201,0.67155,4,dio_0byw,0.628162860150074,dio_14zx,0.3790548238623836
+referenz,5,5,data\kontrolliert_2episoden_5m_SOLUSDT.csv,18,4,2,1,1,2,2.686201,0.67155,4,dio_0byw,0.8168653823903939,dio_14zx,0.3790548238623836
+referenz,6,6,data\kontrolliert_2episoden_5m_SOLUSDT.csv,18,4,2,1,1,2,2.686201,0.67155,4,dio_0byw,0.9791495515170688,dio_14zx,0.3790548238623836
+varianz,1,7,data\kontrolliert_varianz_2episoden_5m_SOLUSDT.csv,18,12,0,0,0,12,0.0,0.0,12,dio_0byw,0.9791495515170688,dio_14zx,0.3790548238623836
+varianz,2,8,data\kontrolliert_varianz_2episoden_5m_SOLUSDT.csv,18,12,0,0,0,12,0.0,0.0,12,dio_0byw,0.9791495515170688,dio_14zx,0.3790548238623836
+varianz,3,9,data\kontrolliert_varianz_2episoden_5m_SOLUSDT.csv,18,4,2,1,1,2,2.901354,0.725339,4,dio_0byw,0.9791495515170688,dio_14zx,0.3790548238623836
+varianz,4,10,data\kontrolliert_varianz_2episoden_5m_SOLUSDT.csv,18,4,2,1,1,2,2.425854,0.606463,4,dio_0byw,0.9791495515170688,dio_0n4c,0.47447156587200845
+rauschen,1,11,data\kontrolliert_rauschen_2episoden_5m_SOLUSDT.csv,22,16,0,0,0,16,0.0,0.0,16,dio_0byw,0.9791495515170688,dio_0n4c,0.47447156587200845
+rauschen,2,12,data\kontrolliert_rauschen_2episoden_5m_SOLUSDT.csv,22,16,0,0,0,16,0.0,0.0,16,dio_0byw,0.9791495515170688,dio_0n4c,0.47447156587200845
+rauschen,3,13,data\kontrolliert_rauschen_2episoden_5m_SOLUSDT.csv,22,9,2,1,1,7,3.084839,0.34276,9,dio_0byw,0.9791495515170688,dio_0n4c,0.47447156587200845
+rauschen,4,14,data\kontrolliert_rauschen_2episoden_5m_SOLUSDT.csv,22,8,2,1,1,6,2.455283,0.30691,8,dio_0byw,0.9791495515170688,dio_1r0h,0.5288318784500498
