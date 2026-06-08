@@ -1,0 +1,168 @@
+{
+  "worlds": [
+    {
+      "avg_carried_cos": 0.55485,
+      "avg_carry": 0.21717,
+      "avg_inner_balance": 0.060602,
+      "avg_readiness": 0.006366,
+      "avg_temporal_caution": 0.72,
+      "avg_temporal_trust": 0.0,
+      "carry_signal_family_count": 18,
+      "families": 18,
+      "max_carried_cos": 0.994181,
+      "max_carry": 0.279407,
+      "max_readiness": 0.010072,
+      "positive_carried_cos_family_count": 15,
+      "source_file": "debug\\dio_mini_temporal_neuro_kinship_probe18_to_variant_probe14\\temporal_neuro_kinship_transfer.csv",
+      "strongest_families": [
+        {
+          "carried_cos": 0.994181,
+          "carried_source": "dio_1vpi",
+          "carry": 0.279407,
+          "nearest_source": "dio_143d",
+          "readiness": 0.008923,
+          "target_family": "dio_0hd3"
+        },
+        {
+          "carried_cos": 0.977842,
+          "carried_source": "dio_0ems",
+          "carry": 0.276104,
+          "nearest_source": "dio_0ems",
+          "readiness": 0.002104,
+          "target_family": "dio_1pfo"
+        },
+        {
+          "carried_cos": 0.976263,
+          "carried_source": "dio_0ems",
+          "carry": 0.275567,
+          "nearest_source": "dio_0ems",
+          "readiness": 0.010072,
+          "target_family": "dio_0989"
+        },
+        {
+          "carried_cos": 0.970831,
+          "carried_source": "dio_1vpi",
+          "carry": 0.275203,
+          "nearest_source": "dio_1qwp",
+          "readiness": 0.008657,
+          "target_family": "dio_0b66"
+        },
+        {
+          "carried_cos": 0.898697,
+          "carried_source": "dio_1vpi",
+          "carry": 0.27369,
+          "nearest_source": "dio_1txv",
+          "readiness": 0.009208,
+          "target_family": "dio_0qze"
+        },
+        {
+          "carried_cos": 0.949259,
+          "carried_source": "dio_1vpi",
+          "carry": 0.271943,
+          "nearest_source": "dio_01vz",
+          "readiness": 0.009798,
+          "target_family": "dio_1t1w"
+        },
+        {
+          "carried_cos": 0.858173,
+          "carried_source": "dio_1vpi",
+          "carry": 0.268991,
+          "nearest_source": "dio_1txv",
+          "readiness": 0.009048,
+          "target_family": "dio_1rv1"
+        },
+        {
+          "carried_cos": 0.821887,
+          "carried_source": "dio_1vpi",
+          "carry": 0.255786,
+          "nearest_source": "dio_01vz",
+          "readiness": 0.009294,
+          "target_family": "dio_1guc"
+        }
+      ],
+      "world": "probe14"
+    },
+    {
+      "avg_carried_cos": 0.550591,
+      "avg_carry": 0.216732,
+      "avg_inner_balance": 0.062851,
+      "avg_readiness": 0.013358,
+      "avg_temporal_caution": 0.72,
+      "avg_temporal_trust": 0.0,
+      "carry_signal_family_count": 18,
+      "families": 18,
+      "max_carried_cos": 0.994597,
+      "max_carry": 0.280327,
+      "max_readiness": 0.052281,
+      "positive_carried_cos_family_count": 15,
+      "source_file": "debug\\dio_mini_temporal_neuro_kinship_probe18_to_variant_probe15\\temporal_neuro_kinship_transfer.csv",
+      "strongest_families": [
+        {
+          "carried_cos": 0.994597,
+          "carried_source": "dio_1vpi",
+          "carry": 0.280327,
+          "nearest_source": "dio_143d",
+          "readiness": 0.026078,
+          "target_family": "dio_0hd3"
+        },
+        {
+          "carried_cos": 0.975771,
+          "carried_source": "dio_0ems",
+          "carry": 0.275958,
+          "nearest_source": "dio_0ems",
+          "readiness": 0.003095,
+          "target_family": "dio_1pfo"
+        },
+        {
+          "carried_cos": 0.97734,
+          "carried_source": "dio_0ems",
+          "carry": 0.275835,
+          "nearest_source": "dio_0ems",
+          "readiness": 0.009917,
+          "target_family": "dio_1mx2"
+        },
+        {
+          "carried_cos": 0.966349,
+          "carried_source": "dio_1vpi",
+          "carry": 0.274756,
+          "nearest_source": "dio_01vz",
+          "readiness": 0.008513,
+          "target_family": "dio_0u1i"
+        },
+        {
+          "carried_cos": 0.938757,
+          "carried_source": "dio_1vpi",
+          "carry": 0.270806,
+          "nearest_source": "dio_01vz",
+          "readiness": 0.009485,
+          "target_family": "dio_199c"
+        },
+        {
+          "carried_cos": 0.87915,
+          "carried_source": "dio_1vpi",
+          "carry": 0.270499,
+          "nearest_source": "dio_1txv",
+          "readiness": 0.008996,
+          "target_family": "dio_0x52"
+        },
+        {
+          "carried_cos": 0.852685,
+          "carried_source": "dio_1vpi",
+          "carry": 0.269023,
+          "nearest_source": "dio_1txv",
+          "readiness": 0.052281,
+          "target_family": "dio_0cgn"
+        },
+        {
+          "carried_cos": 0.813443,
+          "carried_source": "dio_1vpi",
+          "carry": 0.255268,
+          "nearest_source": "dio_01vz",
+          "readiness": 0.024218,
+          "target_family": "dio_1guc"
+        }
+      ],
+      "world": "probe15"
+    }
+  ]
+}
