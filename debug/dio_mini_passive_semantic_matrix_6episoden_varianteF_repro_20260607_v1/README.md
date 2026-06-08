@@ -1,0 +1,137 @@
+# Mini-DIO passive Semantikmatrix
+
+Ziel: wachsende Bedeutungsinseln aus emergenten Erlebnisspuren sichtbar machen.
+
+## Grenze
+- Nur Bericht.
+- Keine Runtime-Rueckfuehrung.
+- Keine Handlung.
+- Kein Gate.
+- Kein Entry.
+- Keine Richtung.
+
+## Inseln
+- dio_semantic_island_1: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0bkt|dio_0j6l|dio_11ex|dio_16qb|dio_19rg|dio_1fbp|dio_1nvu|dio_1qmr|dio_1xjq
+- dio_semantic_island_2: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0hd3|dio_0liz|dio_0pca|dio_0w16|dio_101q|dio_13di|dio_14xc|dio_1f9y|dio_1mhq
+- dio_semantic_island_3: rohe Bedeutungsinsel ohne eigene Reife. families=dio_06b8|dio_095l|dio_0g9z|dio_0h3x|dio_0l9d|dio_0xkp|dio_1958|dio_1ocs
+- dio_semantic_island_4: rohe Bedeutungsinsel ohne eigene Reife. families=dio_09u3|dio_0o3g|dio_17y9|dio_1im7|dio_1ldu|dio_1siy|dio_1tj7
+- dio_semantic_island_5: rohe Bedeutungsinsel ohne eigene Reife. families=dio_03yz|dio_0xn0|dio_12im|dio_19uu|dio_1hjm|dio_1mxa
+- dio_semantic_island_6: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0bde|dio_0z2v|dio_106w|dio_16ry|dio_1a1a|dio_1vz0
+- dio_semantic_island_7: rohe Bedeutungsinsel ohne eigene Reife. families=dio_002s|dio_1001|dio_11bp|dio_15r6|dio_1hj5
+- dio_semantic_island_8: rohe Bedeutungsinsel ohne eigene Reife. families=dio_00fq|dio_05k3|dio_0wnz|dio_1del
+- dio_semantic_island_9: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0892|dio_0r5x|dio_1hzg|dio_1pen
+- dio_semantic_island_10: rohe Bedeutungsinsel ohne eigene Reife. families=dio_09xu|dio_13cn|dio_1awd|dio_1m6t
+- dio_semantic_island_11: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0adc|dio_13ek|dio_13p1|dio_1ing
+- dio_semantic_island_12: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0fsw|dio_0wb6|dio_1lno|dio_1omn
+- dio_semantic_island_13: rohe Bedeutungsinsel ohne eigene Reife. families=dio_140n|dio_168n|dio_19b6|dio_1bj6
+- dio_semantic_island_14: rohe Bedeutungsinsel ohne eigene Reife. families=dio_05ws|dio_1ekr|dio_1tsz
+- dio_semantic_island_15: rohe Bedeutungsinsel ohne eigene Reife. families=dio_08e1|dio_0eck|dio_1jtk
+- dio_semantic_island_16: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0b1z|dio_0bm2|dio_0xu6
+- dio_semantic_island_17: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0b8a|dio_1i05|dio_1xfl
+- dio_semantic_island_18: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0oah|dio_10mi|dio_19mp
+- dio_semantic_island_19: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0us2|dio_12g8|dio_1x64
+- dio_semantic_island_20: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0v3a|dio_11vr|dio_1mni
+- dio_semantic_island_21: rohe Bedeutungsinsel ohne eigene Reife. families=dio_03bb|dio_05ue
+- dio_semantic_island_22: rohe Bedeutungsinsel ohne eigene Reife. families=dio_03em|dio_0mod
+- dio_semantic_island_23: rohe Bedeutungsinsel ohne eigene Reife. families=dio_093t|dio_0ghz
+- dio_semantic_island_24: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0a6g|dio_1og2
+- dio_semantic_island_25: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0alq|dio_105u
+- dio_semantic_island_26: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0fdh|dio_0o5p
+- dio_semantic_island_27: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0gvf|dio_0yn1
+- dio_semantic_island_28: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0jx1|dio_1qt4
+- dio_semantic_island_29: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0ka4|dio_0rwa
+- dio_semantic_island_30: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0lyl|dio_1a3i
+- dio_semantic_island_31: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0pd1|dio_1s88
+- dio_semantic_island_32: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0s6o|dio_0t7r
+- dio_semantic_island_33: rohe Bedeutungsinsel ohne eigene Reife. families=dio_0wsp|dio_1t1w
+- dio_semantic_island_34: rohe Bedeutungsinsel ohne eigene Reife. families=dio_118t|dio_12b2
+- dio_semantic_island_35: rohe Bedeutungsinsel ohne eigene Reife. families=dio_15s8|dio_17xt
+- dio_semantic_island_36: rohe Bedeutungsinsel ohne eigene Reife. families=dio_16xo|dio_1lj9
+- dio_semantic_island_37: rohe Bedeutungsinsel ohne eigene Reife. families=dio_1ull|dio_1wx6
+- dio_semantic_island_38: isolierte passive Syntaxspur. families=dio_005q
+- dio_semantic_island_39: isolierte passive Syntaxspur. families=dio_01sj
+- dio_semantic_island_40: isolierte passive Syntaxspur. families=dio_01w7
+
+## Knoten
+- dio_0h67: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=18
+- dio_1xfw: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=18
+- dio_0inm: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=16
+- dio_19bg: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=16
+- dio_02s2: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=14
+- dio_0bzr: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=14
+- dio_1hs5: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=14
+- dio_0gmg: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=12
+- dio_12dn: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=12
+- dio_02cr: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=10
+- dio_05ue: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=10
+- dio_0vu0: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=10
+- dio_0x52: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=10
+- dio_17se: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=10
+- dio_1del: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=10
+- dio_1hj5: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=10
+- dio_01w7: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_03bb: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_06gy: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_0bm2: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_0q96: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_0wnz: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_0wsp: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_11qj: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_1bnp: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_1lcu: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_1pkn: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=8
+- dio_01sj: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_03yz: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_0892: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_0b1z: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_0ft4: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_0h8k: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_0juh: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_0oic: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_16qb: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_16ry: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_19mp: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_1ekr: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+- dio_1f9y: wiederkehrende rohe Syntaxspur im Bedeutungsraum. episodes=6
+
+## Kanten
+- dio_0892+dio_0r5x: gleiche passive Bedeutungsinsel. similarity=0.999919
+- dio_1tsz+dio_05ws: gleiche passive Bedeutungsinsel. similarity=0.9999
+- dio_0z2v+dio_106w: gleiche passive Bedeutungsinsel. similarity=0.999896
+- dio_0xkp+dio_1958: gleiche passive Bedeutungsinsel. similarity=0.999895
+- dio_03em+dio_0mod: gleiche passive Bedeutungsinsel. similarity=0.999878
+- dio_1i05+dio_1xfl: gleiche passive Bedeutungsinsel. similarity=0.99986
+- dio_0jx1+dio_1qt4: gleiche passive Bedeutungsinsel. similarity=0.999821
+- dio_17y9+dio_1im7: gleiche passive Bedeutungsinsel. similarity=0.999818
+- dio_0bde+dio_1vz0: gleiche passive Bedeutungsinsel. similarity=0.999798
+- dio_1hzg+dio_1pen: gleiche passive Bedeutungsinsel. similarity=0.999793
+- dio_1del+dio_00fq: gleiche passive Bedeutungsinsel. similarity=0.999745
+- dio_0j6l+dio_1fbp: gleiche passive Bedeutungsinsel. similarity=0.999696
+- dio_0g9z+dio_0h3x: gleiche passive Bedeutungsinsel. similarity=0.999692
+- dio_095l+dio_1958: gleiche passive Bedeutungsinsel. similarity=0.99969
+- dio_0bkt+dio_1qmr: gleiche passive Bedeutungsinsel. similarity=0.999681
+- dio_0z2v+dio_0bde: gleiche passive Bedeutungsinsel. similarity=0.999666
+- dio_16ry+dio_1a1a: gleiche passive Bedeutungsinsel. similarity=0.999638
+- dio_1awd+dio_09xu: gleiche passive Bedeutungsinsel. similarity=0.999626
+- dio_1a1a+dio_1vz0: gleiche passive Bedeutungsinsel. similarity=0.999623
+- dio_0pca+dio_0w16: gleiche passive Bedeutungsinsel. similarity=0.999601
+- dio_095l+dio_0xkp: gleiche passive Bedeutungsinsel. similarity=0.999597
+- dio_13di+dio_14xc: gleiche passive Bedeutungsinsel. similarity=0.999568
+- dio_16xo+dio_1lj9: gleiche passive Bedeutungsinsel. similarity=0.999566
+- dio_09u3+dio_1im7: gleiche passive Bedeutungsinsel. similarity=0.999564
+- dio_0r5x+dio_1pen: gleiche passive Bedeutungsinsel. similarity=0.999563
+- dio_0adc+dio_1ing: gleiche passive Bedeutungsinsel. similarity=0.999562
+- dio_168n+dio_140n: gleiche passive Bedeutungsinsel. similarity=0.999561
+- dio_0adc+dio_13p1: gleiche passive Bedeutungsinsel. similarity=0.999558
+- dio_0v3a+dio_1mni: gleiche passive Bedeutungsinsel. similarity=0.999555
+- dio_0w16+dio_13di: gleiche passive Bedeutungsinsel. similarity=0.999553
+- dio_0bde+dio_106w: gleiche passive Bedeutungsinsel. similarity=0.999552
+- dio_0892+dio_1pen: gleiche passive Bedeutungsinsel. similarity=0.999549
+- dio_0alq+dio_105u: gleiche passive Bedeutungsinsel. similarity=0.999547
+- dio_0lyl+dio_1a3i: gleiche passive Bedeutungsinsel. similarity=0.999537
+- dio_0o3g+dio_1tj7: gleiche passive Bedeutungsinsel. similarity=0.999534
+- dio_0oah+dio_10mi: gleiche passive Bedeutungsinsel. similarity=0.999526
+- dio_13cn+dio_1m6t: gleiche passive Bedeutungsinsel. similarity=0.999525
+- dio_13di+dio_1mhq: gleiche passive Bedeutungsinsel. similarity=0.999511
+- dio_12g8+dio_1x64: gleiche passive Bedeutungsinsel. similarity=0.999509
+- dio_16ry+dio_1vz0: gleiche passive Bedeutungsinsel. similarity=0.999508
