@@ -1,0 +1,7 @@
+family,passive_repeat_state,run_count,seen_runs,executed_runs,seen_count,executed_count,observed_potential_count,held_pressure_count,reward_sum,best_reward_sum,actions,states,first_run,last_run,passive_sentence
+dio_0arw,repeat_executed_carried,4,4,4,4,4,0,0,5.539416,5.539416,LONG:4,executed_aligned:4,149,152,dio_0arw: wurde in jedem Wiederholungslauf aktiv getragen.
+dio_0t0v,repeat_executed_carried,4,4,4,4,4,0,0,4.146636,4.146636,LONG:4,executed_aligned:4,149,152,dio_0t0v: wurde in jedem Wiederholungslauf aktiv getragen.
+dio_1u7v,repeat_executed_carried,4,4,4,4,4,0,0,3.577568,3.577568,SHORT:4,executed_aligned:4,149,152,dio_1u7v: wurde in jedem Wiederholungslauf aktiv getragen.
+dio_00qb,repeat_held_pressure,4,4,0,4,0,1,3,0.0,2.516584,WAIT:4,held_trade_pressure:3|observed_trade_potential:1,149,152,dio_00qb: kehrt als gehaltene Handelsspannung wieder.
+dio_14xc,repeat_observed_potential,4,4,0,4,0,4,0,0.0,0.37806,WAIT:4,observed_trade_potential:4,149,152,dio_14xc: kehrt als beobachtetes Handelspotenzial wieder.
+dio_1vpi,repeat_observed_potential,4,4,0,4,0,4,0,0.0,0.569932,WAIT:4,observed_trade_potential:4,149,152,dio_1vpi: kehrt als beobachtetes Handelspotenzial wieder.
