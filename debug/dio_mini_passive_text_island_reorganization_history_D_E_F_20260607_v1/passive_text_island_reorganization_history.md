@@ -1,0 +1,189 @@
+# Passive Text Island Reorganization History
+
+## Sources
+- D: `debug\dio_mini_passive_text_island_inner_map_after_varianteD_20260606_v1\passive_text_island_inner_map.csv`
+- E: `debug\dio_mini_passive_text_island_inner_map_after_varianteE_20260606_v1\passive_text_island_inner_map.csv`
+- F: `debug\dio_mini_passive_text_island_inner_map_after_varianteF_20260607_v1\passive_text_island_inner_map.csv`
+
+## Grenze
+- passiv
+- keine Runtime-Lesung
+- keine Handlung
+- kein Gate
+- kein Entry
+- keine Richtung
+
+## Summary
+- persistent_raw_history: 115 delta=0.173 drift=0.000
+- stable_foreign_boundary_history: 99 delta=0.000 drift=0.000
+- reorganized_into_core: 29 delta=0.388 drift=0.052
+- late_text_island_emergence: 22 delta=0.324 drift=0.273
+- stable_variation_history: 13 delta=0.002 drift=0.000
+- stable_inner_soft_variation_space: 12 delta=0.045 drift=0.236
+- mixed_reorganization_history: 10 delta=0.124 drift=0.192
+- core_to_drift_reorganization: 5 delta=-0.123 drift=0.251
+- stable_recurrence_history: 5 delta=0.025 drift=0.000
+- core_to_soft_variation: 3 delta=0.211 drift=0.095
+- persistent_drift_history: 2 delta=0.106 drift=0.500
+
+## History
+- dio_text_1falsty: core_to_drift_reorganization; states=inner_variation_bearing_space -> inner_variation_bearing_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1h5am86: core_to_drift_reorganization; states=inner_variation_bearing_space -> inner_drift_watch_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1nxyi3d: core_to_drift_reorganization; states=inner_variation_bearing_space -> inner_drift_watch_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_cmxrx4: core_to_drift_reorganization; states=inner_variation_bearing_space -> inner_variation_bearing_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_csxwgb: core_to_drift_reorganization; states=inner_variation_bearing_space -> inner_variation_bearing_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1uuigxj: core_to_soft_variation; states=inner_unconfirmed_raw_space -> inner_stable_recurrence_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_rlrpyb: core_to_soft_variation; states=inner_unconfirmed_raw_space -> inner_stable_recurrence_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_wzyotv: core_to_soft_variation; states=inner_variation_bearing_space -> inner_variation_bearing_space -> inner_soft_variation_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_11og9em: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_14jzt6i: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_1a4tj06: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1a7yl1w: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1a8y6fr: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1jvav3f: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1p0qoj5: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_fragmented; passiv, keine Handlung.
+- dio_text_1s2vma8: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_1t05b7v: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1xb2hkl: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_2kinwe: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_fragmented; passiv, keine Handlung.
+- dio_text_3cksnx: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_5c0370: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_5k2p2w: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_fragmented; passiv, keine Handlung.
+- dio_text_bm60e1: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_ica3lu: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_jhwfk5: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_okhqjp: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_q3unp1: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_fragmented; passiv, keine Handlung.
+- dio_text_ue0eq: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_vbhktz: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_y8bf0y: late_text_island_emergence; states=absent -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_183mg8v: mixed_reorganization_history; states=inner_drift_watch_space -> inner_soft_variation_space -> inner_soft_variation_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_18ku4h1: mixed_reorganization_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_1ccct8g: mixed_reorganization_history; states=inner_soft_variation_space -> inner_soft_variation_space -> inner_unconfirmed_raw_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1e5ksaf: mixed_reorganization_history; states=inner_unconfirmed_raw_space -> inner_soft_variation_space -> inner_soft_variation_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_1fz9hf9: mixed_reorganization_history; states=inner_unconfirmed_raw_space -> inner_soft_variation_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1l453hl: mixed_reorganization_history; states=inner_unconfirmed_raw_space -> inner_soft_variation_space -> inner_soft_variation_space; families=family_basis_fragmented; passiv, keine Handlung.
+- dio_text_1u9hanc: mixed_reorganization_history; states=inner_unconfirmed_raw_space -> inner_soft_variation_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1uxeoe2: mixed_reorganization_history; states=inner_unconfirmed_raw_space -> inner_soft_variation_space -> inner_soft_variation_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_adbiwk: mixed_reorganization_history; states=inner_unconfirmed_raw_space -> inner_drift_watch_space -> inner_drift_watch_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_phi2x5: mixed_reorganization_history; states=inner_unconfirmed_raw_space -> inner_soft_variation_space -> inner_soft_variation_space; families=family_basis_thinned; passiv, keine Handlung.
+- dio_text_1big7bt: persistent_drift_history; states=inner_drift_watch_space -> inner_drift_watch_space -> inner_drift_watch_space; families=family_basis_expanded; passiv, keine Handlung.
+- dio_text_1l642s7: persistent_drift_history; states=inner_drift_watch_space -> inner_drift_watch_space -> inner_drift_watch_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_10tdlgu: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_11omkek: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_12390y: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1375gtt: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_13omku3: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_13sd2dn: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_149kk0l: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_14cjsrg: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_14eizb9: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_16inwym: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_16mtr49: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_16qwab5: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_16u5ej1: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_187ucpd: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1920l6x: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_19hwb5v: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1asaq5b: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1b2bq44: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1bd2xl5: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1bfznl8: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1c0lkzn: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1c3wtc0: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1caq85y: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1cgwgm: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1djz0gs: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1ds0lr5: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1dt6aka: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1e700b9: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1ejlkwl: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1es4uh3: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1gbjbwe: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1gh6i8d: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1gml6ou: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1hxbuwj: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1iipjpw: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1iqihsh: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1j0fpv7: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1jk9v37: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1kx4hnb: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1mmcxi3: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1muyk05: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1nn5psx: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1orwsh: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1qdy1d4: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1qjid8n: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1qox452: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1v7dvnp: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1w0ccp: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1wpbm1s: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1wsyrye: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1xf7zxs: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1xgywsf: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_1xv5iq8: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1yewgfr: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1ynjhxk: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_1yy7b02: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_2dflm7: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_2huq5y: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_3d0df7: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_3n3v6t: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_40u2ic: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_4rcuji: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_4zlfdv: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_564ra6: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_88815y: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_88n1j5: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_8y31ii: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_94o2ys: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_b72586: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_bfyz2y: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_bmut80: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_bnngns: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_c29c6: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_c8iucg: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_eg70y3: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_f8qv2v: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_g2ete1: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_g9y9ia: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_gk99o7: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_hiqxzv: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_hxjiff: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_j5ifpp: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_k8rtsl: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_lyhjmd: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_mkk94q: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_ntwlxl: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_pduwz4: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_pxnfv9: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_qe7gt1: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_s8uxc7: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_sagras: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_se3c2x: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_t4lcg6: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_t8qf9f: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_tjhw7r: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_u0lq7x: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_u1ig76: persistent_raw_history; states=absent -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_u4588w: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_uqj615: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_uxsov0: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_v4dtzv: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_v6pra1: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_v93qoj: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_vprmib: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_vwzveq: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_vyylkm: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_w0pvwj: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_w22g3p: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_wnx44n: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_xqtcje: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_xyw41d: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_y8vi92: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_zl9d9m: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_zqjhxt: persistent_raw_history; states=absent -> absent -> inner_unconfirmed_raw_space; families=family_basis_single_or_absent; passiv, keine Handlung.
+- dio_text_ztjkkj: persistent_raw_history; states=inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space -> inner_unconfirmed_raw_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_123xt6i: reorganized_into_core; states=inner_soft_variation_space -> inner_soft_variation_space -> inner_variation_bearing_space; families=family_basis_fragmented; passiv, keine Handlung.
+- dio_text_12s80z7: reorganized_into_core; states=absent -> inner_unconfirmed_raw_space -> inner_stable_recurrence_space; families=family_basis_stable; passiv, keine Handlung.
+- dio_text_153gn8y: reorganized_into_core; states=absent -> inner_unconfirmed_raw_space -> inner_stable_recurrence_space; families=family_basis_stable; passiv, keine Handlung.
