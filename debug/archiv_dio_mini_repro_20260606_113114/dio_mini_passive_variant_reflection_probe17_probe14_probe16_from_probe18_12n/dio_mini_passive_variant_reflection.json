@@ -1,0 +1,133 @@
+{
+  "boundary": {
+    "influences_action": false,
+    "is_gate": false,
+    "is_motoric": false,
+    "passive_only": true,
+    "read_by_mini_dio": false,
+    "writes_training_memory": false
+  },
+  "detail": [
+    {
+      "action": "-",
+      "dio_syntax_sentence": "variant_reflection|burden|warning_trace|count=1|reward=-1.000000",
+      "episode_count": 1,
+      "event_reward_sum": -1.0,
+      "family_actions": "-",
+      "influences_action": 0,
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reflection_key": "burden_remains_warning_trace",
+      "reflection_sentence": "Belastung wird als passive Warnspur lesbar. Sie beschreibt Konsequenz und Reorganisation, keine harte Sperre.",
+      "reflection_state": "burden_is_warning_not_gate",
+      "variants": "probe14_f2,probe16_f2,probe17_f3",
+      "writes_training_memory": 0
+    },
+    {
+      "action": "LONG",
+      "dio_syntax_sentence": "variant_reflection|LONG|locally_carried|variants=probe17_f3|episodes=6|reward=6.000000",
+      "episode_count": 6,
+      "event_reward_sum": 6.0,
+      "family_actions": "probe17_f3:dio_0n9e:LONG,probe17_f3:dio_1k7y:LONG",
+      "influences_action": 0,
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reflection_key": "direction_long_locally_carried",
+      "reflection_sentence": "LONG kann in einer passenden Variante lokal getragen sein. Das ist Variantenreife, keine allgemeine Regel.",
+      "reflection_state": "direction_can_be_locally_carried",
+      "variants": "probe17_f3",
+      "writes_training_memory": 0
+    },
+    {
+      "action": "SHORT",
+      "dio_syntax_sentence": "variant_reflection|SHORT|locally_carried|variants=probe14_f2|episodes=6|reward=6.000000",
+      "episode_count": 6,
+      "event_reward_sum": 6.0,
+      "family_actions": "probe14_f2:dio_0hd3:SHORT,probe14_f2:dio_0szn:SHORT",
+      "influences_action": 0,
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reflection_key": "direction_short_locally_carried",
+      "reflection_sentence": "SHORT kann in einer passenden Variante lokal getragen sein. Das ist Variantenreife, keine allgemeine Regel.",
+      "reflection_state": "direction_can_be_locally_carried",
+      "variants": "probe14_f2",
+      "writes_training_memory": 0
+    },
+    {
+      "action": "LONG,SHORT",
+      "dio_syntax_sentence": "variant_reflection|stability|same_state=34|burden=1",
+      "episode_count": 34,
+      "event_reward_sum": 12.0,
+      "family_actions": "-",
+      "influences_action": 0,
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reflection_key": "stable_variant_map",
+      "reflection_sentence": "Die geprueften Varianten blieben in den Folgelaeufen gleich eingeordnet. Eine Belastungsspur ist sichtbar und bleibt Warnspur, nicht Sperre.",
+      "reflection_state": "stable_variant_map_with_burden_trace",
+      "variants": "probe14_f2,probe16_f2,probe17_f3",
+      "writes_training_memory": 0
+    },
+    {
+      "action": "-",
+      "dio_syntax_sentence": "variant_reflection|transfer|observation_only|related_traces=9",
+      "episode_count": 9,
+      "event_reward_sum": 0.0,
+      "family_actions": "-",
+      "influences_action": 0,
+      "is_gate": 0,
+      "is_motoric": 0,
+      "passive_only": 1,
+      "read_by_mini_dio": 0,
+      "reflection_key": "kinship_remains_observation",
+      "reflection_sentence": "Verwandtschaft zu einer alten Reifespur bleibt Wahrnehmung. Sie wird nicht automatisch Handlung.",
+      "reflection_state": "transfer_is_not_action",
+      "variants": "probe14_f2,probe17_f3",
+      "writes_training_memory": 0
+    }
+  ],
+  "schema": "dio_mini_passive_variant_reflection.v1",
+  "source_stability": "debug\\dio_mini_passive_variant_stability_probe17_probe14_probe16_from_probe18_12n\\dio_mini_passive_variant_stability.json",
+  "summary": [
+    {
+      "actions": "-",
+      "count": 1,
+      "episode_count": 1,
+      "event_reward_sum": -1.0,
+      "reflection_state": "burden_is_warning_not_gate",
+      "variants": "probe14_f2,probe16_f2,probe17_f3"
+    },
+    {
+      "actions": "LONG,SHORT",
+      "count": 2,
+      "episode_count": 12,
+      "event_reward_sum": 12.0,
+      "reflection_state": "direction_can_be_locally_carried",
+      "variants": "probe14_f2,probe17_f3"
+    },
+    {
+      "actions": "LONG,SHORT",
+      "count": 1,
+      "episode_count": 34,
+      "event_reward_sum": 12.0,
+      "reflection_state": "stable_variant_map_with_burden_trace",
+      "variants": "probe14_f2,probe16_f2,probe17_f3"
+    },
+    {
+      "actions": "-",
+      "count": 1,
+      "episode_count": 9,
+      "event_reward_sum": 0.0,
+      "reflection_state": "transfer_is_not_action",
+      "variants": "probe14_f2,probe16_f2,probe17_f3"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+family_action,compare_state,before_variant_reife_state,after_variant_reife_state,before_reward,after_reward,reward_delta,before_episode_count,after_episode_count,episode_delta,before_related_reference_family,after_related_reference_family,before_transfer_similarity,after_transfer_similarity,passive_only,writes_training_memory,read_by_mini_dio,influences_action,is_gate,is_motoric
+dio_040y:WAIT,removed_variant_trace,variant_local_wait_context,,0.0,0.0,0.0,1,0,-1,,,0.0,0.0,1,0,0,0,0,0
+dio_13u8:WAIT,removed_variant_trace,variant_related_observation_trace,,0.0,0.0,0.0,1,0,-1,dio_02qu,,0.975289597,0.0,1,0,0,0,0,0
+dio_14xc:WAIT,removed_variant_trace,variant_local_wait_context,,0.0,0.0,0.0,1,0,-1,,,0.0,0.0,1,0,0,0,0,0
+dio_1d3r:LONG,removed_variant_trace,variant_self_burden_action_trace,,-1.0,0.0,1.0,1,0,-1,dio_0arw,,0.78285438,0.0,1,0,0,0,0,0
+dio_1mym:LONG,removed_variant_trace,variant_self_burden_action_trace,,-1.0,0.0,1.0,1,0,-1,,,0.0,0.0,1,0,0,0,0,0
+dio_0120:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_0n9e:LONG,same_variant_state,variant_self_carried_action_trace,variant_self_carried_action_trace,2.0,3.0,1.0,2,3,1,,,0.0,0.0,1,0,0,0,0,0
+dio_10dk:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_143d:WAIT,same_variant_state,variant_related_observation_trace,variant_related_observation_trace,0.0,0.0,0.0,2,3,1,dio_14xc,dio_14xc,0.982860751,0.982860751,1,0,0,0,0,0
+dio_1c6b:WAIT,same_variant_state,variant_related_observation_trace,variant_related_observation_trace,0.0,0.0,0.0,3,3,0,dio_1txv,dio_1txv,0.993744055,0.993744055,1,0,0,0,0,0
+dio_1d1z:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_1d3r:WAIT,same_variant_state,variant_related_observation_trace,variant_related_observation_trace,0.0,0.0,0.0,2,3,1,dio_0arw,dio_0arw,0.78285438,0.78285438,1,0,0,0,0,0
+dio_1f9y:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_1k7y:LONG,same_variant_state,variant_self_carried_action_trace,variant_self_carried_action_trace,2.0,3.0,1.0,2,3,1,,dio_02qu,0.0,0.737822053,1,0,0,0,0,0
+dio_1m4n:WAIT,same_variant_state,variant_related_observation_trace,variant_related_observation_trace,0.0,0.0,0.0,2,3,1,dio_1vpi,dio_1vpi,0.976794864,0.976794864,1,0,0,0,0,0

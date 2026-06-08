@@ -1,0 +1,11 @@
+family_action,compare_state,before_variant_reife_state,after_variant_reife_state,before_reward,after_reward,reward_delta,before_episode_count,after_episode_count,episode_delta,before_related_reference_family,after_related_reference_family,before_transfer_similarity,after_transfer_similarity,passive_only,writes_training_memory,read_by_mini_dio,influences_action,is_gate,is_motoric
+dio_0989:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_0b66:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_0gmg:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_0hd3:SHORT,same_variant_state,variant_self_carried_action_trace,variant_self_carried_action_trace,3.0,3.0,0.0,3,3,0,dio_14xc,dio_14xc,0.966011634,0.966011634,1,0,0,0,0,0
+dio_0qze:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_0szn:SHORT,same_variant_state,variant_self_carried_action_trace,variant_self_carried_action_trace,3.0,3.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_173s:WAIT,same_variant_state,variant_related_observation_trace,variant_related_observation_trace,0.0,0.0,0.0,3,3,0,dio_0arw,dio_0arw,0.909548089,0.909548089,1,0,0,0,0,0
+dio_1guc:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
+dio_1rv1:WAIT,same_variant_state,variant_related_observation_trace,variant_related_observation_trace,0.0,0.0,0.0,3,3,0,dio_1txv,dio_1txv,0.95648035,0.95648035,1,0,0,0,0,0
+dio_1t1w:WAIT,same_variant_state,variant_local_wait_context,variant_local_wait_context,0.0,0.0,0.0,3,3,0,,,0.0,0.0,1,0,0,0,0,0
