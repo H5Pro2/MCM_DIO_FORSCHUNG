@@ -1,0 +1,126 @@
+{
+  "detail": [
+    {
+      "dio_sentence": "Ich kenne diese Spur, aber diese Welt ruft sie gerade nicht auf.",
+      "executed_count": "0",
+      "observed_count": "0",
+      "probe": "probe14",
+      "reflection_map_state": "reflection_memory_quiet",
+      "reflection_symbol": "dio_reflect_01hi6xw",
+      "reward_sum": 0.0,
+      "seen_count": "0",
+      "symbol_family": "dio_0c6o"
+    },
+    {
+      "dio_sentence": "Ich erkenne eine alte Spur wieder und der Kontakt traegt.",
+      "executed_count": "4",
+      "observed_count": "0",
+      "probe": "probe15",
+      "reflection_map_state": "reflection_memory_reconfirmed",
+      "reflection_symbol": "dio_reflect_01hi6xw",
+      "reward_sum": 4.65792,
+      "seen_count": "4",
+      "symbol_family": "dio_0c6o"
+    },
+    {
+      "dio_sentence": "Ich erkenne eine alte Spur, aber der aktuelle Kontakt traegt sie nicht.",
+      "executed_count": "4",
+      "observed_count": "0",
+      "probe": "probe16",
+      "reflection_map_state": "reflection_memory_conflict",
+      "reflection_symbol": "dio_reflect_01hi6xw",
+      "reward_sum": -0.4,
+      "seen_count": "4",
+      "symbol_family": "dio_0c6o"
+    },
+    {
+      "dio_sentence": "Ich erkenne eine alte Spur wieder und der Kontakt traegt.",
+      "executed_count": "4",
+      "observed_count": "0",
+      "probe": "probe14",
+      "reflection_map_state": "reflection_memory_reconfirmed",
+      "reflection_symbol": "dio_reflect_11nxj7w",
+      "reward_sum": 6.10438,
+      "seen_count": "4",
+      "symbol_family": "dio_0hd3"
+    },
+    {
+      "dio_sentence": "Ich erkenne eine alte Spur wieder und der Kontakt traegt.",
+      "executed_count": "4",
+      "observed_count": "0",
+      "probe": "probe15",
+      "reflection_map_state": "reflection_memory_reconfirmed",
+      "reflection_symbol": "dio_reflect_11nxj7w",
+      "reward_sum": 5.964512,
+      "seen_count": "4",
+      "symbol_family": "dio_0hd3"
+    },
+    {
+      "dio_sentence": "Ich kenne diese Spur, aber diese Welt ruft sie gerade nicht auf.",
+      "executed_count": "0",
+      "observed_count": "0",
+      "probe": "probe16",
+      "reflection_map_state": "reflection_memory_quiet",
+      "reflection_symbol": "dio_reflect_11nxj7w",
+      "reward_sum": 0.0,
+      "seen_count": "0",
+      "symbol_family": "dio_0hd3"
+    },
+    {
+      "dio_sentence": "Ich kenne diese Spur, aber diese Welt ruft sie gerade nicht auf.",
+      "executed_count": "0",
+      "observed_count": "0",
+      "probe": "probe14",
+      "reflection_map_state": "reflection_memory_quiet",
+      "reflection_symbol": "dio_reflect_1bdledh",
+      "reward_sum": 0.0,
+      "seen_count": "0",
+      "symbol_family": "dio_1wie"
+    },
+    {
+      "dio_sentence": "Ich kenne diese Spur, aber diese Welt ruft sie gerade nicht auf.",
+      "executed_count": "0",
+      "observed_count": "0",
+      "probe": "probe15",
+      "reflection_map_state": "reflection_memory_quiet",
+      "reflection_symbol": "dio_reflect_1bdledh",
+      "reward_sum": 0.0,
+      "seen_count": "0",
+      "symbol_family": "dio_1wie"
+    },
+    {
+      "dio_sentence": "Ich kenne diese Spur, aber diese Welt ruft sie gerade nicht auf.",
+      "executed_count": "0",
+      "observed_count": "0",
+      "probe": "probe16",
+      "reflection_map_state": "reflection_memory_quiet",
+      "reflection_symbol": "dio_reflect_1bdledh",
+      "reward_sum": 0.0,
+      "seen_count": "0",
+      "symbol_family": "dio_1wie"
+    }
+  ],
+  "summary": [
+    {
+      "count": 1,
+      "families": "dio_0c6o",
+      "probes": "probe16",
+      "reflection_map_state": "reflection_memory_conflict",
+      "reward_sum": -0.4
+    },
+    {
+      "count": 5,
+      "families": "dio_0c6o,dio_0hd3,dio_1wie",
+      "probes": "probe14,probe15,probe16",
+      "reflection_map_state": "reflection_memory_quiet",
+      "reward_sum": 0.0
+    },
+    {
+      "count": 3,
+      "families": "dio_0c6o,dio_0hd3",
+      "probes": "probe14,probe15",
+      "reflection_map_state": "reflection_memory_reconfirmed",
+      "reward_sum": 16.726812
+    }
+  ]
+}
