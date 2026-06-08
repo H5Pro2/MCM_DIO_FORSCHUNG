@@ -1,0 +1,10 @@
+summary_group,state,count,avg_score_delta,avg_family_overlap,passive_only,writes_runtime_memory,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal
+core_entry_mode,new_raw_to_stable_recurrence,19,,,True,False,False,False,False,False,False,False
+core_entry_mode,soft_variation_to_variation_core,4,,,True,False,False,False,False,False,False,False
+core_entry_mode,to_variation_core,3,,,True,False,False,False,False,False,False,False
+core_entry_mode,to_stable_recurrence_core,2,,,True,False,False,False,False,False,False,False
+core_entry_mode,drift_to_stable_recurrence,1,,,True,False,False,False,False,False,False,False
+family_change_state,family_basis_stable,20,,,True,False,False,False,False,False,False,False
+family_change_state,family_basis_fragmented,6,,,True,False,False,False,False,False,False,False
+family_change_state,family_basis_thinned,3,,,True,False,False,False,False,False,False,False
+totals,reorganized_into_core,29,0.387771648,0.789265189,True,False,False,False,False,False,False,False

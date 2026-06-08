@@ -1,0 +1,51 @@
+{
+  "base_context": "C:\\Users\\TV\\Documents\\MCM_Trading_Brain\\debug\\dio_mini_passive_recurrence_maturity_context_probe25_v1\\dio_mini_passive_recurrence_maturity_context_summary.csv",
+  "repeat_contexts": {
+    "a": "C:\\Users\\TV\\Documents\\MCM_Trading_Brain\\debug\\dio_mini_context_stability_probe25_a_20260606_context\\dio_mini_passive_recurrence_maturity_context_summary.csv",
+    "b": "C:\\Users\\TV\\Documents\\MCM_Trading_Brain\\debug\\dio_mini_context_stability_probe25_b_20260606_context\\dio_mini_passive_recurrence_maturity_context_summary.csv",
+    "c": "C:\\Users\\TV\\Documents\\MCM_Trading_Brain\\debug\\dio_mini_context_stability_probe25_c_20260606_context\\dio_mini_passive_recurrence_maturity_context_summary.csv"
+  },
+  "summary": [
+    {
+      "repeat": "a",
+      "families": 18,
+      "exact_family_contexts": 18,
+      "exact_family_context_rate": 1.0
+    },
+    {
+      "repeat": "b",
+      "families": 18,
+      "exact_family_contexts": 18,
+      "exact_family_context_rate": 1.0
+    },
+    {
+      "repeat": "c",
+      "families": 18,
+      "exact_family_contexts": 18,
+      "exact_family_context_rate": 1.0
+    }
+  ],
+  "state_distributions": [
+    {
+      "run": "base",
+      "families": 18,
+      "state_counts": "recurrence_context_meaning_near:16;recurrence_context_reorganizing:1;recurrence_context_time_fragile:1"
+    },
+    {
+      "run": "a",
+      "families": 18,
+      "state_counts": "recurrence_context_meaning_near:16;recurrence_context_reorganizing:1;recurrence_context_time_fragile:1"
+    },
+    {
+      "run": "b",
+      "families": 18,
+      "state_counts": "recurrence_context_meaning_near:16;recurrence_context_reorganizing:1;recurrence_context_time_fragile:1"
+    },
+    {
+      "run": "c",
+      "families": 18,
+      "state_counts": "recurrence_context_meaning_near:16;recurrence_context_reorganizing:1;recurrence_context_time_fragile:1"
+    }
+  ],
+  "all_exact": true
+}

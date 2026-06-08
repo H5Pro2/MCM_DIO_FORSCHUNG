@@ -1,0 +1,102 @@
+# Passive Inner Core List
+
+- source_compare: `debug\dio_mini_passive_text_island_inner_map_compare_C_vs_D_20260606_v1\passive_text_island_inner_map_compare.csv`
+- core_items: `123`
+
+## Grenze
+
+- passiv
+- keine Runtime-Lesung
+- keine Handlung
+- kein Gate
+- kein Entry
+- keine Richtung
+
+## Summary
+
+- passive_foreign_boundary_core: 99 (score=0.338, delta=0.000)
+- passive_variation_core: 19 (score=0.708, delta=0.011)
+- passive_recurrence_core: 5 (score=0.506, delta=0.000)
+
+## Core Items
+
+- dio_text_1kzmyt: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.400; passiv, keine Handlung.
+- dio_text_111fz7h: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.393; passiv, keine Handlung.
+- dio_text_1iwm9qb: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.380; passiv, keine Handlung.
+- dio_text_asbma1: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.380; passiv, keine Handlung.
+- dio_text_d0kbfl: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.380; passiv, keine Handlung.
+- dio_text_1j78afq: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.367; passiv, keine Handlung.
+- dio_text_1mm9owh: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.367; passiv, keine Handlung.
+- dio_text_14j2cfa: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.360; passiv, keine Handlung.
+- dio_text_1r52tzd: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.360; passiv, keine Handlung.
+- dio_text_vaydbf: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.360; passiv, keine Handlung.
+- dio_text_17glilg: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.353; passiv, keine Handlung.
+- dio_text_1bbd5is: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.353; passiv, keine Handlung.
+- dio_text_1pd0h4r: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.353; passiv, keine Handlung.
+- dio_text_al79ws: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.353; passiv, keine Handlung.
+- dio_text_fq9vx7: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.353; passiv, keine Handlung.
+- dio_text_nqwdwc: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.353; passiv, keine Handlung.
+- dio_text_1ecr7f6: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.347; passiv, keine Handlung.
+- dio_text_1u3dtzt: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.347; passiv, keine Handlung.
+- dio_text_9ytzzv: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.347; passiv, keine Handlung.
+- dio_text_bgbk02: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.347; passiv, keine Handlung.
+- dio_text_d2s5fa: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.347; passiv, keine Handlung.
+- dio_text_oxpqn0: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.347; passiv, keine Handlung.
+- dio_text_yp1bla: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.347; passiv, keine Handlung.
+- dio_text_10drzyv: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_137bra8: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_143un43: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_14g9aw2: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_14mbkh6: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_1d376i0: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_1dh1gcg: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_1e02mr7: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_1pryfr7: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_1r1mjhl: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_4fjp5y: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_cxrd76: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_d177jt: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_smumxj: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_uodvwc: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.340; passiv, keine Handlung.
+- dio_text_11r0rs0: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_12cwxbj: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_12rl5ke: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_19tfip4: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_1b1j4sj: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_1bcj70r: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_1cioi37: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_1dzt2p3: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_1eo4l7g: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_1gu8zlv: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_1s6z9ft: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_27nzrm: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_73tgfa: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_7jfli2: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_cnvuiq: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_e8e5ev: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_j4j9qj: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_rfsxnh: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_z39qd2: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.333; passiv, keine Handlung.
+- dio_text_10mf9y7: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_12kcrab: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_13es2gi: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1cbdbn: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1elvjhc: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1ezt1v9: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1h276uq: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1h6fvkt: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1hd3f1r: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1ifulzx: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1jl2i83: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1k1vuxi: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1kaafa0: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1lyhhxr: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1o51p9v: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1p2uho1: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1p6h8my: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1sfsirf: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1t3hl6p: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1tbnt3i: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1vgohds: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1vhdjdk: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.
+- dio_text_1vhz26k: passive_foreign_boundary_core; right=inner_foreign_boundary_space; score=0.327; passiv, keine Handlung.

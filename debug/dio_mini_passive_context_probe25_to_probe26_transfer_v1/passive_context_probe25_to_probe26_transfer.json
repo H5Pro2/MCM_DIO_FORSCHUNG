@@ -1,0 +1,19 @@
+﻿{
+    "passive_only":  true,
+    "transfer_summary":  [
+                             {
+                                 "transfer_state":  "family_missing_in_probe26",
+                                 "families":  13
+                             },
+                             {
+                                 "transfer_state":  "same_context",
+                                 "families":  5
+                             }
+                         ],
+    "schema":  "dio_mini_passive_context_probe25_to_probe26_transfer.v1",
+    "is_gate":  false,
+    "influences_action":  false,
+    "writes_training_memory":  false,
+    "families":  18,
+    "read_by_mini_dio":  false
+}
