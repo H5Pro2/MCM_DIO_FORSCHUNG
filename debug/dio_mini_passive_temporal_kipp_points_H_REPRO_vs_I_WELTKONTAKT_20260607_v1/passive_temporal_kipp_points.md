@@ -1,0 +1,124 @@
+# Passive Temporal Kipp Points
+
+Dieser Bericht markiert zeitliche Kipp-Punkte situativer emergenter Spuren.
+
+## Grenze
+
+- passiv
+- keine Runtime-Lesung
+- keine Handlung
+- kein Gate
+- kein Entry
+- keine Richtung
+
+## Summary
+
+- family_no_visible_temporal_kipp: families=96; examples=dio_00r9|dio_010h|dio_0120|dio_015b|dio_01px|dio_01sj|dio_02y8|dio_05e5|dio_05xk|dio_065c|dio_06gy|dio_09tm|dio_09u3|dio_0a7t|dio_0bm2|dio_0ce4|dio_0e37|dio_0eq2|dio_0g55|dio_0hlx|dio_0icm|dio_0ipe|dio_0jg9|dio_0jgk|dio_0jp7|dio_0jx1|dio_0kae|dio_0kom|dio_0kw1|dio_0l9d|dio_0lf6|dio_0m7s|dio_0nki|dio_0nmw|dio_0nrp|dio_0ocv|dio_0qcz|dio_0qjm|dio_0r90|dio_0rt8
+- family_trade_readiness_softens: families=86; examples=dio_005k|dio_01w7|dio_02rt|dio_06b8|dio_06jl|dio_07mb|dio_09ow|dio_0avw|dio_0azl|dio_0cxr|dio_0eeh|dio_0ehw|dio_0fsp|dio_0haj|dio_0hl8|dio_0i4h|dio_0irs|dio_0j34|dio_0j8d|dio_0k0f|dio_0ksa|dio_0m9e|dio_0ngs|dio_0ni1|dio_0o73|dio_0ocp|dio_0omt|dio_0pni|dio_0q3v|dio_0q96|dio_0qfc|dio_0r61|dio_0r8l|dio_0t61|dio_0t8k|dio_0udt|dio_0w8h|dio_0zkk|dio_101r|dio_108f
+- family_loses_lived_support: families=30; examples=dio_03sc|dio_05ws|dio_07t9|dio_091t|dio_0dos|dio_0g2u|dio_0ic6|dio_0iou|dio_0lrt|dio_0scd|dio_0yk9|dio_0zq7|dio_10qz|dio_1204|dio_14ud|dio_16kq|dio_19bg|dio_19p7|dio_1gsg|dio_1m7i|dio_1mrs|dio_1mwc|dio_1qs4|dio_1s9i|dio_1si6|dio_1tjm|dio_1tsz|dio_1wgb|dio_1xka|dio_1yob
+- family_best_reward_softens: families=28; examples=dio_0325|dio_05cu|dio_07lp|dio_080e|dio_0b2b|dio_0bde|dio_0e02|dio_0ft4|dio_0gmg|dio_0ink|dio_0nvd|dio_0r29|dio_0t27|dio_0w16|dio_0w4x|dio_0z2v|dio_0zmy|dio_10q6|dio_155k|dio_171c|dio_17ny|dio_1f9y|dio_1fz7|dio_1gwl|dio_1q4u|dio_1qyi|dio_1vz0|dio_1ytc
+- family_neuro_temporal_reorganizes: families=6; examples=dio_005q|dio_07mw|dio_1dl4|dio_1jba|dio_1p8y|dio_1pel
+- family_has_direction_flip: families=1; examples=dio_1k9e
+
+## Familien
+
+- dio_0325: family_best_reward_softens; first=probe24/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1x39ndk->dio_text_1x39ndk
+- dio_05cu: family_best_reward_softens; first=probe23/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1basglz->dio_text_1basglz
+- dio_07lp: family_best_reward_softens; first=probe21/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_zbbclx->dio_text_zbbclx
+- dio_080e: family_best_reward_softens; first=probe25/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_12o9nwj->dio_text_12o9nwj
+- dio_0b2b: family_best_reward_softens; first=probe23/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_uaq1vy->dio_text_uaq1vy
+- dio_0bde: family_best_reward_softens; first=probe22/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_wgwxxp->dio_text_wgwxxp
+- dio_0e02: family_best_reward_softens; first=probe23/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_uvzu2h->dio_text_uvzu2h
+- dio_0ft4: family_best_reward_softens; first=probe25/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1udw1m6->dio_text_1udw1m6
+- dio_0gmg: family_best_reward_softens; first=probe20/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1y79hw9->dio_text_1y79hw9
+- dio_0ink: family_best_reward_softens; first=probe26/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_14vy8i0->dio_text_14vy8i0
+- dio_0nvd: family_best_reward_softens; first=probe22/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1rh97f6->dio_text_1rh97f6
+- dio_0r29: family_best_reward_softens; first=probe21/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_jm8fgj->dio_text_jm8fgj
+- dio_0t27: family_best_reward_softens; first=probe26/probe_best_reward_softens; direction=direction_support_not_visible_right; alignment=same_sensory_field_visible; text=dio_text_1j80ia3->dio_text_1j80ia3
+- dio_0w16: family_best_reward_softens; first=probe20/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1y45cf6->dio_text_13noqpo
+- dio_0w4x: family_best_reward_softens; first=probe23/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_lal9fp->dio_text_lal9fp
+- dio_0z2v: family_best_reward_softens; first=probe24/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_7nc4jm->dio_text_7nc4jm
+- dio_0zmy: family_best_reward_softens; first=probe25/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_am0noc->dio_text_am0noc
+- dio_10q6: family_best_reward_softens; first=probe23/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1e0opc6->dio_text_1e0opc6
+- dio_155k: family_best_reward_softens; first=probe21/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_k6niim->dio_text_k6niim
+- dio_171c: family_best_reward_softens; first=probe24/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_15pxei0->dio_text_15pxei0
+- dio_17ny: family_best_reward_softens; first=probe22/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_zqjhxt->dio_text_zqjhxt
+- dio_1f9y: family_best_reward_softens; first=probe24/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_qxbcil->dio_text_qxbcil
+- dio_1fz7: family_best_reward_softens; first=probe23/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_53xiik->dio_text_53xiik
+- dio_1gwl: family_best_reward_softens; first=probe24/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1rh97f6->dio_text_1rh97f6
+- dio_1q4u: family_best_reward_softens; first=probe20/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_n8wqh9->dio_text_n8wqh9
+- dio_1qyi: family_best_reward_softens; first=probe21/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_n1nyds->dio_text_n1nyds
+- dio_1vz0: family_best_reward_softens; first=probe20/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1puiyhl->dio_text_1puiyhl
+- dio_1ytc: family_best_reward_softens; first=probe21/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1j0fpv7->dio_text_1puy4tw
+- dio_1k9e: family_has_direction_flip; first=probe20/probe_trade_readiness_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_ees1zy->dio_text_ees1zy
+- dio_03sc: family_loses_lived_support; first=probe25/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_anc9t7->dio_text_anc9t7
+- dio_05ws: family_loses_lived_support; first=probe22/probe_trade_readiness_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_18ku4h1->dio_text_18ku4h1
+- dio_07t9: family_loses_lived_support; first=probe22/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1iy6mgi->dio_text_1iy6mgi
+- dio_091t: family_loses_lived_support; first=probe22/probe_trade_readiness_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1xmtz5m->dio_text_1xmtz5m
+- dio_0dos: family_loses_lived_support; first=probe25/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1jr7z4y->dio_text_1jr7z4y
+- dio_0g2u: family_loses_lived_support; first=probe20/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_7c9wtw->dio_text_1mr5oj3
+- dio_0ic6: family_loses_lived_support; first=probe20/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_hbz48m->dio_text_1mr5oj3
+- dio_0iou: family_loses_lived_support; first=probe25/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_ys3tqn->dio_text_ys3tqn
+- dio_0lrt: family_loses_lived_support; first=probe20/probe_trade_readiness_softens; direction=direction_support_reorganized; alignment=near_mcm_field_with_sensory_variation; text=dio_text_qf97iu->dio_text_qf97iu
+- dio_0scd: family_loses_lived_support; first=probe22/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_5arhqy->dio_text_1670z6i
+- dio_0yk9: family_loses_lived_support; first=probe20/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1xai1z3->dio_text_13noqpo
+- dio_0zq7: family_loses_lived_support; first=probe25/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1th2n0q->dio_text_1th2n0q
+- dio_10qz: family_loses_lived_support; first=probe21/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_zl9d9m->dio_text_1puy4tw
+- dio_1204: family_loses_lived_support; first=probe20/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_p3rsab->dio_text_p3rsab
+- dio_14ud: family_loses_lived_support; first=probe21/probe_lived_support_drop; direction=direction_support_reorganized; alignment=near_mcm_field_with_sensory_variation; text=dio_text_1pg5688->dio_text_1pg5688
+- dio_16kq: family_loses_lived_support; first=probe24/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1qlk2kz->dio_text_1qlk2kz
+- dio_19bg: family_loses_lived_support; first=probe20/probe_trade_readiness_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_14eizb9->dio_text_14eizb9
+- dio_19p7: family_loses_lived_support; first=probe21/probe_trade_readiness_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1qncd03->dio_text_1qncd03
+- dio_1gsg: family_loses_lived_support; first=probe22/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1w8qj0i->dio_text_1w8qj0i
+- dio_1m7i: family_loses_lived_support; first=probe20/probe_trade_readiness_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_fu3xh4->dio_text_lutvb2
+- dio_1mrs: family_loses_lived_support; first=probe24/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_u0lq7x->dio_text_u0lq7x
+- dio_1mwc: family_loses_lived_support; first=probe20/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_iws5z4->dio_text_iws5z4
+- dio_1qs4: family_loses_lived_support; first=probe20/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_5ky4a5->dio_text_5ky4a5
+- dio_1s9i: family_loses_lived_support; first=probe22/probe_best_reward_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_110kwje->dio_text_110kwje
+- dio_1si6: family_loses_lived_support; first=probe23/probe_lived_support_drop; direction=same_sensory_field_direction_reward_weakens; alignment=same_sensory_field_visible; text=dio_text_1axxr0j->dio_text_1axxr0j
+- dio_1tjm: family_loses_lived_support; first=probe23/probe_trade_readiness_softens; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_4srlmc->dio_text_4srlmc
+- dio_1tsz: family_loses_lived_support; first=probe20/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1rk938->dio_text_1rk938
+- dio_1wgb: family_loses_lived_support; first=probe20/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1o0sx2l->dio_text_1o0sx2l
+- dio_1xka: family_loses_lived_support; first=probe20/probe_lived_support_drop; direction=direction_support_reorganized; alignment=near_mcm_field_with_sensory_variation; text=dio_text_s1hajl->dio_text_s1hajl
+- dio_1yob: family_loses_lived_support; first=probe21/probe_lived_support_drop; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1ud2mlr->dio_text_1ud2mlr
+- dio_005q: family_neuro_temporal_reorganizes; first=probe22/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1qox452->dio_text_1qox452
+- dio_07mw: family_neuro_temporal_reorganizes; first=probe20/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_xdaz95->dio_text_xdaz95
+- dio_1dl4: family_neuro_temporal_reorganizes; first=probe25/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1u7urjd->dio_text_1u7urjd
+- dio_1jba: family_neuro_temporal_reorganizes; first=probe20/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_153gn8y->dio_text_153gn8y
+- dio_1p8y: family_neuro_temporal_reorganizes; first=probe22/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_19zy92r->dio_text_1g8gq6a
+- dio_1pel: family_neuro_temporal_reorganizes; first=probe22/probe_neuro_tone_reorganizes; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1hyyuxo->dio_text_1hyyuxo
+- dio_00r9: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_bto3lt->dio_text_bto3lt
+- dio_010h: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_kyukuv->dio_text_kyukuv
+- dio_0120: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1ahli2l->dio_text_1ahli2l
+- dio_015b: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_iqfs7g->dio_text_iqfs7g
+- dio_01px: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_pktwcn->dio_text_pktwcn
+- dio_01sj: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_l4qsr6->dio_text_l4qsr6
+- dio_02y8: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_73ysj->dio_text_73ysj
+- dio_05e5: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_uo1fl9->dio_text_uo1fl9
+- dio_05xk: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1443oo6->dio_text_1443oo6
+- dio_065c: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_624m46->dio_text_624m46
+- dio_06gy: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_49bo5i->dio_text_49bo5i
+- dio_09tm: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_5k5jo->dio_text_5k5jo
+- dio_09u3: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_hcsd1z->dio_text_hcsd1z
+- dio_0a7t: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1quzea4->dio_text_1quzea4
+- dio_0bm2: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_165ur45->dio_text_165ur45
+- dio_0ce4: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_3e1xd0->dio_text_3e1xd0
+- dio_0e37: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_mxoyl->dio_text_mxoyl
+- dio_0eq2: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1ax4n8->dio_text_1ax4n8
+- dio_0g55: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_p3nmq3->dio_text_p3nmq3
+- dio_0hlx: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_4w08uw->dio_text_4w08uw
+- dio_0icm: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_wld9e3->dio_text_wld9e3
+- dio_0ipe: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_yv2emw->dio_text_yv2emw
+- dio_0jg9: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1fjyzwy->dio_text_1fjyzwy
+- dio_0jgk: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_25zy1o->dio_text_25zy1o
+- dio_0jp7: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1bpdywj->dio_text_1bpdywj
+- dio_0jx1: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_rpme7a->dio_text_1htwnrh
+- dio_0kae: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_wxcxi3->dio_text_wxcxi3
+- dio_0kom: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_mycd4p->dio_text_mycd4p
+- dio_0kw1: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_17z5ng5->dio_text_17z5ng5
+- dio_0l9d: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_qtr0m5->dio_text_qtr0m5
+- dio_0lf6: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_17oi9bw->dio_text_17oi9bw
+- dio_0m7s: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_1pzv1vh->dio_text_1pzv1vh
+- dio_0nki: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_evmppm->dio_text_evmppm
+- dio_0nmw: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_ffdehu->dio_text_ffdehu
+- dio_0nrp: family_no_visible_temporal_kipp; first=-/probe_no_visible_kipp; direction=same_sensory_field_same_direction_but_reife_kippt; alignment=same_sensory_field_visible; text=dio_text_k2zhzo->dio_text_k2zhzo

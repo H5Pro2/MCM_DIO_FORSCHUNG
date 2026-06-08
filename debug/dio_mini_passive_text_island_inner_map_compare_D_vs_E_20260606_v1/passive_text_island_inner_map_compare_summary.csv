@@ -1,0 +1,10 @@
+inner_map_transition_state,count,avg_score_delta,avg_stability_delta,avg_variation_delta,avg_drift_delta,passive_only,writes_runtime_memory,read_by_mini_dio,influences_action,is_gate,is_motoric,is_entry_signal,is_direction_signal
+stable_foreign_boundary,99,0.0,0.0,0.0,0.0,True,False,False,False,False,False,False,False
+new_in_right_inner_map,54,0.211481482,0.55,0.084592593,0.0,True,False,False,False,False,False,False,False
+stable_same_inner_state,36,0.002687178,0.009403628,0.020519316,0.041666667,True,False,False,False,False,False,False,False
+stable_variation_bearing,17,-0.001365008,-0.001026882,0.021218702,0.004481793,True,False,False,False,False,False,False,False
+inner_state_strengthened,15,0.226514933,0.081416067,0.283939307,-0.011111111,True,False,False,False,False,False,False,False
+stable_recurrence,5,0.0,0.0,0.0,0.0,True,False,False,False,False,False,False,False
+persistent_drift_watch,3,0.003660533,-0.034933533,0.034797547,0.055555556,True,False,False,False,False,False,False,False
+shifted_into_drift_watch,3,-0.061516067,-0.063002517,0.128726907,0.316666667,True,False,False,False,False,False,False,False
+inner_state_softened,1,-0.360046666,0.013205,-0.544018666,0.0,True,False,False,False,False,False,False,False
